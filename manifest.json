@@ -3117,6 +3117,86 @@
    "preview": "fonts/mulish/preview.ttf"
   },
   {
+   "name": "Noto Naskh Arabic",
+   "slug": "notonaskharabic",
+   "category": "serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notonaskharabic/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notonaskharabic/NotoNaskhArabic-Regular.ttf",
+     "bytes": 197420,
+     "sha256": "e62e84cf72fe9e8953a21c3337c68155a116d4bbdcd9522d860d46686b28c6e0"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notonaskharabic/NotoNaskhArabic-Medium.ttf",
+     "bytes": 197824,
+     "sha256": "7a6a5f83db397a78da35d6d062bbf4f01dbd7c0c091be1e600adb7daa0310233"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notonaskharabic/NotoNaskhArabic-Bold.ttf",
+     "bytes": 197532,
+     "sha256": "76e7b3b17abc5068fda755d657d475863df2d48cee60dc21bd22efb11ecb2268"
+    }
+   ],
+   "preview": "fonts/notonaskharabic/preview.ttf"
+  },
+  {
+   "name": "Noto Nastaliq Urdu",
+   "slug": "notonastaliqurdu",
+   "category": "serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notonastaliqurdu/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notonastaliqurdu/NotoNastaliqUrdu-Regular.ttf",
+     "bytes": 527620,
+     "sha256": "b6f46e3874b4b72b46aaf6a7cbf57b38664755caafd0824f1172743df3b232cb"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notonastaliqurdu/NotoNastaliqUrdu-Medium.ttf",
+     "bytes": 529548,
+     "sha256": "46415db4c7f8262890926b3f17394f8cb501dea3d314e3bb19ed7ce71aff154d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notonastaliqurdu/NotoNastaliqUrdu-Bold.ttf",
+     "bytes": 528488,
+     "sha256": "436c780c80bebadeda9076051dfe5827a73c564a91326454916bd25d53fd95a1"
+    }
+   ],
+   "preview": "fonts/notonastaliqurdu/preview.ttf"
+  },
+  {
    "name": "Noto Sans",
    "slug": "notosans",
    "category": "sans-serif",
@@ -3177,6 +3257,529 @@
    "preview": "fonts/notosans/preview.ttf"
   },
   {
+   "name": "Noto Sans Arabic",
+   "slug": "notosansarabic",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansarabic/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansarabic/NotoSansArabic-Regular.ttf",
+     "bytes": 192144,
+     "sha256": "146b2193f4aee343a8da5e2295255b04db547d74339a12be51763b3a0081868d"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansarabic/NotoSansArabic-Medium.ttf",
+     "bytes": 192404,
+     "sha256": "d7a418213a9c26385114c96a836da1483005baa3f508e94053ff0e060027232f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansarabic/NotoSansArabic-Bold.ttf",
+     "bytes": 192348,
+     "sha256": "195e8d8e1e723630e46c1d19fe7ec118a73e5825baa198737d6a96df8c4063b1"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansarabic/NotoSansArabic-Black.ttf",
+     "bytes": 192392,
+     "sha256": "57759f9664ed7b837373ff7765fe7d47feae0b8207a0ebd139a61b9c35188482"
+    }
+   ],
+   "preview": "fonts/notosansarabic/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Bengali",
+   "slug": "notosansbengali",
+   "category": "sans-serif",
+   "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansbengali/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansbengali/NotoSansBengali-Regular.ttf",
+     "bytes": 138780,
+     "sha256": "89e77fc7f35436abc4a972f60701c5f6684b6bfd23e4f73880d7da8132e5c2c9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansbengali/NotoSansBengali-Medium.ttf",
+     "bytes": 139208,
+     "sha256": "1a886eb72d67c7e5de47db26891b8cdbc5619f2442c656450f14eee6329f10c9"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansbengali/NotoSansBengali-Bold.ttf",
+     "bytes": 139192,
+     "sha256": "fffa71fbfe82996f030ac55f15f785c9f6b20f540c3e77ea532b065e850d8af4"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansbengali/NotoSansBengali-Black.ttf",
+     "bytes": 138984,
+     "sha256": "4c439b16597dc5c5821d5351208bbfe5cd57f1a37086ef8c541413318064847a"
+    }
+   ],
+   "preview": "fonts/notosansbengali/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Devanagari",
+   "slug": "notosansdevanagari",
+   "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansdevanagari/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansdevanagari/NotoSansDevanagari-Regular.ttf",
+     "bytes": 219460,
+     "sha256": "526a1b34db43de480d51a8a923c474b848489005d61b6ef45b3a850f7e141ff3"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansdevanagari/NotoSansDevanagari-Medium.ttf",
+     "bytes": 220048,
+     "sha256": "50a7874d401726e28b3adc74b1d3fb3f01eed650fb51f3d1902062e273e7aea2"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansdevanagari/NotoSansDevanagari-Bold.ttf",
+     "bytes": 220032,
+     "sha256": "3b752492302c04610e0f3efe281256443778f5d4668c25df6d28ffd8dda57183"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansdevanagari/NotoSansDevanagari-Black.ttf",
+     "bytes": 219868,
+     "sha256": "1011b8011a7b044f04be5bc11780c2bc09ffab68035a91d1dad6cd069f456b38"
+    }
+   ],
+   "preview": "fonts/notosansdevanagari/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Gujarati",
+   "slug": "notosansgujarati",
+   "category": "sans-serif",
+   "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansgujarati/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansgujarati/NotoSansGujarati-Regular.ttf",
+     "bytes": 173540,
+     "sha256": "bca081f50318974bcb1cbed113fef3f04dd918cd513a30474b0a0d626d58d4c9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansgujarati/NotoSansGujarati-Medium.ttf",
+     "bytes": 173788,
+     "sha256": "8175b3cda47c37b8fdf643f32967c6cfb56d919bd57851d24e853b336f00cc54"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansgujarati/NotoSansGujarati-Bold.ttf",
+     "bytes": 173720,
+     "sha256": "50700e4f6679aa20a13fb025ae9758de442ae0d6652622d66a1dda62cf9bef0a"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansgujarati/NotoSansGujarati-Black.ttf",
+     "bytes": 173828,
+     "sha256": "8bf73ef1f6e30a1916891730cb6616ea34e365ca50277991c90f71e80dfe78ae"
+    }
+   ],
+   "preview": "fonts/notosansgujarati/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Gurmukhi",
+   "slug": "notosansgurmukhi",
+   "category": "sans-serif",
+   "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansgurmukhi/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansgurmukhi/NotoSansGurmukhi-Regular.ttf",
+     "bytes": 57528,
+     "sha256": "19fc828daafcbccb8a72856a9445e0d6f03c04ec9984b4255b45e7b1ee5ac01b"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansgurmukhi/NotoSansGurmukhi-Medium.ttf",
+     "bytes": 57620,
+     "sha256": "8447d9ae039888110d5f6733a6eb5e191b6c96a22c4b0ce939edc3781a692f16"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansgurmukhi/NotoSansGurmukhi-Bold.ttf",
+     "bytes": 57592,
+     "sha256": "5720c5b05798d6f9c6fd55b053e7f7df6b70debc0a4aec173fd63057861b5472"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansgurmukhi/NotoSansGurmukhi-Black.ttf",
+     "bytes": 57560,
+     "sha256": "aa6003f9ea03a2df63091e64afe74c469d8693c03eff91e7c2ea6ca0a93d5389"
+    }
+   ],
+   "preview": "fonts/notosansgurmukhi/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Hebrew",
+   "slug": "notosanshebrew",
+   "category": "sans-serif",
+   "subsets": [
+    "cyrillic-ext",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosanshebrew/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosanshebrew/NotoSansHebrew-Regular.ttf",
+     "bytes": 46496,
+     "sha256": "a5cc5ce90ed4f6393992728fcc63657c4dd83aed119acbd5f4ed223e40c71129"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosanshebrew/NotoSansHebrew-Medium.ttf",
+     "bytes": 46672,
+     "sha256": "df0b96d6b80f795dda3921702c1bafbe1f953f71d005a0acebdda25516cada59"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosanshebrew/NotoSansHebrew-Bold.ttf",
+     "bytes": 46460,
+     "sha256": "8a65248544dde06765c38908b768b243bfefc0b06e07f88852eb4a2842593a33"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosanshebrew/NotoSansHebrew-Black.ttf",
+     "bytes": 46396,
+     "sha256": "ce882249ec903b93ad50a6699c216966faa879728bf082fb1c65b82981a0f969"
+    }
+   ],
+   "preview": "fonts/notosanshebrew/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Kannada",
+   "slug": "notosanskannada",
+   "category": "sans-serif",
+   "subsets": [
+    "kannada",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosanskannada/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosanskannada/NotoSansKannada-Regular.ttf",
+     "bytes": 143576,
+     "sha256": "4b8dd08fc05afa13cc8daa8ac2187f35711be026286db8608e87c86f715e273d"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosanskannada/NotoSansKannada-Medium.ttf",
+     "bytes": 143700,
+     "sha256": "01c9b39781d1c4265aa84edede50effb6b67589eb7199195e8659429a48070bb"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosanskannada/NotoSansKannada-Bold.ttf",
+     "bytes": 143712,
+     "sha256": "f2d6b3d0b32f03f6c375ad2e9a18ab67ecfe8bd86bd9a047bef936282eb36af5"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosanskannada/NotoSansKannada-Black.ttf",
+     "bytes": 143888,
+     "sha256": "42cb78597f1aa0ab02914d6becfcb0e57efbe936395ec95b25abb4b10fddd110"
+    }
+   ],
+   "preview": "fonts/notosanskannada/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Malayalam",
+   "slug": "notosansmalayalam",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansmalayalam/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansmalayalam/NotoSansMalayalam-Regular.ttf",
+     "bytes": 105608,
+     "sha256": "d069babb32b90efb3a33302cbbd25ffef95fe9b7652fe608da41fe47b0538af4"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansmalayalam/NotoSansMalayalam-Medium.ttf",
+     "bytes": 105648,
+     "sha256": "251ea386da814d508dd00b22c50f1a3b2a7e9c4f6b95006854002731dd063c7d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansmalayalam/NotoSansMalayalam-Bold.ttf",
+     "bytes": 105568,
+     "sha256": "f305d0f525b50454d7bfcdfffda2920ba0bfb560bdb561957ca710cbe101fb62"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansmalayalam/NotoSansMalayalam-Black.ttf",
+     "bytes": 105600,
+     "sha256": "89b2f6d30a22c7a7f63561e5a829aaa23a1781257c4055ad44206685a5b66cd3"
+    }
+   ],
+   "preview": "fonts/notosansmalayalam/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Tamil",
+   "slug": "notosanstamil",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosanstamil/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosanstamil/NotoSansTamil-Regular.ttf",
+     "bytes": 77724,
+     "sha256": "0d36491d4b3b945d1b4d1258755e79b67cc6fffd9614531bf17fbfe532bd55f8"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosanstamil/NotoSansTamil-Medium.ttf",
+     "bytes": 77872,
+     "sha256": "d7853d6d87d47ea4266bbd3aac3aedfd8f760f6bdbb2fc3a3cf390d96e283682"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosanstamil/NotoSansTamil-Bold.ttf",
+     "bytes": 77756,
+     "sha256": "abecad237d6cf136b8d72012e435a3bcbab48c8232f57a65ed353024486ce3f9"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosanstamil/NotoSansTamil-Black.ttf",
+     "bytes": 77772,
+     "sha256": "b847386402cd92768ad800018b066feb6c335c7b9078d18960352630beac5a53"
+    }
+   ],
+   "preview": "fonts/notosanstamil/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Telugu",
+   "slug": "notosanstelugu",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosanstelugu/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosanstelugu/NotoSansTelugu-Regular.ttf",
+     "bytes": 178492,
+     "sha256": "431117bdd6a14d00b187e0549241d8cbf45f9ddff9847f961dd511178666d563"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosanstelugu/NotoSansTelugu-Medium.ttf",
+     "bytes": 179136,
+     "sha256": "a1b105398af47aa321dd6de570887b4268e09236fd2a8f0ed6634aec10e1ca8c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosanstelugu/NotoSansTelugu-Bold.ttf",
+     "bytes": 178944,
+     "sha256": "d9acc5b5312c3edc860d1f736894f0bab8fcf29205daabf7e66fe445476b57bb"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosanstelugu/NotoSansTelugu-Black.ttf",
+     "bytes": 179128,
+     "sha256": "edfb8968bfe7c505d4da070de6438e0119247572004d93479c963d66f87afebd"
+    }
+   ],
+   "preview": "fonts/notosanstelugu/preview.ttf"
+  },
+  {
+   "name": "Noto Sans Thai",
+   "slug": "notosansthai",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notosansthai/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosansthai/NotoSansThai-Regular.ttf",
+     "bytes": 45660,
+     "sha256": "6c5e4ca047263ed8f07b174be2f7c396d245504ce0f77adc1d26b0978bc95426"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosansthai/NotoSansThai-Medium.ttf",
+     "bytes": 45744,
+     "sha256": "9bbdcab3b91acaa0544db897087ec92d4e2df1ccabd52d9c3f9b8bceaa9286c5"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosansthai/NotoSansThai-Bold.ttf",
+     "bytes": 45664,
+     "sha256": "fd475b89dca5b9b2ad5f294944c6c82a1641c29b0a30bc1b771227250fb826a8"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosansthai/NotoSansThai-Black.ttf",
+     "bytes": 45608,
+     "sha256": "4195e6f902ca0d8b370544190994962419ddff7c0bd86d92b2a954ce3a6260ea"
+    }
+   ],
+   "preview": "fonts/notosansthai/preview.ttf"
+  },
+  {
    "name": "Noto Serif",
    "slug": "notoserif",
    "category": "serif",
@@ -3235,6 +3838,147 @@
     }
    ],
    "preview": "fonts/notoserif/preview.ttf"
+  },
+  {
+   "name": "Noto Serif Devanagari",
+   "slug": "notoserifdevanagari",
+   "category": "serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notoserifdevanagari/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notoserifdevanagari/NotoSerifDevanagari-Regular.ttf",
+     "bytes": 232404,
+     "sha256": "39ff220273661f9b01893e61d16756a612f6f3e358c1d2546b5fc24b6b7fecbb"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notoserifdevanagari/NotoSerifDevanagari-Medium.ttf",
+     "bytes": 232848,
+     "sha256": "6abdb6fc569ae72fd1de0ea25726dc316345c3ad82959a1f51c533d0f4c48f63"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notoserifdevanagari/NotoSerifDevanagari-Bold.ttf",
+     "bytes": 232872,
+     "sha256": "de5246a1e11ad12d16e5bff2b08a0f2dd4d8922f36d01a73020d40dff76cacaf"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notoserifdevanagari/NotoSerifDevanagari-Black.ttf",
+     "bytes": 232804,
+     "sha256": "cf03ff5e3de036d4f36b54728f101372e72bb1da11c67f12460cb5cf58f16fbc"
+    }
+   ],
+   "preview": "fonts/notoserifdevanagari/preview.ttf"
+  },
+  {
+   "name": "Noto Serif Hebrew",
+   "slug": "notoserifhebrew",
+   "category": "serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notoserifhebrew/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notoserifhebrew/NotoSerifHebrew-Regular.ttf",
+     "bytes": 54636,
+     "sha256": "a9aacca0bb0723459982b4d91af89a09a8845772f9d6cf149d86de7107fecb8a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notoserifhebrew/NotoSerifHebrew-Medium.ttf",
+     "bytes": 54724,
+     "sha256": "0cd688cbe0d7d99ec1df6b1d60dbb49247835033329e0c8392516557407c2b0e"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notoserifhebrew/NotoSerifHebrew-Bold.ttf",
+     "bytes": 54656,
+     "sha256": "1646d2be37d4b631acf031ea2afcf17e9c94f34bf083d45fa8b52a2d3f541cab"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notoserifhebrew/NotoSerifHebrew-Black.ttf",
+     "bytes": 54764,
+     "sha256": "29e51562b3615b60d27ebc4ffc9a41edaca7462afbd817aa79755ad74e36e57e"
+    }
+   ],
+   "preview": "fonts/notoserifhebrew/preview.ttf"
+  },
+  {
+   "name": "Noto Serif Thai",
+   "slug": "notoserifthai",
+   "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/notoserifthai/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notoserifthai/NotoSerifThai-Regular.ttf",
+     "bytes": 59704,
+     "sha256": "9c577a5f94f8704a3c68442b371176e8ca0041d7df17de3c91f4919289b54fee"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notoserifthai/NotoSerifThai-Medium.ttf",
+     "bytes": 59940,
+     "sha256": "f13d6a0246a9ff21f083c61689fd02b5f7ce8f06a07a332b970b2595983827d9"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notoserifthai/NotoSerifThai-Bold.ttf",
+     "bytes": 59796,
+     "sha256": "c7cab5c457fa9e5aee02096e97ea47c58538c25d2f7c88254275e78941da0625"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notoserifthai/NotoSerifThai-Black.ttf",
+     "bytes": 60040,
+     "sha256": "ee96d95a5604563f9d5ad075025cb8575a452b284f246356038f733bc639f256"
+    }
+   ],
+   "preview": "fonts/notoserifthai/preview.ttf"
   },
   {
    "name": "Nunito",

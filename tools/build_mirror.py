@@ -99,6 +99,16 @@ CURATED = [
     # Korean (display-grade — text-grade Noto KR is multi-MB/weight; CJK
     # text families are a follow-up, likely via a separate heavy shelf)
     "Do Hyeon", "Jua", "Black Han Sans",
+    # ── The NOTO shelf: one harmonized text face per script (Noto Sans /
+    # Serif for latin+cyrillic+greek are curated above already) — the "safe
+    # default" answer for every supported language. CJK Notos stay deferred.
+    "Noto Sans Devanagari", "Noto Serif Devanagari",
+    "Noto Sans Arabic", "Noto Naskh Arabic", "Noto Nastaliq Urdu",
+    "Noto Sans Hebrew", "Noto Serif Hebrew",
+    "Noto Sans Thai", "Noto Serif Thai",
+    "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Bengali",
+    "Noto Sans Gurmukhi", "Noto Sans Gujarati", "Noto Sans Kannada",
+    "Noto Sans Malayalam",
 ]
 
 # Upright weights we keep when the family has them (≤4 per family), plus
