@@ -28,6 +28,11 @@ import sys
 import time
 import urllib.request
 
+try:
+    from fontTools import subset as ft_subset
+except ImportError:  # previews skipped; `.venv/bin/pip install fonttools`
+    ft_subset = None
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS_DIR = ROOT / "fonts"
 MANIFEST = ROOT / "manifest.json"
@@ -219,6 +224,31 @@ def main():
             skipped.append((family, "no styles fetched"))
             continue
 
+        # The NAME-SUBSET preview face (ADR 125): the family's Regular-most
+        # style cut down to exactly its own name's glyphs — a few KB the
+        # picker renders each row's title with, without fetching real fonts.
+        preview_rel = None
+        if ft_subset is not None and styles:
+            src = ROOT / min(styles, key=lambda s: abs(s["weight"] - 400) + (1 if s["italic"] else 0))["file"]
+            preview_path = fam_dir / "preview.ttf"
+            if args.force or not preview_path.exists():
+                try:
+                    options = ft_subset.Options()
+                    options.layout_features = []       # no shaping machinery
+                    options.name_IDs = []              # strip the name table noise
+                    options.hinting = False
+                    options.notdef_outline = False
+                    subsetter = ft_subset.Subsetter(options=options)
+                    font = ft_subset.load_font(str(src), options)
+                    subsetter.populate(text=family)
+                    subsetter.subset(font)
+                    ft_subset.save_font(font, str(preview_path), options)
+                    font.close()
+                except Exception as e:  # noqa: BLE001 — preview is a nicety, never fatal
+                    print(f"    ! preview subset failed ({e}) — row falls back to the default face")
+            if preview_path.exists():
+                preview_rel = f"fonts/{slug}/preview.ttf"
+
         lic_path = fam_dir / "LICENSE.txt"
         if args.force or not lic_path.exists():
             # The google/fonts dir layout varies (a family's metadata license
@@ -242,14 +272,17 @@ def main():
                 skipped.append((family, "license fetch failed"))
                 continue
 
-        manifest_families.append({
+        entry = {
             "name": family,
             "slug": slug,
             "category": category,
             "license": license_id.upper(),
             "licenseFile": f"fonts/{slug}/LICENSE.txt",
             "styles": styles,
-        })
+        }
+        if preview_rel:
+            entry["preview"] = preview_rel  # additive — schemaVersion stays 1
+        manifest_families.append(entry)
 
     manifest = {
         "schemaVersion": 1,

@@ -16,7 +16,8 @@
      "bytes": 56308,
      "sha256": "c426e1328c73a1d1c1c36809ead3353b487ae71d3b387ac8daca2d4b6d9124c0"
     }
-   ]
+   ],
+   "preview": "fonts/abrilfatface/preview.ttf"
   },
   {
    "name": "Alfa Slab One",
@@ -33,7 +34,8 @@
      "bytes": 91272,
      "sha256": "0e834ddadca6dc95b5502c01f8911b7a77f50a350ac7400a6e2d9a3bfb1cd02f"
     }
-   ]
+   ],
+   "preview": "fonts/alfaslabone/preview.ttf"
   },
   {
    "name": "Amatic SC",
@@ -58,7 +60,8 @@
      "bytes": 144608,
      "sha256": "3dbdd1cb02d77a0918f49914376fff2ec449ee8f4a433e021f00126e03f58eb0"
     }
-   ]
+   ],
+   "preview": "fonts/amaticsc/preview.ttf"
   },
   {
    "name": "Anton",
@@ -75,7 +78,8 @@
      "bytes": 130324,
      "sha256": "fd9301f2837c99df2be07cc7f0be66e9470f5354d8fcf1606027c67fcd637a53"
     }
-   ]
+   ],
+   "preview": "fonts/anton/preview.ttf"
   },
   {
    "name": "Archivo",
@@ -124,7 +128,8 @@
      "bytes": 121892,
      "sha256": "6aee86be48032d3f3e31c19269654eb4fd16d6a863334a691c728db8660603c5"
     }
-   ]
+   ],
+   "preview": "fonts/archivo/preview.ttf"
   },
   {
    "name": "Archivo Black",
@@ -141,7 +146,8 @@
      "bytes": 87996,
      "sha256": "355b89d43e95edd50a58dad2029689c56027ef19cf9f2f03c9d3605e87ee182e"
     }
-   ]
+   ],
+   "preview": "fonts/archivoblack/preview.ttf"
   },
   {
    "name": "Arvo",
@@ -174,7 +180,8 @@
      "bytes": 34996,
      "sha256": "916d103f771685f12c2a6977d0d8f7185ddef97b7d13748522a3ed2422fe4eb4"
     }
-   ]
+   ],
+   "preview": "fonts/arvo/preview.ttf"
   },
   {
    "name": "Audiowide",
@@ -191,7 +198,8 @@
      "bytes": 46972,
      "sha256": "c42a74135f7f527e69a16826220cece45ec376776cfacdfd6cfd750053215146"
     }
-   ]
+   ],
+   "preview": "fonts/audiowide/preview.ttf"
   },
   {
    "name": "Baloo 2",
@@ -224,7 +232,8 @@
      "bytes": 417960,
      "sha256": "99a6754d6cc35c0dd6935077d20e569cfd73c7ecd210765c43fd67819eb6f62a"
     }
-   ]
+   ],
+   "preview": "fonts/baloo2/preview.ttf"
   },
   {
    "name": "Bangers",
@@ -241,7 +250,8 @@
      "bytes": 91216,
      "sha256": "a5ad3f06658ecd92705c3499cf000ff5b0c0c6f49641f7b3a6531dcee4bdb4c0"
     }
-   ]
+   ],
+   "preview": "fonts/bangers/preview.ttf"
   },
   {
    "name": "Barlow",
@@ -290,7 +300,8 @@
      "bytes": 87132,
      "sha256": "480167bc350a4185d25ebe62eeb72a6406cd1e33bf23101fa1bb1521fab508d8"
     }
-   ]
+   ],
+   "preview": "fonts/barlow/preview.ttf"
   },
   {
    "name": "Bebas Neue",
@@ -307,7 +318,8 @@
      "bytes": 56136,
      "sha256": "939fea723dad24504f40faadc34eeffadfbbee558754f70c3c736e13786b0ab6"
     }
-   ]
+   ],
+   "preview": "fonts/bebasneue/preview.ttf"
   },
   {
    "name": "Bitter",
@@ -356,7 +368,8 @@
      "bytes": 148308,
      "sha256": "53e9a4769672971e329e7bad7e4788b3447c8e524a1868a438733199fccf05c2"
     }
-   ]
+   ],
+   "preview": "fonts/bitter/preview.ttf"
   },
   {
    "name": "Black Ops One",
@@ -373,7 +386,8 @@
      "bytes": 162480,
      "sha256": "bd8a70e63df108745316c6ad277874cbe139bbb90cbcaf705810ecc089fe59f8"
     }
-   ]
+   ],
+   "preview": "fonts/blackopsone/preview.ttf"
   },
   {
    "name": "Bungee",
@@ -390,7 +404,8 @@
      "bytes": 110456,
      "sha256": "ff0ad5d7496a911460625f9052ea50b05e289065be71a1cb21c71896585224d2"
     }
-   ]
+   ],
+   "preview": "fonts/bungee/preview.ttf"
   },
   {
    "name": "Cabin",
@@ -431,7 +446,8 @@
      "bytes": 64648,
      "sha256": "8246e6529faccf0db6f46fad89224bc05cbbd8e9f700c7452dd88c6501863c89"
     }
-   ]
+   ],
+   "preview": "fonts/cabin/preview.ttf"
   },
   {
    "name": "Caveat",
@@ -464,7 +480,8 @@
      "bytes": 251256,
      "sha256": "f4365d9874c1b64026aca48786cf835a5decf2c740c06de04dbb05ce8c93ff37"
     }
-   ]
+   ],
+   "preview": "fonts/caveat/preview.ttf"
   },
   {
    "name": "Chewy",
@@ -481,7 +498,8 @@
      "bytes": 39756,
      "sha256": "9a790980d501428e9a86510051163eb1cbff138b744422defe341e6ab10e0e24"
     }
-   ]
+   ],
+   "preview": "fonts/chewy/preview.ttf"
   },
   {
    "name": "Cinzel",
@@ -522,7 +540,8 @@
      "bytes": 46192,
      "sha256": "f8da910da13890cb751df9a8ac0e2edfc30b01252fb6a3b3bb067ddeeb3d5990"
     }
-   ]
+   ],
+   "preview": "fonts/cinzel/preview.ttf"
   },
   {
    "name": "Comfortaa",
@@ -555,7 +574,8 @@
      "bytes": 110172,
      "sha256": "990742fd8ec75da91f4eabcce954f36316de713e1ff0140eeefda0db1c44f91f"
     }
-   ]
+   ],
+   "preview": "fonts/comfortaa/preview.ttf"
   },
   {
    "name": "Cormorant Garamond",
@@ -596,7 +616,8 @@
      "bytes": 293036,
      "sha256": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf"
     }
-   ]
+   ],
+   "preview": "fonts/cormorantgaramond/preview.ttf"
   },
   {
    "name": "Courgette",
@@ -613,7 +634,8 @@
      "bytes": 117596,
      "sha256": "9950490ccc48d4acbf950a28709e8799bf06996a2e4feafc8ed29e248525acba"
     }
-   ]
+   ],
+   "preview": "fonts/courgette/preview.ttf"
   },
   {
    "name": "Crimson Text",
@@ -646,7 +668,8 @@
      "bytes": 100956,
      "sha256": "83466d53467784622cc164f306e505695537aff9f5835310abbbf48b6b5c3c99"
     }
-   ]
+   ],
+   "preview": "fonts/crimsontext/preview.ttf"
   },
   {
    "name": "DM Sans",
@@ -695,7 +718,8 @@
      "bytes": 51144,
      "sha256": "cb30796ef338a70498e301f2c333f00d4fc23bacfa267be09673fdac43356a96"
     }
-   ]
+   ],
+   "preview": "fonts/dmsans/preview.ttf"
   },
   {
    "name": "DM Serif Display",
@@ -720,7 +744,8 @@
      "bytes": 68312,
      "sha256": "0ab2fcacedaafc0a7536453d4a763f131ba83a636706d3ec2d685cf04478a920"
     }
-   ]
+   ],
+   "preview": "fonts/dmserifdisplay/preview.ttf"
   },
   {
    "name": "Dancing Script",
@@ -753,7 +778,8 @@
      "bytes": 76596,
      "sha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee"
     }
-   ]
+   ],
+   "preview": "fonts/dancingscript/preview.ttf"
   },
   {
    "name": "EB Garamond",
@@ -794,7 +820,8 @@
      "bytes": 339240,
      "sha256": "9d2ca86044b885d085059c7e3bed21d6e31456a81a47761e7ade8cd390ebe71d"
     }
-   ]
+   ],
+   "preview": "fonts/ebgaramond/preview.ttf"
   },
   {
    "name": "Exo 2",
@@ -843,7 +870,8 @@
      "bytes": 143740,
      "sha256": "25d077a80bb1a792f2f44f0caece6be1d322c13c028fa0d36d79d1fccb58563f"
     }
-   ]
+   ],
+   "preview": "fonts/exo2/preview.ttf"
   },
   {
    "name": "Figtree",
@@ -892,7 +920,8 @@
      "bytes": 36036,
      "sha256": "b2a0df13c8a787824047f29997ad4dcb7fd229fc75a8cbd5b8c5c2fb686f18f8"
     }
-   ]
+   ],
+   "preview": "fonts/figtree/preview.ttf"
   },
   {
    "name": "Fira Code",
@@ -925,7 +954,8 @@
      "bytes": 179384,
      "sha256": "67941ae3787edeffd80ab437e8ba99667002d9fae22c2cbb80c1553f2d90ab79"
     }
-   ]
+   ],
+   "preview": "fonts/firacode/preview.ttf"
   },
   {
    "name": "Fraunces",
@@ -974,7 +1004,8 @@
      "bytes": 85028,
      "sha256": "c3c6d103fb2c493812567ec8d25abf081204c4124e704eb85801256f0f09d7fa"
     }
-   ]
+   ],
+   "preview": "fonts/fraunces/preview.ttf"
   },
   {
    "name": "Fredoka",
@@ -1007,7 +1038,8 @@
      "bytes": 48588,
      "sha256": "a7d1d662d6afe2bc7f9ba11dc6247eb06d9587c2210fee04d9edb83d555670c2"
     }
-   ]
+   ],
+   "preview": "fonts/fredoka/preview.ttf"
   },
   {
    "name": "Great Vibes",
@@ -1024,7 +1056,8 @@
      "bytes": 362736,
      "sha256": "9d76b8c67f5289c310114c935c5c3831fc3c25bc2bb888a28210c1659d701b9e"
     }
-   ]
+   ],
+   "preview": "fonts/greatvibes/preview.ttf"
   },
   {
    "name": "Heebo",
@@ -1065,7 +1098,8 @@
      "bytes": 44628,
      "sha256": "81c2db121f8ab167c0387f7fb3a9eec6375550d77dae52162f70b3a0e094adff"
     }
-   ]
+   ],
+   "preview": "fonts/heebo/preview.ttf"
   },
   {
    "name": "Homemade Apple",
@@ -1082,7 +1116,8 @@
      "bytes": 108704,
      "sha256": "9a97d4447953ab43ac279a8ea94a90749e809221586608b2ddd86b5159b5fa11"
     }
-   ]
+   ],
+   "preview": "fonts/homemadeapple/preview.ttf"
   },
   {
    "name": "IBM Plex Mono",
@@ -1123,7 +1158,8 @@
      "bytes": 136412,
      "sha256": "b8282cd74fb0321912a5f74aae7c0a50ef94af598fae65e6e8c4ad941d9a1fa9"
     }
-   ]
+   ],
+   "preview": "fonts/ibmplexmono/preview.ttf"
   },
   {
    "name": "Inconsolata",
@@ -1164,7 +1200,8 @@
      "bytes": 94040,
      "sha256": "f30ca70d14540c2b0b96e417b91eb953be7661d5233b8411013527e22b97e8e9"
     }
-   ]
+   ],
+   "preview": "fonts/inconsolata/preview.ttf"
   },
   {
    "name": "Indie Flower",
@@ -1181,7 +1218,8 @@
      "bytes": 46456,
      "sha256": "a33e8d2bcba4341d07bf2dc165a3af90984c99e38b7dd7dfcbd9bf1a13597f83"
     }
-   ]
+   ],
+   "preview": "fonts/indieflower/preview.ttf"
   },
   {
    "name": "Inter",
@@ -1230,7 +1268,8 @@
      "bytes": 328252,
      "sha256": "ef8f755d933b9310804cc9152f1f18cb2ac460d6b05054ec913d889c9f11f79e"
     }
-   ]
+   ],
+   "preview": "fonts/inter/preview.ttf"
   },
   {
    "name": "JetBrains Mono",
@@ -1271,7 +1310,8 @@
      "bytes": 114960,
      "sha256": "f3ad0f703a734b38b49b3ee2d8121ef2718fba185198c3482e81a618272cb4af"
     }
-   ]
+   ],
+   "preview": "fonts/jetbrainsmono/preview.ttf"
   },
   {
    "name": "Josefin Slab",
@@ -1312,7 +1352,8 @@
      "bytes": 29972,
      "sha256": "111b77c4f03aba08891b4f5875e90177229216de1fdea4d4e3a47c8af226af02"
     }
-   ]
+   ],
+   "preview": "fonts/josefinslab/preview.ttf"
   },
   {
    "name": "Kalam",
@@ -1337,7 +1378,8 @@
      "bytes": 460024,
      "sha256": "7463b42e3630f003f355b3f37e1cf8e2c0b0855374d483aef580ff45fdac3ba4"
     }
-   ]
+   ],
+   "preview": "fonts/kalam/preview.ttf"
   },
   {
    "name": "Karla",
@@ -1378,7 +1420,8 @@
      "bytes": 42360,
      "sha256": "ee54ff2d92cfc71311f1d94683ccd5e0ca13d88a553300adf7dd945bcc5be506"
     }
-   ]
+   ],
+   "preview": "fonts/karla/preview.ttf"
   },
   {
    "name": "Kaushan Script",
@@ -1395,7 +1438,8 @@
      "bytes": 179848,
      "sha256": "423a2aa7c70d3e00312dfe35d3f6ba44ab6bf062ad4480437fc65dcc5d596c6e"
     }
-   ]
+   ],
+   "preview": "fonts/kaushanscript/preview.ttf"
   },
   {
    "name": "Lato",
@@ -1436,7 +1480,8 @@
      "bytes": 72936,
      "sha256": "ae2f4abf0bf802b3710c474f05d1a34f086ef57001f5751d03e428e113f5a684"
     }
-   ]
+   ],
+   "preview": "fonts/lato/preview.ttf"
   },
   {
    "name": "Libre Baskerville",
@@ -1477,7 +1522,8 @@
      "bytes": 109748,
      "sha256": "b2149da8101de6ecbc0d5ea9616a0a0a45fbd01701f012a0ae9b0d0ed733c070"
     }
-   ]
+   ],
+   "preview": "fonts/librebaskerville/preview.ttf"
   },
   {
    "name": "Lobster",
@@ -1494,7 +1540,8 @@
      "bytes": 392208,
      "sha256": "dfdc22543e8a5188aa6d774aa2e9a1f3c9cb363dc814ba1e919ac9e379daec03"
     }
-   ]
+   ],
+   "preview": "fonts/lobster/preview.ttf"
   },
   {
    "name": "Lora",
@@ -1535,7 +1582,8 @@
      "bytes": 137328,
      "sha256": "26243fda8cd938cc2734f46d20d7464822d89378c7f375e187e39f9ed3f20907"
     }
-   ]
+   ],
+   "preview": "fonts/lora/preview.ttf"
   },
   {
    "name": "Luckiest Guy",
@@ -1552,7 +1600,8 @@
      "bytes": 57792,
      "sha256": "bde64ad70289579762149264eeaad6f2bf19b542eca5d62ca9fb0d9cb04a47b2"
     }
-   ]
+   ],
+   "preview": "fonts/luckiestguy/preview.ttf"
   },
   {
    "name": "Manrope",
@@ -1585,7 +1634,8 @@
      "bytes": 94928,
      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
     }
-   ]
+   ],
+   "preview": "fonts/manrope/preview.ttf"
   },
   {
    "name": "Marcellus",
@@ -1602,7 +1652,8 @@
      "bytes": 43288,
      "sha256": "2f6fa616f76102d81c4a935c3a8cd547a8db9de679ad9fda9cfd42f16e7f0743"
     }
-   ]
+   ],
+   "preview": "fonts/marcellus/preview.ttf"
   },
   {
    "name": "Merriweather",
@@ -1651,7 +1702,8 @@
      "bytes": 595652,
      "sha256": "afff81272b7653417bb6f8bef57add055b1f9fda36f27eba5f32b40752bd08da"
     }
-   ]
+   ],
+   "preview": "fonts/merriweather/preview.ttf"
   },
   {
    "name": "Monoton",
@@ -1668,7 +1720,8 @@
      "bytes": 49768,
      "sha256": "c7ace162e95aa75817aad0963d23009190cd0a3a7cf80bf376d4de8f5200b376"
     }
-   ]
+   ],
+   "preview": "fonts/monoton/preview.ttf"
   },
   {
    "name": "Montserrat",
@@ -1717,7 +1770,8 @@
      "bytes": 181552,
      "sha256": "afb8986a68a0d5189122bd11ed236bd4087abb2b4415b5df1e2bc2579f5d1241"
     }
-   ]
+   ],
+   "preview": "fonts/montserrat/preview.ttf"
   },
   {
    "name": "Mulish",
@@ -1766,7 +1820,8 @@
      "bytes": 106504,
      "sha256": "1594d840862cd8a7027f4e084e9c8240815432db930c915579ce4d6809a02bbb"
     }
-   ]
+   ],
+   "preview": "fonts/mulish/preview.ttf"
   },
   {
    "name": "Noto Sans",
@@ -1815,7 +1870,8 @@
      "bytes": 570384,
      "sha256": "45648f562e6bab5361c9b04e85529fb457ee7045357df4f585bc5d7ea0114cc0"
     }
-   ]
+   ],
+   "preview": "fonts/notosans/preview.ttf"
   },
   {
    "name": "Noto Serif",
@@ -1864,7 +1920,8 @@
      "bytes": 476400,
      "sha256": "f06cb5f088620048826b520a145b0410065bfef099113c4e8898b3fab48d506d"
     }
-   ]
+   ],
+   "preview": "fonts/notoserif/preview.ttf"
   },
   {
    "name": "Nunito",
@@ -1913,7 +1970,8 @@
      "bytes": 128400,
      "sha256": "49a2a2cbe1e0b58a4313217cc74fc122c8a4e5ba1539e67f2a87e0832d881281"
     }
-   ]
+   ],
+   "preview": "fonts/nunito/preview.ttf"
   },
   {
    "name": "Open Sans",
@@ -1954,7 +2012,8 @@
      "bytes": 127392,
      "sha256": "1bc0594a83762b2c25d38915a34464b7fec6088298ca22d151757bf98d6700ec"
     }
-   ]
+   ],
+   "preview": "fonts/opensans/preview.ttf"
   },
   {
    "name": "Orbitron",
@@ -1995,7 +2054,8 @@
      "bytes": 16884,
      "sha256": "27cd313045d12280384256b4fba922366a4883e32ffb866b9acd62c5a859de61"
     }
-   ]
+   ],
+   "preview": "fonts/orbitron/preview.ttf"
   },
   {
    "name": "Oswald",
@@ -2028,7 +2088,8 @@
      "bytes": 86416,
      "sha256": "a6ee8b91ec269a6f48631ba4ba1a3ab7e5039e5482dda8dc9672ee4620d7bd68"
     }
-   ]
+   ],
+   "preview": "fonts/oswald/preview.ttf"
   },
   {
    "name": "Outfit",
@@ -2069,7 +2130,8 @@
      "bytes": 48324,
      "sha256": "33717e4797d38639bb590087b9f0a57ffdc9292b637954326f6703b90c3003ae"
     }
-   ]
+   ],
+   "preview": "fonts/outfit/preview.ttf"
   },
   {
    "name": "PT Sans",
@@ -2102,7 +2164,8 @@
      "bytes": 257988,
      "sha256": "e74cb297fba7325d8622fc1b933a8b7bf170479e16a28b65782bb4fdbec5d019"
     }
-   ]
+   ],
+   "preview": "fonts/ptsans/preview.ttf"
   },
   {
    "name": "PT Serif",
@@ -2135,7 +2198,8 @@
      "bytes": 219344,
      "sha256": "009698a23dcc4267ecabc3e0e72f30b61174fe78db20ac6172ef98d15c5f0927"
     }
-   ]
+   ],
+   "preview": "fonts/ptserif/preview.ttf"
   },
   {
    "name": "Pacifico",
@@ -2152,7 +2216,8 @@
      "bytes": 251232,
      "sha256": "0adbdce4f5422e632945cc29001dc19f0bbda1336626ca7ea9c921d49bcc0bf4"
     }
-   ]
+   ],
+   "preview": "fonts/pacifico/preview.ttf"
   },
   {
    "name": "Passion One",
@@ -2185,7 +2250,8 @@
      "bytes": 21856,
      "sha256": "d47d329aea956cdec4826ca8fbe8e1ab65ab6da6ecb225a3f31cf4f5d368f21d"
     }
-   ]
+   ],
+   "preview": "fonts/passionone/preview.ttf"
   },
   {
    "name": "Permanent Marker",
@@ -2202,7 +2268,8 @@
      "bytes": 73276,
      "sha256": "a73712ce4f3b32d3c7a1a657d56c6aaf50c719b7fa7fe0541905fe77f5a9906c"
     }
-   ]
+   ],
+   "preview": "fonts/permanentmarker/preview.ttf"
   },
   {
    "name": "Playfair Display",
@@ -2251,7 +2318,8 @@
      "bytes": 110816,
      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
     }
-   ]
+   ],
+   "preview": "fonts/playfairdisplay/preview.ttf"
   },
   {
    "name": "Plus Jakarta Sans",
@@ -2292,7 +2360,8 @@
      "bytes": 64848,
      "sha256": "3a658a0234119d94a50063e72fc8c925e2d4cf64a525854171a32643828b21ec"
     }
-   ]
+   ],
+   "preview": "fonts/plusjakartasans/preview.ttf"
   },
   {
    "name": "Poppins",
@@ -2341,7 +2410,8 @@
      "bytes": 178112,
      "sha256": "d455310e3d1e4393723dbe5836cb27c351751123b89a74c7034ec60c861d5556"
     }
-   ]
+   ],
+   "preview": "fonts/poppins/preview.ttf"
   },
   {
    "name": "Prata",
@@ -2358,7 +2428,8 @@
      "bytes": 96016,
      "sha256": "6bab61b8b8df3f5a24df69c742f6495060b36aec686f37e534ff91a3bffe40ad"
     }
-   ]
+   ],
+   "preview": "fonts/prata/preview.ttf"
   },
   {
    "name": "Press Start 2P",
@@ -2375,7 +2446,8 @@
      "bytes": 115280,
      "sha256": "7b939b816f8ce185dd8c2c59e85fb05d3dcd5cde0c0b0de4a1651cb5af9c2c2b"
     }
-   ]
+   ],
+   "preview": "fonts/pressstart2p/preview.ttf"
   },
   {
    "name": "Quicksand",
@@ -2408,7 +2480,8 @@
      "bytes": 72916,
      "sha256": "8fb2148170b16156ad78d9d787a5d98a2c00752f91fc0fe88c9367c0809ecba3"
     }
-   ]
+   ],
+   "preview": "fonts/quicksand/preview.ttf"
   },
   {
    "name": "Rajdhani",
@@ -2441,7 +2514,8 @@
      "bytes": 372568,
      "sha256": "8b2fbb04ed3af38ea941d7351fc5bcf917d239d0bfb64c9bb8916510d8774495"
     }
-   ]
+   ],
+   "preview": "fonts/rajdhani/preview.ttf"
   },
   {
    "name": "Raleway",
@@ -2490,7 +2564,8 @@
      "bytes": 136572,
      "sha256": "947194506dcf722728b84075659c60350c6a730d1ef8bbfe03acb4980e0b165a"
     }
-   ]
+   ],
+   "preview": "fonts/raleway/preview.ttf"
   },
   {
    "name": "Righteous",
@@ -2507,7 +2582,8 @@
      "bytes": 40364,
      "sha256": "82e2ac84900128219615a1e3a986a1821409e727e2bdb67714b2dcfe4447b946"
     }
-   ]
+   ],
+   "preview": "fonts/righteous/preview.ttf"
   },
   {
    "name": "Roboto",
@@ -2556,7 +2632,8 @@
      "bytes": 127988,
      "sha256": "4d3035883c531846bd1ce2dc89f36d932e72dc114f56062c7e3a9cdd74f3d3ea"
     }
-   ]
+   ],
+   "preview": "fonts/roboto/preview.ttf"
   },
   {
    "name": "Roboto Mono",
@@ -2597,7 +2674,8 @@
      "bytes": 85656,
      "sha256": "87fc6201da3a3aea956017c59a0638f16aca1d53f96b0690b307aa46d2db03cc"
     }
-   ]
+   ],
+   "preview": "fonts/robotomono/preview.ttf"
   },
   {
    "name": "Roboto Slab",
@@ -2638,7 +2716,8 @@
      "bytes": 102472,
      "sha256": "056eabd3bacf4713b2221abdb5c2beaffffd9abf043317f5be881b8d4e9e7489"
     }
-   ]
+   ],
+   "preview": "fonts/robotoslab/preview.ttf"
   },
   {
    "name": "Rock Salt",
@@ -2655,7 +2734,8 @@
      "bytes": 118864,
      "sha256": "c8256cee0caa59fc0b9542e2232ea932bed42f694dba317693702eb4be3faa5a"
     }
-   ]
+   ],
+   "preview": "fonts/rocksalt/preview.ttf"
   },
   {
    "name": "Rubik",
@@ -2704,7 +2784,8 @@
      "bytes": 173148,
      "sha256": "16fc8b9b98fdf8c100a2266321c23da5b686aac084645053ad169f0a5b9fadee"
     }
-   ]
+   ],
+   "preview": "fonts/rubik/preview.ttf"
   },
   {
    "name": "Russo One",
@@ -2721,7 +2802,8 @@
      "bytes": 36816,
      "sha256": "7a022de179a466ad9711d5f2848123c5cba6eedf22e51a8dc04ed6e5d64b205d"
     }
-   ]
+   ],
+   "preview": "fonts/russoone/preview.ttf"
   },
   {
    "name": "Sacramento",
@@ -2738,7 +2820,8 @@
      "bytes": 64108,
      "sha256": "15597dce1d707e88a188f804fb927e526b2ad959d03e9df9c812492ceed0a4ab"
     }
-   ]
+   ],
+   "preview": "fonts/sacramento/preview.ttf"
   },
   {
    "name": "Satisfy",
@@ -2755,7 +2838,8 @@
      "bytes": 46652,
      "sha256": "d394db8f27c568545da4dc2cbb798c04d9c70cea9beb434039dcf3651a4cde7b"
     }
-   ]
+   ],
+   "preview": "fonts/satisfy/preview.ttf"
   },
   {
    "name": "Shadows Into Light",
@@ -2772,7 +2856,8 @@
      "bytes": 39508,
      "sha256": "9e22fccbcbd08bb567db3c25e97eb894aa96fb090ab61ebe78fb23a65a4fc7f6"
     }
-   ]
+   ],
+   "preview": "fonts/shadowsintolight/preview.ttf"
   },
   {
    "name": "Sora",
@@ -2805,7 +2890,8 @@
      "bytes": 46152,
      "sha256": "a50f5d254fc0fb83125fceffb72a95d036b8ce964a77fb8cc42ecb9ce16b0427"
     }
-   ]
+   ],
+   "preview": "fonts/sora/preview.ttf"
   },
   {
    "name": "Source Code Pro",
@@ -2854,7 +2940,8 @@
      "bytes": 101800,
      "sha256": "ccb7013cde3e3391663e4bb385dfd7019ff2f27486639e7604d905fea79664f6"
     }
-   ]
+   ],
+   "preview": "fonts/sourcecodepro/preview.ttf"
   },
   {
    "name": "Source Serif 4",
@@ -2903,7 +2990,8 @@
      "bytes": 183552,
      "sha256": "5000784a4f4136c7ac78631d5d7d3b56cdbd17541adf6ff304280027464044ef"
     }
-   ]
+   ],
+   "preview": "fonts/sourceserif4/preview.ttf"
   },
   {
    "name": "Space Grotesk",
@@ -2936,7 +3024,8 @@
      "bytes": 69308,
      "sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85"
     }
-   ]
+   ],
+   "preview": "fonts/spacegrotesk/preview.ttf"
   },
   {
    "name": "Space Mono",
@@ -2969,7 +3058,8 @@
      "bytes": 100780,
      "sha256": "71fc772fd07392d445baf8b3c374f71896909c6152b91d4f1d750ee4212d5c4a"
     }
-   ]
+   ],
+   "preview": "fonts/spacemono/preview.ttf"
   },
   {
    "name": "Syne",
@@ -3002,7 +3092,8 @@
      "bytes": 52732,
      "sha256": "668763da807c01fb3ec0f21e053d58cb4ec37a5cc37ab07617317c907df92a99"
     }
-   ]
+   ],
+   "preview": "fonts/syne/preview.ttf"
   },
   {
    "name": "Teko",
@@ -3035,7 +3126,8 @@
      "bytes": 153944,
      "sha256": "b5adcbd9aa2acef7da4b764015927b3360af786498766dd639452ad322241212"
     }
-   ]
+   ],
+   "preview": "fonts/teko/preview.ttf"
   },
   {
    "name": "Titan One",
@@ -3052,7 +3144,8 @@
      "bytes": 52188,
      "sha256": "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd"
     }
-   ]
+   ],
+   "preview": "fonts/titanone/preview.ttf"
   },
   {
    "name": "Ubuntu",
@@ -3093,7 +3186,8 @@
      "bytes": 306860,
      "sha256": "eebe8c02b43a93a77cc6fdcbf0483adca8b44a7fc0901bb40b4d4de6851b30aa"
     }
-   ]
+   ],
+   "preview": "fonts/ubuntu/preview.ttf"
   },
   {
    "name": "Unbounded",
@@ -3134,7 +3228,8 @@
      "bytes": 395792,
      "sha256": "4e308d4d3fb0bef4a5507f4ba2443a65b1e865b2ffb04468997f7a154103a0b7"
     }
-   ]
+   ],
+   "preview": "fonts/unbounded/preview.ttf"
   },
   {
    "name": "Work Sans",
@@ -3183,7 +3278,8 @@
      "bytes": 109088,
      "sha256": "d38632ddd219dea11541e99bcbcf9b0569ca6aa3fcdb942fbddbaf79cc3a6a99"
     }
-   ]
+   ],
+   "preview": "fonts/worksans/preview.ttf"
   },
   {
    "name": "Yanone Kaffeesatz",
@@ -3216,7 +3312,8 @@
      "bytes": 75352,
      "sha256": "089626541d659b86e6c1b2986255d412c05d1e40b2295c9136c5a46058f0b923"
     }
-   ]
+   ],
+   "preview": "fonts/yanonekaffeesatz/preview.ttf"
   },
   {
    "name": "Yellowtail",
@@ -3233,7 +3330,8 @@
      "bytes": 60864,
      "sha256": "01418091041e0e73525b18416e3f9db9d63be7f9c0443c16465743bf3a9db48b"
     }
-   ]
+   ],
+   "preview": "fonts/yellowtail/preview.ttf"
   },
   {
    "name": "Zilla Slab",
@@ -3274,7 +3372,8 @@
      "bytes": 154076,
      "sha256": "33eea99424318cb66d76481f74e664034573d950e0f99edfc0942071d315f892"
     }
-   ]
+   ],
+   "preview": "fonts/zillaslab/preview.ttf"
   }
  ]
 }
