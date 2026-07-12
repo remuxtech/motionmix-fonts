@@ -1,0 +1,3280 @@
+{
+ "schemaVersion": 1,
+ "families": [
+  {
+   "name": "Abril Fatface",
+   "slug": "abrilfatface",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/abrilfatface/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/abrilfatface/AbrilFatface-Regular.ttf",
+     "bytes": 56308,
+     "sha256": "c426e1328c73a1d1c1c36809ead3353b487ae71d3b387ac8daca2d4b6d9124c0"
+    }
+   ]
+  },
+  {
+   "name": "Alfa Slab One",
+   "slug": "alfaslabone",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/alfaslabone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/alfaslabone/AlfaSlabOne-Regular.ttf",
+     "bytes": 91272,
+     "sha256": "0e834ddadca6dc95b5502c01f8911b7a77f50a350ac7400a6e2d9a3bfb1cd02f"
+    }
+   ]
+  },
+  {
+   "name": "Amatic SC",
+   "slug": "amaticsc",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/amaticsc/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/amaticsc/AmaticSC-Regular.ttf",
+     "bytes": 141044,
+     "sha256": "cceb66482d8bfffa04e3769c961e07a1b5d2d1345975a9b91fa77f90a1c6f51d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/amaticsc/AmaticSC-Bold.ttf",
+     "bytes": 144608,
+     "sha256": "3dbdd1cb02d77a0918f49914376fff2ec449ee8f4a433e021f00126e03f58eb0"
+    }
+   ]
+  },
+  {
+   "name": "Anton",
+   "slug": "anton",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/anton/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/anton/Anton-Regular.ttf",
+     "bytes": 130324,
+     "sha256": "fd9301f2837c99df2be07cc7f0be66e9470f5354d8fcf1606027c67fcd637a53"
+    }
+   ]
+  },
+  {
+   "name": "Archivo",
+   "slug": "archivo",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/archivo/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/archivo/Archivo-Regular.ttf",
+     "bytes": 110708,
+     "sha256": "01170409e32e22123a354fbaa7dcb5ca5300790bb77c05d569ec8fdc394e78c9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/archivo/Archivo-Medium.ttf",
+     "bytes": 112136,
+     "sha256": "bf52802dc93c0d9933f92a8d0da0126124f8c37a838b3cc513190036df14587d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/archivo/Archivo-Bold.ttf",
+     "bytes": 111948,
+     "sha256": "bed60488c2f5c0b24e01d931760b6f3e9a82619dcd081ed9bff643d9f4fd9e3d"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/archivo/Archivo-Black.ttf",
+     "bytes": 111304,
+     "sha256": "a375170e85070f94544fc0653836f5271b4421aef5e1f33466465ed2fca2c335"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/archivo/Archivo-Italic.ttf",
+     "bytes": 121892,
+     "sha256": "6aee86be48032d3f3e31c19269654eb4fd16d6a863334a691c728db8660603c5"
+    }
+   ]
+  },
+  {
+   "name": "Archivo Black",
+   "slug": "archivoblack",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/archivoblack/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/archivoblack/ArchivoBlack-Regular.ttf",
+     "bytes": 87996,
+     "sha256": "355b89d43e95edd50a58dad2029689c56027ef19cf9f2f03c9d3605e87ee182e"
+    }
+   ]
+  },
+  {
+   "name": "Arvo",
+   "slug": "arvo",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/arvo/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/arvo/Arvo-Regular.ttf",
+     "bytes": 38620,
+     "sha256": "47c25cfa05c6f0e25b8bf235a41747a6006e34a0442285797425da35c2995564"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/arvo/Arvo-Bold.ttf",
+     "bytes": 37504,
+     "sha256": "687a59c5cfcdca79877524d3c2c3ffb6718211ca69a18410124e3a5cd04aaa9f"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/arvo/Arvo-Italic.ttf",
+     "bytes": 34996,
+     "sha256": "916d103f771685f12c2a6977d0d8f7185ddef97b7d13748522a3ed2422fe4eb4"
+    }
+   ]
+  },
+  {
+   "name": "Audiowide",
+   "slug": "audiowide",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/audiowide/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/audiowide/Audiowide-Regular.ttf",
+     "bytes": 46972,
+     "sha256": "c42a74135f7f527e69a16826220cece45ec376776cfacdfd6cfd750053215146"
+    }
+   ]
+  },
+  {
+   "name": "Baloo 2",
+   "slug": "baloo2",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/baloo2/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/baloo2/Baloo2-Regular.ttf",
+     "bytes": 417848,
+     "sha256": "1b11c3c65465e3c87a2c1699ecf10fa7a3da9fb7e4ac50a1ae275781ff65eacc"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/baloo2/Baloo2-Medium.ttf",
+     "bytes": 418164,
+     "sha256": "d873207e29bca5901fcb00ff3cac1ff5f5cef7b0349e631b76351a73054e3182"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/baloo2/Baloo2-Bold.ttf",
+     "bytes": 417960,
+     "sha256": "99a6754d6cc35c0dd6935077d20e569cfd73c7ecd210765c43fd67819eb6f62a"
+    }
+   ]
+  },
+  {
+   "name": "Bangers",
+   "slug": "bangers",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/bangers/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/bangers/Bangers-Regular.ttf",
+     "bytes": 91216,
+     "sha256": "a5ad3f06658ecd92705c3499cf000ff5b0c0c6f49641f7b3a6531dcee4bdb4c0"
+    }
+   ]
+  },
+  {
+   "name": "Barlow",
+   "slug": "barlow",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/barlow/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/barlow/Barlow-Regular.ttf",
+     "bytes": 82624,
+     "sha256": "a35caa4687f434d66453c1fe423d7074cfa9fd7ab80c19b0780f3862887d2fc9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/barlow/Barlow-Medium.ttf",
+     "bytes": 81924,
+     "sha256": "91c841fdfa8e7b94ffedbb983a363947ba6ed720f3bbf0c71d48b618053655bc"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/barlow/Barlow-Bold.ttf",
+     "bytes": 85776,
+     "sha256": "74103fd6d41bc32c63aa2e6eb3db619ddb80ce9ca1b1420d5548a23b8ee5d154"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/barlow/Barlow-Black.ttf",
+     "bytes": 88592,
+     "sha256": "f02915c51cf58297cb4972449f81ae3ab68a1e7a8103a89689629ff01d8b9073"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/barlow/Barlow-Italic.ttf",
+     "bytes": 87132,
+     "sha256": "480167bc350a4185d25ebe62eeb72a6406cd1e33bf23101fa1bb1521fab508d8"
+    }
+   ]
+  },
+  {
+   "name": "Bebas Neue",
+   "slug": "bebasneue",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/bebasneue/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/bebasneue/BebasNeue-Regular.ttf",
+     "bytes": 56136,
+     "sha256": "939fea723dad24504f40faadc34eeffadfbbee558754f70c3c736e13786b0ab6"
+    }
+   ]
+  },
+  {
+   "name": "Bitter",
+   "slug": "bitter",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/bitter/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/bitter/Bitter-Regular.ttf",
+     "bytes": 149332,
+     "sha256": "04b9e632f0791325153b80c882bdb6b1f099fdd5de99406e0485aa9a00e5674a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/bitter/Bitter-Medium.ttf",
+     "bytes": 149556,
+     "sha256": "c118c4bd90bb524fd8569369d9227eef93551587ad447b4f624b3188d39611d4"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/bitter/Bitter-Bold.ttf",
+     "bytes": 150600,
+     "sha256": "266d6ec27877c5c2b5840d1ab5edd0fc1eeb686c6d820b320e7b35e0f62b3e65"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/bitter/Bitter-Black.ttf",
+     "bytes": 158288,
+     "sha256": "bc0d75b77de8aad51cafb389d42987d85ba4e01262a3958a015d2e77dbd599c0"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/bitter/Bitter-Italic.ttf",
+     "bytes": 148308,
+     "sha256": "53e9a4769672971e329e7bad7e4788b3447c8e524a1868a438733199fccf05c2"
+    }
+   ]
+  },
+  {
+   "name": "Black Ops One",
+   "slug": "blackopsone",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/blackopsone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/blackopsone/BlackOpsOne-Regular.ttf",
+     "bytes": 162480,
+     "sha256": "bd8a70e63df108745316c6ad277874cbe139bbb90cbcaf705810ecc089fe59f8"
+    }
+   ]
+  },
+  {
+   "name": "Bungee",
+   "slug": "bungee",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/bungee/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/bungee/Bungee-Regular.ttf",
+     "bytes": 110456,
+     "sha256": "ff0ad5d7496a911460625f9052ea50b05e289065be71a1cb21c71896585224d2"
+    }
+   ]
+  },
+  {
+   "name": "Cabin",
+   "slug": "cabin",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/cabin/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/cabin/Cabin-Regular.ttf",
+     "bytes": 74556,
+     "sha256": "00ab1bdf700378ee0c0cd80d9c4d8c51eb9a61b8d56933629ca8691af541ec64"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/cabin/Cabin-Medium.ttf",
+     "bytes": 74636,
+     "sha256": "cf3310c43ff3250b88f40c1284c010d74e8a02b0f244ef538738e30c46cdab7c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/cabin/Cabin-Bold.ttf",
+     "bytes": 74336,
+     "sha256": "78fe8d48cdf1adc38f4dcaddcd763a934e78c83cd1ff71ee435d38bc75bb44a9"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/cabin/Cabin-Italic.ttf",
+     "bytes": 64648,
+     "sha256": "8246e6529faccf0db6f46fad89224bc05cbbd8e9f700c7452dd88c6501863c89"
+    }
+   ]
+  },
+  {
+   "name": "Caveat",
+   "slug": "caveat",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/caveat/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/caveat/Caveat-Regular.ttf",
+     "bytes": 251024,
+     "sha256": "012f33f9814bf9614973983335c3a375fe267c094e7c09a02a276cd1dcd4180a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/caveat/Caveat-Medium.ttf",
+     "bytes": 251752,
+     "sha256": "7062df7fee2e131cf42c6175f12078e14b6b880df7b301299abdc4a92e4674fb"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/caveat/Caveat-Bold.ttf",
+     "bytes": 251256,
+     "sha256": "f4365d9874c1b64026aca48786cf835a5decf2c740c06de04dbb05ce8c93ff37"
+    }
+   ]
+  },
+  {
+   "name": "Chewy",
+   "slug": "chewy",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/chewy/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/chewy/Chewy-Regular.ttf",
+     "bytes": 39756,
+     "sha256": "9a790980d501428e9a86510051163eb1cbff138b744422defe341e6ab10e0e24"
+    }
+   ]
+  },
+  {
+   "name": "Cinzel",
+   "slug": "cinzel",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/cinzel/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/cinzel/Cinzel-Regular.ttf",
+     "bytes": 45884,
+     "sha256": "a0242f6698ae0d3220a29986a09274f9d1eddb4a24da4e50faf387fd1804eb7b"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/cinzel/Cinzel-Medium.ttf",
+     "bytes": 46048,
+     "sha256": "bd933cb739b5125a1fda907d61ea237beadb4ac382ac7a5f9af0a8bbedaf48b7"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/cinzel/Cinzel-Bold.ttf",
+     "bytes": 46124,
+     "sha256": "2c6b1ff0d368efb73636700b69dbef707fa5602a06d085a4e91e5125082651f0"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/cinzel/Cinzel-Black.ttf",
+     "bytes": 46192,
+     "sha256": "f8da910da13890cb751df9a8ac0e2edfc30b01252fb6a3b3bb067ddeeb3d5990"
+    }
+   ]
+  },
+  {
+   "name": "Comfortaa",
+   "slug": "comfortaa",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/comfortaa/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/comfortaa/Comfortaa-Regular.ttf",
+     "bytes": 110000,
+     "sha256": "c5633dc8323c788158d456e461bacc78d251f713e33228527765a1f3fa84ec03"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/comfortaa/Comfortaa-Medium.ttf",
+     "bytes": 110052,
+     "sha256": "9e526c661ee58581a44aea8c7c4dd3c87600d3cf491c89bfe269dd15775ccf5b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/comfortaa/Comfortaa-Bold.ttf",
+     "bytes": 110172,
+     "sha256": "990742fd8ec75da91f4eabcce954f36316de713e1ff0140eeefda0db1c44f91f"
+    }
+   ]
+  },
+  {
+   "name": "Cormorant Garamond",
+   "slug": "cormorantgaramond",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/cormorantgaramond/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/cormorantgaramond/CormorantGaramond-Regular.ttf",
+     "bytes": 290236,
+     "sha256": "6d37a86241a25d63f8fe6018b4c083449886b7165c1acb15edd0f574f690ecf7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/cormorantgaramond/CormorantGaramond-Medium.ttf",
+     "bytes": 290496,
+     "sha256": "1724047c8988ca5155bff667bc48fa52e97d57aabc6b42eebbf986f21a4be20b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/cormorantgaramond/CormorantGaramond-Bold.ttf",
+     "bytes": 289992,
+     "sha256": "440daf036a35abd6d2bdfa92b14ab0f150cce690fe6d767ee5cab15a1a10a87f"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/cormorantgaramond/CormorantGaramond-Italic.ttf",
+     "bytes": 293036,
+     "sha256": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf"
+    }
+   ]
+  },
+  {
+   "name": "Courgette",
+   "slug": "courgette",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/courgette/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/courgette/Courgette-Regular.ttf",
+     "bytes": 117596,
+     "sha256": "9950490ccc48d4acbf950a28709e8799bf06996a2e4feafc8ed29e248525acba"
+    }
+   ]
+  },
+  {
+   "name": "Crimson Text",
+   "slug": "crimsontext",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/crimsontext/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/crimsontext/CrimsonText-Regular.ttf",
+     "bytes": 98516,
+     "sha256": "72c4209c94de3e6ac6f4f2256ae604174102bbed26ec2a14948024cb86f5c10f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/crimsontext/CrimsonText-Bold.ttf",
+     "bytes": 102364,
+     "sha256": "0613f2f47f8c76e8b7a99be0545b388c1ee87265952afa41b9a06ae64ecd7799"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/crimsontext/CrimsonText-Italic.ttf",
+     "bytes": 100956,
+     "sha256": "83466d53467784622cc164f306e505695537aff9f5835310abbbf48b6b5c3c99"
+    }
+   ]
+  },
+  {
+   "name": "DM Sans",
+   "slug": "dmsans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/dmsans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/dmsans/DMSans-Regular.ttf",
+     "bytes": 48280,
+     "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/dmsans/DMSans-Medium.ttf",
+     "bytes": 48308,
+     "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/dmsans/DMSans-Bold.ttf",
+     "bytes": 48200,
+     "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/dmsans/DMSans-Black.ttf",
+     "bytes": 48296,
+     "sha256": "77358708aa5e883ddf66987e1c19b00e4a740d31ca21e280cd89e44117ba5eb6"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/dmsans/DMSans-Italic.ttf",
+     "bytes": 51144,
+     "sha256": "cb30796ef338a70498e301f2c333f00d4fc23bacfa267be09673fdac43356a96"
+    }
+   ]
+  },
+  {
+   "name": "DM Serif Display",
+   "slug": "dmserifdisplay",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/dmserifdisplay/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+     "bytes": 70348,
+     "sha256": "c03775f8cc3db88cfea259b231abe13f94e6a3d3cb01c09477a2e42a1f5919e1"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/dmserifdisplay/DMSerifDisplay-Italic.ttf",
+     "bytes": 68312,
+     "sha256": "0ab2fcacedaafc0a7536453d4a763f131ba83a636706d3ec2d685cf04478a920"
+    }
+   ]
+  },
+  {
+   "name": "Dancing Script",
+   "slug": "dancingscript",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/dancingscript/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/dancingscript/DancingScript-Regular.ttf",
+     "bytes": 76340,
+     "sha256": "cbf45d12702db573b174863d83fc137f29ac270240f289aa41942b36032d5201"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/dancingscript/DancingScript-Medium.ttf",
+     "bytes": 76672,
+     "sha256": "7e16dc0c53665907f8b4c685bb75a8aaa0b1509445ce3de0a967846a37b1e7c1"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/dancingscript/DancingScript-Bold.ttf",
+     "bytes": 76596,
+     "sha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee"
+    }
+   ]
+  },
+  {
+   "name": "EB Garamond",
+   "slug": "ebgaramond",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/ebgaramond/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/ebgaramond/EBGaramond-Regular.ttf",
+     "bytes": 389868,
+     "sha256": "934aa932b4bc1a75d883f7c3d4d5bbc8278e5e7fcc96d5440bbffd61050cf958"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/ebgaramond/EBGaramond-Medium.ttf",
+     "bytes": 392064,
+     "sha256": "45fad23db0ff6cc8f2ce5a6f9802d499e8ab737c039a7944a6f2f617d224af14"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/ebgaramond/EBGaramond-Bold.ttf",
+     "bytes": 392040,
+     "sha256": "40b4eb8a3c92f651728bc285ac3acacec1005ef5436cf33a337ab5ffe86daf29"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/ebgaramond/EBGaramond-Italic.ttf",
+     "bytes": 339240,
+     "sha256": "9d2ca86044b885d085059c7e3bed21d6e31456a81a47761e7ade8cd390ebe71d"
+    }
+   ]
+  },
+  {
+   "name": "Exo 2",
+   "slug": "exo2",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/exo2/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/exo2/Exo2-Regular.ttf",
+     "bytes": 143780,
+     "sha256": "da4afb13d2fdc3c5a92ca1f68ea2c76d1fa465bbad986780eea396539dcad2d9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/exo2/Exo2-Medium.ttf",
+     "bytes": 143904,
+     "sha256": "956d939727817620d6b8c3b459d8086151bd6c2b6a48258d134f60a0dcb2b6d2"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/exo2/Exo2-Bold.ttf",
+     "bytes": 143896,
+     "sha256": "d29a80ec96f88b2ea92ad574b7ddf53044e77e7ee3498668a930a55add9efcb0"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/exo2/Exo2-Black.ttf",
+     "bytes": 143756,
+     "sha256": "daa2d57e9373c6ee6ad2d92772aa241f2ff64c59a03e975cb20262ab1c6725e6"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/exo2/Exo2-Italic.ttf",
+     "bytes": 143740,
+     "sha256": "25d077a80bb1a792f2f44f0caece6be1d322c13c028fa0d36d79d1fccb58563f"
+    }
+   ]
+  },
+  {
+   "name": "Figtree",
+   "slug": "figtree",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/figtree/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/figtree/Figtree-Regular.ttf",
+     "bytes": 35976,
+     "sha256": "81f3fc9d8d4e307e5ae0dd43a03d22eb90d50b6cc72241552c460a59b6731b31"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/figtree/Figtree-Medium.ttf",
+     "bytes": 35996,
+     "sha256": "f8a90c01bc4c31aa84be5cbff3e80784bfc0da37e5aaa23eb9e05108b9ba0ece"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/figtree/Figtree-Bold.ttf",
+     "bytes": 36164,
+     "sha256": "88aad0bfccf47bc631abd1351a0c815be98edf58c2c8706f72deb24a531639d6"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/figtree/Figtree-Black.ttf",
+     "bytes": 36140,
+     "sha256": "a77d37f9b02bc18bd55f965dbb2124299fa7a6207a858ea840d834b1f7633a35"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/figtree/Figtree-Italic.ttf",
+     "bytes": 36036,
+     "sha256": "b2a0df13c8a787824047f29997ad4dcb7fd229fc75a8cbd5b8c5c2fb686f18f8"
+    }
+   ]
+  },
+  {
+   "name": "Fira Code",
+   "slug": "firacode",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/firacode/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/firacode/FiraCode-Regular.ttf",
+     "bytes": 178748,
+     "sha256": "edc273e94e72c8ee4279c8406f65373d96c518e3fea9cc3f121fed51283e0e70"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/firacode/FiraCode-Medium.ttf",
+     "bytes": 178748,
+     "sha256": "f50a6f8bc4518eb4a3df9c9726f33d37ef73f7bc6f2ac845cf772c350cfe38cb"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/firacode/FiraCode-Bold.ttf",
+     "bytes": 179384,
+     "sha256": "67941ae3787edeffd80ab437e8ba99667002d9fae22c2cbb80c1553f2d90ab79"
+    }
+   ]
+  },
+  {
+   "name": "Fraunces",
+   "slug": "fraunces",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/fraunces/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/fraunces/Fraunces-Regular.ttf",
+     "bytes": 71580,
+     "sha256": "3eb6cf0a14feb1876cc464fa093af4e0c5b05dc46dec65619c1d95f2a1ab5aa7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/fraunces/Fraunces-Medium.ttf",
+     "bytes": 71596,
+     "sha256": "0c2fad18ed36cc400041f1e281ee79954a329b345caffc38dfaa3bb8bcef57de"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/fraunces/Fraunces-Bold.ttf",
+     "bytes": 71588,
+     "sha256": "f0a9d39b9f14079c55070189562da36c794f824cbcf514b50a0ad0ef20c69379"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/fraunces/Fraunces-Black.ttf",
+     "bytes": 71688,
+     "sha256": "93efef4dae198d4a97aec88b0ff2780a9d0c5b3fbd7aee1330c6bfea13bbd83c"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/fraunces/Fraunces-Italic.ttf",
+     "bytes": 85028,
+     "sha256": "c3c6d103fb2c493812567ec8d25abf081204c4124e704eb85801256f0f09d7fa"
+    }
+   ]
+  },
+  {
+   "name": "Fredoka",
+   "slug": "fredoka",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/fredoka/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/fredoka/Fredoka-Regular.ttf",
+     "bytes": 48856,
+     "sha256": "7fe52d17e4c5c80ec74c9b26cb635d593e72cfc30cc189dab7a0babece57e153"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/fredoka/Fredoka-Medium.ttf",
+     "bytes": 48792,
+     "sha256": "69dd373c3a195748b359f4dedd3152bae62807e6815e993fbf5df7938b696b40"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/fredoka/Fredoka-Bold.ttf",
+     "bytes": 48588,
+     "sha256": "a7d1d662d6afe2bc7f9ba11dc6247eb06d9587c2210fee04d9edb83d555670c2"
+    }
+   ]
+  },
+  {
+   "name": "Great Vibes",
+   "slug": "greatvibes",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/greatvibes/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/greatvibes/GreatVibes-Regular.ttf",
+     "bytes": 362736,
+     "sha256": "9d76b8c67f5289c310114c935c5c3831fc3c25bc2bb888a28210c1659d701b9e"
+    }
+   ]
+  },
+  {
+   "name": "Heebo",
+   "slug": "heebo",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/heebo/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/heebo/Heebo-Regular.ttf",
+     "bytes": 43956,
+     "sha256": "c3e828690d20e344b2a0c9bcd3d64b21d62d65d465c21dd6117dd33fb5fe2532"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/heebo/Heebo-Medium.ttf",
+     "bytes": 44144,
+     "sha256": "be6f6f11ff9ec81515f08386c1ce0331f36b1a72fefed8530a7c35e27aebf491"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/heebo/Heebo-Bold.ttf",
+     "bytes": 44304,
+     "sha256": "ff9e18d0f96e813c1668406a70bddbe7419ad7b926d772a1bfc06c617d9b688a"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/heebo/Heebo-Black.ttf",
+     "bytes": 44628,
+     "sha256": "81c2db121f8ab167c0387f7fb3a9eec6375550d77dae52162f70b3a0e094adff"
+    }
+   ]
+  },
+  {
+   "name": "Homemade Apple",
+   "slug": "homemadeapple",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/homemadeapple/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/homemadeapple/HomemadeApple-Regular.ttf",
+     "bytes": 108704,
+     "sha256": "9a97d4447953ab43ac279a8ea94a90749e809221586608b2ddd86b5159b5fa11"
+    }
+   ]
+  },
+  {
+   "name": "IBM Plex Mono",
+   "slug": "ibmplexmono",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/ibmplexmono/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+     "bytes": 128812,
+     "sha256": "a7fdc993f9f0387caedba4e42521136fa97e4c0837ae6239bf0413ccf8af00c2"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/ibmplexmono/IBMPlexMono-Medium.ttf",
+     "bytes": 129916,
+     "sha256": "4fc14a73ca53ba9d32fd759ae1ca1a3133326035d0dd337862b3ee1633cc156e"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/ibmplexmono/IBMPlexMono-Bold.ttf",
+     "bytes": 131040,
+     "sha256": "5b2232ff598dd39860f606526399f64be06f0c286a638bad8a83e98c44c41ff6"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/ibmplexmono/IBMPlexMono-Italic.ttf",
+     "bytes": 136412,
+     "sha256": "b8282cd74fb0321912a5f74aae7c0a50ef94af598fae65e6e8c4ad941d9a1fa9"
+    }
+   ]
+  },
+  {
+   "name": "Inconsolata",
+   "slug": "inconsolata",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/inconsolata/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/inconsolata/Inconsolata-Regular.ttf",
+     "bytes": 93856,
+     "sha256": "a3101dfafb0f3b82ad95023cd08ed6e5b998f7b374633b940177af5f69e75432"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/inconsolata/Inconsolata-Medium.ttf",
+     "bytes": 94292,
+     "sha256": "9448abc85289d10d70a15145a90e45f88d77c2e6bcc058d4691091651ceb3f7b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/inconsolata/Inconsolata-Bold.ttf",
+     "bytes": 94252,
+     "sha256": "df9e1e36922056fc67ad3a768c294c405df0263234454affb26823e9a6ac2f30"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/inconsolata/Inconsolata-Black.ttf",
+     "bytes": 94040,
+     "sha256": "f30ca70d14540c2b0b96e417b91eb953be7661d5233b8411013527e22b97e8e9"
+    }
+   ]
+  },
+  {
+   "name": "Indie Flower",
+   "slug": "indieflower",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/indieflower/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/indieflower/IndieFlower-Regular.ttf",
+     "bytes": 46456,
+     "sha256": "a33e8d2bcba4341d07bf2dc165a3af90984c99e38b7dd7dfcbd9bf1a13597f83"
+    }
+   ]
+  },
+  {
+   "name": "Inter",
+   "slug": "inter",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/inter/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/inter/Inter-Regular.ttf",
+     "bytes": 324820,
+     "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/inter/Inter-Medium.ttf",
+     "bytes": 325304,
+     "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/inter/Inter-Bold.ttf",
+     "bytes": 326468,
+     "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/inter/Inter-Black.ttf",
+     "bytes": 327260,
+     "sha256": "5b717029a2c4cfca2167e97be1157edb24151591e5ec96eb484745c392817a7a"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/inter/Inter-Italic.ttf",
+     "bytes": 328252,
+     "sha256": "ef8f755d933b9310804cc9152f1f18cb2ac460d6b05054ec913d889c9f11f79e"
+    }
+   ]
+  },
+  {
+   "name": "JetBrains Mono",
+   "slug": "jetbrainsmono",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/jetbrainsmono/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/jetbrainsmono/JetBrainsMono-Regular.ttf",
+     "bytes": 112172,
+     "sha256": "44ce4a84f20d60f24539bd0cef11f79c29e38609e0f8adf18551c9794a5d9dc3"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/jetbrainsmono/JetBrainsMono-Medium.ttf",
+     "bytes": 112204,
+     "sha256": "3386a05f6ece969e4537de6be894170d20558e82f7d56c8c5d332972ef172160"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/jetbrainsmono/JetBrainsMono-Bold.ttf",
+     "bytes": 112092,
+     "sha256": "a1d92abc6b02a87faed23d98067ab1027e8e95242fd7c9978a072ea383b89d1a"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/jetbrainsmono/JetBrainsMono-Italic.ttf",
+     "bytes": 114960,
+     "sha256": "f3ad0f703a734b38b49b3ee2d8121ef2718fba185198c3482e81a618272cb4af"
+    }
+   ]
+  },
+  {
+   "name": "Josefin Slab",
+   "slug": "josefinslab",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/josefinslab/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/josefinslab/JosefinSlab-Regular.ttf",
+     "bytes": 28584,
+     "sha256": "4e8b71bd0fab4c1820a0f312032aa3c40140b153066412ef95880604a29fbc16"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/josefinslab/JosefinSlab-Medium.ttf",
+     "bytes": 28616,
+     "sha256": "a6e61718d8183b688a884f3c5b025a601cbf2151fffa584526774d632bfbc1e3"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/josefinslab/JosefinSlab-Bold.ttf",
+     "bytes": 28484,
+     "sha256": "982d92f2e26a6679a2c35cacb60c9fa5504173a30b7cbdbf1521b51f06dece58"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/josefinslab/JosefinSlab-Italic.ttf",
+     "bytes": 29972,
+     "sha256": "111b77c4f03aba08891b4f5875e90177229216de1fdea4d4e3a47c8af226af02"
+    }
+   ]
+  },
+  {
+   "name": "Kalam",
+   "slug": "kalam",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/kalam/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/kalam/Kalam-Regular.ttf",
+     "bytes": 426488,
+     "sha256": "f20e9de66ca054e1d1376b3c811d2240b1b5ef831474bda9fbbaf28d67e67902"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/kalam/Kalam-Bold.ttf",
+     "bytes": 460024,
+     "sha256": "7463b42e3630f003f355b3f37e1cf8e2c0b0855374d483aef580ff45fdac3ba4"
+    }
+   ]
+  },
+  {
+   "name": "Karla",
+   "slug": "karla",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/karla/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/karla/Karla-Regular.ttf",
+     "bytes": 41512,
+     "sha256": "312f8ebaede0db3bb202ee6b116cbe0d467e109b69b93b1e8ff869fc76a210d1"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/karla/Karla-Medium.ttf",
+     "bytes": 41556,
+     "sha256": "315cfca1a67430ba66e88100432f2221defec13718a3ffaee021d3b36837659b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/karla/Karla-Bold.ttf",
+     "bytes": 41572,
+     "sha256": "0513554cac9d5c8c9fa1f789dae0e3db1a3c7278fc532143ccf932502f2ddb46"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/karla/Karla-Italic.ttf",
+     "bytes": 42360,
+     "sha256": "ee54ff2d92cfc71311f1d94683ccd5e0ca13d88a553300adf7dd945bcc5be506"
+    }
+   ]
+  },
+  {
+   "name": "Kaushan Script",
+   "slug": "kaushanscript",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/kaushanscript/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/kaushanscript/KaushanScript-Regular.ttf",
+     "bytes": 179848,
+     "sha256": "423a2aa7c70d3e00312dfe35d3f6ba44ab6bf062ad4480437fc65dcc5d596c6e"
+    }
+   ]
+  },
+  {
+   "name": "Lato",
+   "slug": "lato",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/lato/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/lato/Lato-Regular.ttf",
+     "bytes": 72312,
+     "sha256": "f43f1c7780d69792278f04b136c934a0298fc66f2e974bac13dd2e53adc52bde"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/lato/Lato-Bold.ttf",
+     "bytes": 70576,
+     "sha256": "02e8f4be57ddc47cb7882c41b60216b6085b1ceaf717514be2b88fa15396238d"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/lato/Lato-Black.ttf",
+     "bytes": 66608,
+     "sha256": "7a41ff951f1a5b19346850801deb745ab4c4921d7a320dc05da80845086a78a5"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/lato/Lato-Italic.ttf",
+     "bytes": 72936,
+     "sha256": "ae2f4abf0bf802b3710c474f05d1a34f086ef57001f5751d03e428e113f5a684"
+    }
+   ]
+  },
+  {
+   "name": "Libre Baskerville",
+   "slug": "librebaskerville",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/librebaskerville/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/librebaskerville/LibreBaskerville-Regular.ttf",
+     "bytes": 106728,
+     "sha256": "f5bc4341f15de5e877d8d95b6b14b33e9a3da1f8fef4ed0700ed407f096cffb6"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/librebaskerville/LibreBaskerville-Medium.ttf",
+     "bytes": 106880,
+     "sha256": "6c80b13c0dee742b2998ee5ea6dd24b1f59e7030333897f220837ed35a9d9552"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/librebaskerville/LibreBaskerville-Bold.ttf",
+     "bytes": 106752,
+     "sha256": "8b008ffdae31b314657cb8e28d822da09893035d06bad9b1ab53ea762549cbd1"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/librebaskerville/LibreBaskerville-Italic.ttf",
+     "bytes": 109748,
+     "sha256": "b2149da8101de6ecbc0d5ea9616a0a0a45fbd01701f012a0ae9b0d0ed733c070"
+    }
+   ]
+  },
+  {
+   "name": "Lobster",
+   "slug": "lobster",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/lobster/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/lobster/Lobster-Regular.ttf",
+     "bytes": 392208,
+     "sha256": "dfdc22543e8a5188aa6d774aa2e9a1f3c9cb363dc814ba1e919ac9e379daec03"
+    }
+   ]
+  },
+  {
+   "name": "Lora",
+   "slug": "lora",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/lora/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/lora/Lora-Regular.ttf",
+     "bytes": 132188,
+     "sha256": "1d37d1e34c77be80f0119754ad78df9aad30d5b1c78132a4cbdac0fe567f5d4f"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/lora/Lora-Medium.ttf",
+     "bytes": 132320,
+     "sha256": "9bfe70fd1d70600c523d7ef66c8a024187270f115570d82baf97df7f05e6c2aa"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/lora/Lora-Bold.ttf",
+     "bytes": 132124,
+     "sha256": "ac3145cd8846b6ab3522ac0579a4f5378271f6a93896cb800d27f301fa9f7758"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/lora/Lora-Italic.ttf",
+     "bytes": 137328,
+     "sha256": "26243fda8cd938cc2734f46d20d7464822d89378c7f375e187e39f9ed3f20907"
+    }
+   ]
+  },
+  {
+   "name": "Luckiest Guy",
+   "slug": "luckiestguy",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/luckiestguy/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/luckiestguy/LuckiestGuy-Regular.ttf",
+     "bytes": 57792,
+     "sha256": "bde64ad70289579762149264eeaad6f2bf19b542eca5d62ca9fb0d9cb04a47b2"
+    }
+   ]
+  },
+  {
+   "name": "Manrope",
+   "slug": "manrope",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/manrope/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/manrope/Manrope-Regular.ttf",
+     "bytes": 94972,
+     "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/manrope/Manrope-Medium.ttf",
+     "bytes": 95060,
+     "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/manrope/Manrope-Bold.ttf",
+     "bytes": 94928,
+     "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
+    }
+   ]
+  },
+  {
+   "name": "Marcellus",
+   "slug": "marcellus",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/marcellus/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/marcellus/Marcellus-Regular.ttf",
+     "bytes": 43288,
+     "sha256": "2f6fa616f76102d81c4a935c3a8cd547a8db9de679ad9fda9cfd42f16e7f0743"
+    }
+   ]
+  },
+  {
+   "name": "Merriweather",
+   "slug": "merriweather",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/merriweather/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/merriweather/Merriweather-Regular.ttf",
+     "bytes": 585976,
+     "sha256": "e029d3b71e5bae3877c73f4f2b15af28db16593d49b0aed2a328d37ff7075846"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/merriweather/Merriweather-Medium.ttf",
+     "bytes": 586020,
+     "sha256": "5ce8a7ccb9a180feff4a8f29a0b0a207a66d740adb67d9f3ebd3d96d8094579f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/merriweather/Merriweather-Bold.ttf",
+     "bytes": 586052,
+     "sha256": "90b7db4460fcd1a5ca49575c2668a793f3cd6447664d312a068d690e1c01e6bc"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/merriweather/Merriweather-Black.ttf",
+     "bytes": 585632,
+     "sha256": "0d17518d468ebb7bf6be187fe39caf344dd83a51c22618d230bde02dd99f08d2"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/merriweather/Merriweather-Italic.ttf",
+     "bytes": 595652,
+     "sha256": "afff81272b7653417bb6f8bef57add055b1f9fda36f27eba5f32b40752bd08da"
+    }
+   ]
+  },
+  {
+   "name": "Monoton",
+   "slug": "monoton",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/monoton/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/monoton/Monoton-Regular.ttf",
+     "bytes": 49768,
+     "sha256": "c7ace162e95aa75817aad0963d23009190cd0a3a7cf80bf376d4de8f5200b376"
+    }
+   ]
+  },
+  {
+   "name": "Montserrat",
+   "slug": "montserrat",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/montserrat/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/montserrat/Montserrat-Regular.ttf",
+     "bytes": 180068,
+     "sha256": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/montserrat/Montserrat-Medium.ttf",
+     "bytes": 180036,
+     "sha256": "637639da93fdd9178e52662cce4bd5a59a544eb60677bb6ef9f89bc472607e5d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/montserrat/Montserrat-Bold.ttf",
+     "bytes": 181028,
+     "sha256": "247f052d2f5b84a5bbe7831c3b08a71ca391ff54f1dfb9be88a3d3da569e3a38"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/montserrat/Montserrat-Black.ttf",
+     "bytes": 183180,
+     "sha256": "9d9bb42bdc0defdf103a4f41c4ec775c4bfc77014b0e2f4ecc69be874b10d58b"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/montserrat/Montserrat-Italic.ttf",
+     "bytes": 181552,
+     "sha256": "afb8986a68a0d5189122bd11ed236bd4087abb2b4415b5df1e2bc2579f5d1241"
+    }
+   ]
+  },
+  {
+   "name": "Mulish",
+   "slug": "mulish",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/mulish/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/mulish/Mulish-Regular.ttf",
+     "bytes": 103364,
+     "sha256": "46ee5f47fed537401cd92c16b666fccd05140bab39a0390a9b90ee1040c31af9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/mulish/Mulish-Medium.ttf",
+     "bytes": 103416,
+     "sha256": "7b9f56ecf8b06bcd798a7800ac06b502e982afe668cb7fe61907c37efd35942d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/mulish/Mulish-Bold.ttf",
+     "bytes": 103404,
+     "sha256": "528a02bfa16072dedf3014b2c6eb5df7de54f984e313131c412f804da959ddff"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/mulish/Mulish-Black.ttf",
+     "bytes": 103424,
+     "sha256": "861bd0971eb09bf64ac93ccde6b3e371333f7461b8c09a15cd55cf0ad09b1da5"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/mulish/Mulish-Italic.ttf",
+     "bytes": 106504,
+     "sha256": "1594d840862cd8a7027f4e084e9c8240815432db930c915579ce4d6809a02bbb"
+    }
+   ]
+  },
+  {
+   "name": "Noto Sans",
+   "slug": "notosans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/notosans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notosans/NotoSans-Regular.ttf",
+     "bytes": 556328,
+     "sha256": "5be701a9511117e73603bdab95947feef4f18bd1851dbddc30659370b26c69f1"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notosans/NotoSans-Medium.ttf",
+     "bytes": 558180,
+     "sha256": "94499fa8e77fbb927426767aa48e98f96e94dc4919d7bb7d98732ee985e2afe3"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notosans/NotoSans-Bold.ttf",
+     "bytes": 558012,
+     "sha256": "9f0ce911354e554bbac00c399dcea71c785962cebfd86e965656f0bd011dfca9"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notosans/NotoSans-Black.ttf",
+     "bytes": 557216,
+     "sha256": "a01579f3792f3f0bda40dfa60087a3e1065217da576fdd27e13c9b6dda1c24cb"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/notosans/NotoSans-Italic.ttf",
+     "bytes": 570384,
+     "sha256": "45648f562e6bab5361c9b04e85529fb457ee7045357df4f585bc5d7ea0114cc0"
+    }
+   ]
+  },
+  {
+   "name": "Noto Serif",
+   "slug": "notoserif",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/notoserif/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/notoserif/NotoSerif-Regular.ttf",
+     "bytes": 444064,
+     "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/notoserif/NotoSerif-Medium.ttf",
+     "bytes": 445448,
+     "sha256": "4ac293744360aaf983c105398e3fb4b5bfe03c784689c3c4f5c0071dce73e8df"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/notoserif/NotoSerif-Bold.ttf",
+     "bytes": 445548,
+     "sha256": "0fb67e6eecf823169409867bdda4fe1b91d6ff1adee5288f233cba0d42dc4734"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/notoserif/NotoSerif-Black.ttf",
+     "bytes": 445568,
+     "sha256": "59b77059c25e0789520ad8158561d7d06fe6558c67a71cbd9e2eee51b0054d8d"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/notoserif/NotoSerif-Italic.ttf",
+     "bytes": 476400,
+     "sha256": "f06cb5f088620048826b520a145b0410065bfef099113c4e8898b3fab48d506d"
+    }
+   ]
+  },
+  {
+   "name": "Nunito",
+   "slug": "nunito",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/nunito/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/nunito/Nunito-Regular.ttf",
+     "bytes": 125528,
+     "sha256": "9ecbdba35fa74f10a1a916c31649b802a12deb9e66c7b1fe4650afcfd4d16971"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/nunito/Nunito-Medium.ttf",
+     "bytes": 125652,
+     "sha256": "ceb6eec0a584cae83e8f3ab868e2f03977b38ff6e78632bc8a7ec69dcf9f7c18"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/nunito/Nunito-Bold.ttf",
+     "bytes": 125464,
+     "sha256": "1a025dfce6e6e03bbe31ba82277ec5ed96df8b8dd58b3df6267269490b90b1dc"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/nunito/Nunito-Black.ttf",
+     "bytes": 125376,
+     "sha256": "9caa6d5464d4438c3092a05d47952099e208862cacd5f655acb64012a1a15e78"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/nunito/Nunito-Italic.ttf",
+     "bytes": 128400,
+     "sha256": "49a2a2cbe1e0b58a4313217cc74fc122c8a4e5ba1539e67f2a87e0832d881281"
+    }
+   ]
+  },
+  {
+   "name": "Open Sans",
+   "slug": "opensans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/opensans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/opensans/OpenSans-Regular.ttf",
+     "bytes": 122116,
+     "sha256": "47ed1cfaa7ffca04a04ab850b2938fd52c09d1b44cfa3e2980878e166b0cbd87"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/opensans/OpenSans-Medium.ttf",
+     "bytes": 122264,
+     "sha256": "05f24e5e4d738b9f8e8643809ebed4800287d61a75d19ac2716f12b5d26279dd"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/opensans/OpenSans-Bold.ttf",
+     "bytes": 122132,
+     "sha256": "75367e6da7d914eaed87883ba51b2a2b5816b5cdbb39f96ec5c81a5b032bfd5a"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/opensans/OpenSans-Italic.ttf",
+     "bytes": 127392,
+     "sha256": "1bc0594a83762b2c25d38915a34464b7fec6088298ca22d151757bf98d6700ec"
+    }
+   ]
+  },
+  {
+   "name": "Orbitron",
+   "slug": "orbitron",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/orbitron/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/orbitron/Orbitron-Regular.ttf",
+     "bytes": 17752,
+     "sha256": "59c2bc6487139f1b8c5754e0cc98ea431ab4c1c1ee142d9d2433ecabe444b59a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/orbitron/Orbitron-Medium.ttf",
+     "bytes": 17800,
+     "sha256": "e1dd2875a4cf1711615b7bc7eb2ae8d05bef3861f87a7fdd847a78199169b458"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/orbitron/Orbitron-Bold.ttf",
+     "bytes": 17708,
+     "sha256": "a24fe8031eefd8451d40e31882868d768ce6bed7c3659293281b3c5c7732a952"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/orbitron/Orbitron-Black.ttf",
+     "bytes": 16884,
+     "sha256": "27cd313045d12280384256b4fba922366a4883e32ffb866b9acd62c5a859de61"
+    }
+   ]
+  },
+  {
+   "name": "Oswald",
+   "slug": "oswald",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/oswald/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/oswald/Oswald-Regular.ttf",
+     "bytes": 86068,
+     "sha256": "bd6ff5a83bcdc92d7aac6dbb16e4dd2b0b0320bec6402bb81f5dd9735b500e46"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/oswald/Oswald-Medium.ttf",
+     "bytes": 86428,
+     "sha256": "edca7f2098242ead25675251ac9c35ecd2a9d001e4bcb641e07471148b6c365b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/oswald/Oswald-Bold.ttf",
+     "bytes": 86416,
+     "sha256": "a6ee8b91ec269a6f48631ba4ba1a3ab7e5039e5482dda8dc9672ee4620d7bd68"
+    }
+   ]
+  },
+  {
+   "name": "Outfit",
+   "slug": "outfit",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/outfit/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/outfit/Outfit-Regular.ttf",
+     "bytes": 47844,
+     "sha256": "6a8c9be856a6b9e09c66615634904616152c9de5e44db343a3ced240479c586a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/outfit/Outfit-Medium.ttf",
+     "bytes": 47800,
+     "sha256": "9a9f465776e653cd6175661d844555e08684d432518f1d2c621bcb3006598f9c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/outfit/Outfit-Bold.ttf",
+     "bytes": 48340,
+     "sha256": "49dcdf653a004a2575b3de649f5e4c549d774fecddf317812330edd0ad70685a"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/outfit/Outfit-Black.ttf",
+     "bytes": 48324,
+     "sha256": "33717e4797d38639bb590087b9f0a57ffdc9292b637954326f6703b90c3003ae"
+    }
+   ]
+  },
+  {
+   "name": "PT Sans",
+   "slug": "ptsans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/ptsans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/ptsans/PTSans-Regular.ttf",
+     "bytes": 265676,
+     "sha256": "fd416bbea21b05983676b0336d56efd9c782e5ff715ce1d1d542cee20cfbca11"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/ptsans/PTSans-Bold.ttf",
+     "bytes": 275408,
+     "sha256": "cfe988a60051e5004fcf0ce0edcd32658482d9ddf332c6a25c86603027189876"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/ptsans/PTSans-Italic.ttf",
+     "bytes": 257988,
+     "sha256": "e74cb297fba7325d8622fc1b933a8b7bf170479e16a28b65782bb4fdbec5d019"
+    }
+   ]
+  },
+  {
+   "name": "PT Serif",
+   "slug": "ptserif",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/ptserif/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/ptserif/PTSerif-Regular.ttf",
+     "bytes": 202596,
+     "sha256": "6902e32186c45fd344901f936d563fe61dfd8d29133e3d97f7163c86b08ede9c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/ptserif/PTSerif-Bold.ttf",
+     "bytes": 183172,
+     "sha256": "86fe68d3c03f693cfeb3bfa2410273d3f688c712581d738201bf69fb832545fc"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/ptserif/PTSerif-Italic.ttf",
+     "bytes": 219344,
+     "sha256": "009698a23dcc4267ecabc3e0e72f30b61174fe78db20ac6172ef98d15c5f0927"
+    }
+   ]
+  },
+  {
+   "name": "Pacifico",
+   "slug": "pacifico",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/pacifico/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/pacifico/Pacifico-Regular.ttf",
+     "bytes": 251232,
+     "sha256": "0adbdce4f5422e632945cc29001dc19f0bbda1336626ca7ea9c921d49bcc0bf4"
+    }
+   ]
+  },
+  {
+   "name": "Passion One",
+   "slug": "passionone",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/passionone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/passionone/PassionOne-Regular.ttf",
+     "bytes": 22556,
+     "sha256": "ad041d576a4aade257cd9c1224e9712a8aac31915a88129b1e04323a17955a47"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/passionone/PassionOne-Bold.ttf",
+     "bytes": 22356,
+     "sha256": "3ac404c03fa32acc1dd278ba05a5b2a91e3d4e3ebf28d1e557917460e7c98625"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/passionone/PassionOne-Black.ttf",
+     "bytes": 21856,
+     "sha256": "d47d329aea956cdec4826ca8fbe8e1ab65ab6da6ecb225a3f31cf4f5d368f21d"
+    }
+   ]
+  },
+  {
+   "name": "Permanent Marker",
+   "slug": "permanentmarker",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/permanentmarker/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/permanentmarker/PermanentMarker-Regular.ttf",
+     "bytes": 73276,
+     "sha256": "a73712ce4f3b32d3c7a1a657d56c6aaf50c719b7fa7fe0541905fe77f5a9906c"
+    }
+   ]
+  },
+  {
+   "name": "Playfair Display",
+   "slug": "playfairdisplay",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/playfairdisplay/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/playfairdisplay/PlayfairDisplay-Regular.ttf",
+     "bytes": 123240,
+     "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/playfairdisplay/PlayfairDisplay-Medium.ttf",
+     "bytes": 123608,
+     "sha256": "b60ffb0ee2b4e09d71d67ff3ea16d6a23cf2e0cf637c5f4e36fff2e3b1465252"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/playfairdisplay/PlayfairDisplay-Bold.ttf",
+     "bytes": 123536,
+     "sha256": "adefc53e7b3d483f1fa5e85edd82b7689ca79db25a1f6786bd7949cdcfeec601"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/playfairdisplay/PlayfairDisplay-Black.ttf",
+     "bytes": 123532,
+     "sha256": "c549b1064828d22e398c5d9bdce9267aa130569b177c67d550daaf1e8c636288"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/playfairdisplay/PlayfairDisplay-Italic.ttf",
+     "bytes": 110816,
+     "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    }
+   ]
+  },
+  {
+   "name": "Plus Jakarta Sans",
+   "slug": "plusjakartasans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/plusjakartasans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/plusjakartasans/PlusJakartaSans-Regular.ttf",
+     "bytes": 63336,
+     "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/plusjakartasans/PlusJakartaSans-Medium.ttf",
+     "bytes": 63404,
+     "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/plusjakartasans/PlusJakartaSans-Bold.ttf",
+     "bytes": 63336,
+     "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/plusjakartasans/PlusJakartaSans-Italic.ttf",
+     "bytes": 64848,
+     "sha256": "3a658a0234119d94a50063e72fc8c925e2d4cf64a525854171a32643828b21ec"
+    }
+   ]
+  },
+  {
+   "name": "Poppins",
+   "slug": "poppins",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/poppins/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/poppins/Poppins-Regular.ttf",
+     "bytes": 154628,
+     "sha256": "cdedb1729acac414ed01744a11da7badb86adf13108e7bd3fa161b9323f7fe54"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/poppins/Poppins-Medium.ttf",
+     "bytes": 152860,
+     "sha256": "fcff04f4bec2b3636f05ed894dc1f9a752c4cb587ee49857ec7a82abaf6ca016"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/poppins/Poppins-Bold.ttf",
+     "bytes": 150292,
+     "sha256": "1984efdda0fbe207d7ac20feac2ba7c2768c92a90094b02a206c9d58cc30ff2e"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/poppins/Poppins-Black.ttf",
+     "bytes": 147708,
+     "sha256": "3a05787fc423c4d73c2846beebb56378092f17ac6698ed54765b6ca11fabccc0"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/poppins/Poppins-Italic.ttf",
+     "bytes": 178112,
+     "sha256": "d455310e3d1e4393723dbe5836cb27c351751123b89a74c7034ec60c861d5556"
+    }
+   ]
+  },
+  {
+   "name": "Prata",
+   "slug": "prata",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/prata/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/prata/Prata-Regular.ttf",
+     "bytes": 96016,
+     "sha256": "6bab61b8b8df3f5a24df69c742f6495060b36aec686f37e534ff91a3bffe40ad"
+    }
+   ]
+  },
+  {
+   "name": "Press Start 2P",
+   "slug": "pressstart2p",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/pressstart2p/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/pressstart2p/PressStart2P-Regular.ttf",
+     "bytes": 115280,
+     "sha256": "7b939b816f8ce185dd8c2c59e85fb05d3dcd5cde0c0b0de4a1651cb5af9c2c2b"
+    }
+   ]
+  },
+  {
+   "name": "Quicksand",
+   "slug": "quicksand",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/quicksand/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/quicksand/Quicksand-Regular.ttf",
+     "bytes": 73224,
+     "sha256": "0977c1d9781e03adfc1b120b3b60b6c4db776b5261e801ec881549cd17894351"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/quicksand/Quicksand-Medium.ttf",
+     "bytes": 73232,
+     "sha256": "50a6caf101a335e465f0d5e030cd5d55952013abc6e903589f550571f1792718"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/quicksand/Quicksand-Bold.ttf",
+     "bytes": 72916,
+     "sha256": "8fb2148170b16156ad78d9d787a5d98a2c00752f91fc0fe88c9367c0809ecba3"
+    }
+   ]
+  },
+  {
+   "name": "Rajdhani",
+   "slug": "rajdhani",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/rajdhani/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/rajdhani/Rajdhani-Regular.ttf",
+     "bytes": 351464,
+     "sha256": "fd30002d951c14f9ca6322601720b73ef4a9877167a241ab9498cc9039c596e9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/rajdhani/Rajdhani-Medium.ttf",
+     "bytes": 357212,
+     "sha256": "7377b0a3421b01dae185fc1262ea34a45f6ba226155f531e9e72f5262b56d802"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/rajdhani/Rajdhani-Bold.ttf",
+     "bytes": 372568,
+     "sha256": "8b2fbb04ed3af38ea941d7351fc5bcf917d239d0bfb64c9bb8916510d8774495"
+    }
+   ]
+  },
+  {
+   "name": "Raleway",
+   "slug": "raleway",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/raleway/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/raleway/Raleway-Regular.ttf",
+     "bytes": 138808,
+     "sha256": "943300b002516feaf028c27aceaa2f473f2e1c0229ed913652a406d43277d9ba"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/raleway/Raleway-Medium.ttf",
+     "bytes": 138808,
+     "sha256": "c2f3b7985c385221ae1c9d3482d2b7d292c240cfe92dd55c2784d3f3cbc2afff"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/raleway/Raleway-Bold.ttf",
+     "bytes": 138748,
+     "sha256": "6cd34aa42be80b5ae85cc8c816f241d46a6d77a3a3277a6a20962b134b567cea"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/raleway/Raleway-Black.ttf",
+     "bytes": 138528,
+     "sha256": "3b46ad8e1a038673b378215fa6cf4bb96e8bae9cb821f614db1bf18252fafa5e"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/raleway/Raleway-Italic.ttf",
+     "bytes": 136572,
+     "sha256": "947194506dcf722728b84075659c60350c6a730d1ef8bbfe03acb4980e0b165a"
+    }
+   ]
+  },
+  {
+   "name": "Righteous",
+   "slug": "righteous",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/righteous/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/righteous/Righteous-Regular.ttf",
+     "bytes": 40364,
+     "sha256": "82e2ac84900128219615a1e3a986a1821409e727e2bdb67714b2dcfe4447b946"
+    }
+   ]
+  },
+  {
+   "name": "Roboto",
+   "slug": "roboto",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/roboto/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/roboto/Roboto-Regular.ttf",
+     "bytes": 123720,
+     "sha256": "dece7c71bbe61710787f0839c722c65e87355dd2eb4a823e6b5488121ff81e4b"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/roboto/Roboto-Medium.ttf",
+     "bytes": 123904,
+     "sha256": "4d984240cefb093a74300bcae4b5dbd49f700e0af501eaaa079c56aa64142d2f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/roboto/Roboto-Bold.ttf",
+     "bytes": 124292,
+     "sha256": "35757eaa996b3359022f47f164a67ee9eac04971af24c5b8fbd4b89e844ff190"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/roboto/Roboto-Black.ttf",
+     "bytes": 124548,
+     "sha256": "313e6c17b507473d4e36e78d554261b26fa8a44e504080c753b689193e07d52d"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/roboto/Roboto-Italic.ttf",
+     "bytes": 127988,
+     "sha256": "4d3035883c531846bd1ce2dc89f36d932e72dc114f56062c7e3a9cdd74f3d3ea"
+    }
+   ]
+  },
+  {
+   "name": "Roboto Mono",
+   "slug": "robotomono",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/robotomono/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/robotomono/RobotoMono-Regular.ttf",
+     "bytes": 78948,
+     "sha256": "329949c551e04130eeb43580e149a2d548090e71359d05d925329ae123fac5c9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/robotomono/RobotoMono-Medium.ttf",
+     "bytes": 78936,
+     "sha256": "9c0842c2df23beb4b0e22d3152393127fb737d5315713776be66154f009d4266"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/robotomono/RobotoMono-Bold.ttf",
+     "bytes": 79124,
+     "sha256": "5231999c0ede4f61cc74b39415c35edcaf48d4d29d2e85ed1547ddbc8e531ab6"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/robotomono/RobotoMono-Italic.ttf",
+     "bytes": 85656,
+     "sha256": "87fc6201da3a3aea956017c59a0638f16aca1d53f96b0690b307aa46d2db03cc"
+    }
+   ]
+  },
+  {
+   "name": "Roboto Slab",
+   "slug": "robotoslab",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/robotoslab/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/robotoslab/RobotoSlab-Regular.ttf",
+     "bytes": 101564,
+     "sha256": "1c33d32c3a4288959f47c6909e8ddface1a7b199d0025e0191392d4d88eb8224"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/robotoslab/RobotoSlab-Medium.ttf",
+     "bytes": 102260,
+     "sha256": "7dd4e6386a146a52017038480c2efe8cf472721e2e9dc942cb18c8b4d3d7080f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/robotoslab/RobotoSlab-Bold.ttf",
+     "bytes": 102236,
+     "sha256": "f8dbdb3617fd43fdce94e990aa4f259e9e62a4f4462f60c21d76151e7c372c1b"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/robotoslab/RobotoSlab-Black.ttf",
+     "bytes": 102472,
+     "sha256": "056eabd3bacf4713b2221abdb5c2beaffffd9abf043317f5be881b8d4e9e7489"
+    }
+   ]
+  },
+  {
+   "name": "Rock Salt",
+   "slug": "rocksalt",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/rocksalt/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/rocksalt/RockSalt-Regular.ttf",
+     "bytes": 118864,
+     "sha256": "c8256cee0caa59fc0b9542e2232ea932bed42f694dba317693702eb4be3faa5a"
+    }
+   ]
+  },
+  {
+   "name": "Rubik",
+   "slug": "rubik",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/rubik/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/rubik/Rubik-Regular.ttf",
+     "bytes": 174992,
+     "sha256": "cc6a4222027f8e57ff86a50c5ba88f12326d7223bde9bf6531538633ebad3343"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/rubik/Rubik-Medium.ttf",
+     "bytes": 175596,
+     "sha256": "d73c60557ccc500ea9828bcc34437e7ea7a0d05f1c60c87be85790ebe8e62dbc"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/rubik/Rubik-Bold.ttf",
+     "bytes": 175628,
+     "sha256": "2d6393d64232ea3e0eeff79165d80df61c0859213abdd638b0ec1e81d21098dc"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/rubik/Rubik-Black.ttf",
+     "bytes": 175196,
+     "sha256": "09a739c4c59a0d13dc22a72b8e0949f16eabc92d3de3ee0bc9cb8fb697c4e1ef"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/rubik/Rubik-Italic.ttf",
+     "bytes": 173148,
+     "sha256": "16fc8b9b98fdf8c100a2266321c23da5b686aac084645053ad169f0a5b9fadee"
+    }
+   ]
+  },
+  {
+   "name": "Russo One",
+   "slug": "russoone",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/russoone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/russoone/RussoOne-Regular.ttf",
+     "bytes": 36816,
+     "sha256": "7a022de179a466ad9711d5f2848123c5cba6eedf22e51a8dc04ed6e5d64b205d"
+    }
+   ]
+  },
+  {
+   "name": "Sacramento",
+   "slug": "sacramento",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/sacramento/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/sacramento/Sacramento-Regular.ttf",
+     "bytes": 64108,
+     "sha256": "15597dce1d707e88a188f804fb927e526b2ad959d03e9df9c812492ceed0a4ab"
+    }
+   ]
+  },
+  {
+   "name": "Satisfy",
+   "slug": "satisfy",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/satisfy/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/satisfy/Satisfy-Regular.ttf",
+     "bytes": 46652,
+     "sha256": "d394db8f27c568545da4dc2cbb798c04d9c70cea9beb434039dcf3651a4cde7b"
+    }
+   ]
+  },
+  {
+   "name": "Shadows Into Light",
+   "slug": "shadowsintolight",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/shadowsintolight/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/shadowsintolight/ShadowsIntoLight-Regular.ttf",
+     "bytes": 39508,
+     "sha256": "9e22fccbcbd08bb567db3c25e97eb894aa96fb090ab61ebe78fb23a65a4fc7f6"
+    }
+   ]
+  },
+  {
+   "name": "Sora",
+   "slug": "sora",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/sora/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/sora/Sora-Regular.ttf",
+     "bytes": 46040,
+     "sha256": "1b547e90e4c49aa12e9a35ca8acc91732e188aa9fdbe08d2299ea4d4cae72145"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/sora/Sora-Medium.ttf",
+     "bytes": 46136,
+     "sha256": "86199efe0823277aa825a8ad673010df2efa7b3a5e8e14cda200d984491256ea"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/sora/Sora-Bold.ttf",
+     "bytes": 46152,
+     "sha256": "a50f5d254fc0fb83125fceffb72a95d036b8ce964a77fb8cc42ecb9ce16b0427"
+    }
+   ]
+  },
+  {
+   "name": "Source Code Pro",
+   "slug": "sourcecodepro",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/sourcecodepro/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/sourcecodepro/SourceCodePro-Regular.ttf",
+     "bytes": 121080,
+     "sha256": "66a11c481af5bdcdb91a72282bdb0b9bb5992208a72d89e1dd393e5e8255c7a2"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/sourcecodepro/SourceCodePro-Medium.ttf",
+     "bytes": 120888,
+     "sha256": "d04c6deeebebe706b13e82b0fc91d0becba43b492ec84e3763ce4724132f05ea"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/sourcecodepro/SourceCodePro-Bold.ttf",
+     "bytes": 120940,
+     "sha256": "9caf5a028723b6bf7a23a8eff5da13aadbc44b7c18be4320a89fbd30b3f2df25"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/sourcecodepro/SourceCodePro-Black.ttf",
+     "bytes": 120480,
+     "sha256": "46fa780846a6f24643b65a665ff84821976e2a562dbe365ff501c26ab8937fcd"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/sourcecodepro/SourceCodePro-Italic.ttf",
+     "bytes": 101800,
+     "sha256": "ccb7013cde3e3391663e4bb385dfd7019ff2f27486639e7604d905fea79664f6"
+    }
+   ]
+  },
+  {
+   "name": "Source Serif 4",
+   "slug": "sourceserif4",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/sourceserif4/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/sourceserif4/SourceSerif4-Regular.ttf",
+     "bytes": 194464,
+     "sha256": "8ca4d603b02214e2723f2bdf6c83632551942c9b06702e2bdbcf07f0d8714809"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/sourceserif4/SourceSerif4-Medium.ttf",
+     "bytes": 194716,
+     "sha256": "ab7df847d18e9ad188329f2f90d371d025898240d73a3aea4101988319b29ec6"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/sourceserif4/SourceSerif4-Bold.ttf",
+     "bytes": 194760,
+     "sha256": "00441a2f2ffdad0957667668cb537faa23b3f16377713cbbe3a2c32ad2095f5a"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/sourceserif4/SourceSerif4-Black.ttf",
+     "bytes": 194720,
+     "sha256": "e4aaccef6b857aa72ebc8289fade1efaa6fc661f53475325949a5800f663fc4e"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/sourceserif4/SourceSerif4-Italic.ttf",
+     "bytes": 183552,
+     "sha256": "5000784a4f4136c7ac78631d5d7d3b56cdbd17541adf6ff304280027464044ef"
+    }
+   ]
+  },
+  {
+   "name": "Space Grotesk",
+   "slug": "spacegrotesk",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/spacegrotesk/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/spacegrotesk/SpaceGrotesk-Regular.ttf",
+     "bytes": 69360,
+     "sha256": "ec926d5065eaca49a48f96e312bbae0bbc5733c24215cf5dfabbdccee926fef7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/spacegrotesk/SpaceGrotesk-Medium.ttf",
+     "bytes": 69416,
+     "sha256": "3e699ead1876244fa392243054ddefe7cf631b488438828a8a100731a22ab995"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/spacegrotesk/SpaceGrotesk-Bold.ttf",
+     "bytes": 69308,
+     "sha256": "3e756954468ff1cb302dae0414262e72f76a67d87bef3fa1f3226cd0fb9b2d85"
+    }
+   ]
+  },
+  {
+   "name": "Space Mono",
+   "slug": "spacemono",
+   "category": "monospace",
+   "license": "OFL",
+   "licenseFile": "fonts/spacemono/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/spacemono/SpaceMono-Regular.ttf",
+     "bytes": 81124,
+     "sha256": "829aad32ab9525358de2a7ebc718d05a6b335e67421aad5e1e09cd1fa796af4e"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/spacemono/SpaceMono-Bold.ttf",
+     "bytes": 79904,
+     "sha256": "5be2b984cdb8befc8ad1871d10f1aa8337f7d2bae3c6bf0ce720d0745ac1a8ec"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/spacemono/SpaceMono-Italic.ttf",
+     "bytes": 100780,
+     "sha256": "71fc772fd07392d445baf8b3c374f71896909c6152b91d4f1d750ee4212d5c4a"
+    }
+   ]
+  },
+  {
+   "name": "Syne",
+   "slug": "syne",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/syne/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/syne/Syne-Regular.ttf",
+     "bytes": 52368,
+     "sha256": "7c7b6e2b6c0b34237faf3e69e1630bdd6cc38d70b0ba5a91e7ecd7df3ed523f2"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/syne/Syne-Medium.ttf",
+     "bytes": 52640,
+     "sha256": "21395ede479a313ab945ae1a67c378b46c0fb4a613648bf5c4b8aa2541bc3fb1"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/syne/Syne-Bold.ttf",
+     "bytes": 52732,
+     "sha256": "668763da807c01fb3ec0f21e053d58cb4ec37a5cc37ab07617317c907df92a99"
+    }
+   ]
+  },
+  {
+   "name": "Teko",
+   "slug": "teko",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/teko/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/teko/Teko-Regular.ttf",
+     "bytes": 153772,
+     "sha256": "111cb8a4203f62dd7b672299dce955597b8f8cd15f66f8de1bc240950be06e7d"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/teko/Teko-Medium.ttf",
+     "bytes": 153768,
+     "sha256": "2e7487c3d2c0102db37c514247087b14cde4975af3531e72808fb231d678f14a"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/teko/Teko-Bold.ttf",
+     "bytes": 153944,
+     "sha256": "b5adcbd9aa2acef7da4b764015927b3360af786498766dd639452ad322241212"
+    }
+   ]
+  },
+  {
+   "name": "Titan One",
+   "slug": "titanone",
+   "category": "display",
+   "license": "OFL",
+   "licenseFile": "fonts/titanone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/titanone/TitanOne-Regular.ttf",
+     "bytes": 52188,
+     "sha256": "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd"
+    }
+   ]
+  },
+  {
+   "name": "Ubuntu",
+   "slug": "ubuntu",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/ubuntu/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/ubuntu/Ubuntu-Regular.ttf",
+     "bytes": 280328,
+     "sha256": "bfd3c550f0552ddfc6070f6c4955a19dd560527647accd41506b9622d7f1358f"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/ubuntu/Ubuntu-Medium.ttf",
+     "bytes": 264644,
+     "sha256": "979b221134889d432821a4d497a4f153a243127730cf15a767753e4739437072"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/ubuntu/Ubuntu-Bold.ttf",
+     "bytes": 250284,
+     "sha256": "40e7af68ff35546d3985ed7c384681bfa4154fba998760e25c1b8c4eb06729df"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/ubuntu/Ubuntu-Italic.ttf",
+     "bytes": 306860,
+     "sha256": "eebe8c02b43a93a77cc6fdcbf0483adca8b44a7fc0901bb40b4d4de6851b30aa"
+    }
+   ]
+  },
+  {
+   "name": "Unbounded",
+   "slug": "unbounded",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/unbounded/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/unbounded/Unbounded-Regular.ttf",
+     "bytes": 343604,
+     "sha256": "b5decd19a5fc6c5942c6c52a258384dbf99af09d1f082430f285b4402a5fc267"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/unbounded/Unbounded-Medium.ttf",
+     "bytes": 347348,
+     "sha256": "7ac0baee243b4d54ea0282ceb7e017a455f064462989620720215727e1b9129c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/unbounded/Unbounded-Bold.ttf",
+     "bytes": 349248,
+     "sha256": "0587b7ea8407976e5feda03dcba410dde297fa203ae115eb1098d64186efef5c"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/unbounded/Unbounded-Black.ttf",
+     "bytes": 395792,
+     "sha256": "4e308d4d3fb0bef4a5507f4ba2443a65b1e865b2ffb04468997f7a154103a0b7"
+    }
+   ]
+  },
+  {
+   "name": "Work Sans",
+   "slug": "worksans",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/worksans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/worksans/WorkSans-Regular.ttf",
+     "bytes": 114144,
+     "sha256": "a131e7022b34ef1950a9d6bdda16f5d4509cc1fe1af5991a4552febd2a4027e5"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/worksans/WorkSans-Medium.ttf",
+     "bytes": 114612,
+     "sha256": "caf10fc6636298661234c70bfd5c806835ea65a3b594b5fb3899bf164286f2ff"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/worksans/WorkSans-Bold.ttf",
+     "bytes": 115632,
+     "sha256": "e8398b22225a1f971df9bb12fa8fb9dd4c76e80aa4d67d45bde60ebbc6c5ad81"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/worksans/WorkSans-Black.ttf",
+     "bytes": 116604,
+     "sha256": "46244beb2ad4454613c6298244103df2fa327a6527910df5ff8b32c7165451a5"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/worksans/WorkSans-Italic.ttf",
+     "bytes": 109088,
+     "sha256": "d38632ddd219dea11541e99bcbcf9b0569ca6aa3fcdb942fbddbaf79cc3a6a99"
+    }
+   ]
+  },
+  {
+   "name": "Yanone Kaffeesatz",
+   "slug": "yanonekaffeesatz",
+   "category": "sans-serif",
+   "license": "OFL",
+   "licenseFile": "fonts/yanonekaffeesatz/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/yanonekaffeesatz/YanoneKaffeesatz-Regular.ttf",
+     "bytes": 75548,
+     "sha256": "790ed41f7ec4873123b07b9a67352e4cbcd51b79225c2ef89dd9e62baaed7395"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/yanonekaffeesatz/YanoneKaffeesatz-Medium.ttf",
+     "bytes": 75572,
+     "sha256": "f0b4918e52eee9e9a05c5e065f6f7cdb09dcb7e1dd35bded7542365ee5ace34d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/yanonekaffeesatz/YanoneKaffeesatz-Bold.ttf",
+     "bytes": 75352,
+     "sha256": "089626541d659b86e6c1b2986255d412c05d1e40b2295c9136c5a46058f0b923"
+    }
+   ]
+  },
+  {
+   "name": "Yellowtail",
+   "slug": "yellowtail",
+   "category": "handwriting",
+   "license": "OFL",
+   "licenseFile": "fonts/yellowtail/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/yellowtail/Yellowtail-Regular.ttf",
+     "bytes": 60864,
+     "sha256": "01418091041e0e73525b18416e3f9db9d63be7f9c0443c16465743bf3a9db48b"
+    }
+   ]
+  },
+  {
+   "name": "Zilla Slab",
+   "slug": "zillaslab",
+   "category": "serif",
+   "license": "OFL",
+   "licenseFile": "fonts/zillaslab/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/zillaslab/ZillaSlab-Regular.ttf",
+     "bytes": 150856,
+     "sha256": "42b900cc08813c9afbb961639ba4191507a9f97dbfcd046a783ab59808c8e35d"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/zillaslab/ZillaSlab-Medium.ttf",
+     "bytes": 149968,
+     "sha256": "0fa45857e7bceaf2ecb7c30c9158588c8cba41a49ad9ea049f547c3116b32321"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/zillaslab/ZillaSlab-Bold.ttf",
+     "bytes": 154428,
+     "sha256": "a10a099e1d9886c2166338d75033b9718780ebf836e137c6ade4b394c468a79f"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/zillaslab/ZillaSlab-Italic.ttf",
+     "bytes": 154076,
+     "sha256": "33eea99424318cb66d76481f74e664034573d950e0f99edfc0942071d315f892"
+    }
+   ]
+  }
+ ]
+}
