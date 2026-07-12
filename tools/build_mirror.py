@@ -77,6 +77,28 @@ CURATED = [
     # Monospace
     "JetBrains Mono", "Fira Code", "Source Code Pro", "IBM Plex Mono",
     "Space Mono", "Inconsolata", "Roboto Mono",
+    # ── Language expansion (the language filter needs real shelves) ──
+    # Devanagari (Hindi/Marathi)
+    "Hind", "Mukta", "Rozha One", "Yatra One", "Tiro Devanagari Hindi",
+    "Martel", "Khand",
+    # Arabic
+    "Cairo", "Tajawal", "Almarai", "Amiri", "Changa", "Reem Kufi",
+    "El Messiri",
+    # Hebrew
+    "Frank Ruhl Libre", "Assistant", "Secular One", "Suez One",
+    # Thai
+    "Kanit", "Prompt", "Sarabun", "Mitr",
+    # Indic beyond Devanagari
+    "Hind Madurai", "Catamaran",            # tamil
+    "Hind Guntur",                          # telugu
+    "Hind Siliguri", "Baloo Da 2",          # bengali
+    "Mukta Mahee",                          # gurmukhi
+    "Hind Vadodara",                        # gujarati
+    "Baloo Tamma 2",                        # kannada
+    "Manjari", "Baloo Chettan 2",           # malayalam
+    # Korean (display-grade — text-grade Noto KR is multi-MB/weight; CJK
+    # text families are a follow-up, likely via a separate heavy shelf)
+    "Do Hyeon", "Jua", "Black Han Sans",
 ]
 
 # Upright weights we keep when the family has them (≤4 per family), plus

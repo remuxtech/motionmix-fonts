@@ -47,6 +47,36 @@
    "preview": "fonts/alfaslabone/preview.ttf"
   },
   {
+   "name": "Almarai",
+   "slug": "almarai",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/almarai/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/almarai/Almarai-Regular.ttf",
+     "bytes": 148276,
+     "sha256": "df4ccf6ea01626df844aadeb244f4d0733fd906a6baa2acc05b48663b13eb55d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/almarai/Almarai-Bold.ttf",
+     "bytes": 152188,
+     "sha256": "b0c27d01ffa1e74308ef2ab8bd053d7ee11ba013b77580374fdd68240c411561"
+    }
+   ],
+   "preview": "fonts/almarai/preview.ttf"
+  },
+  {
    "name": "Amatic SC",
    "slug": "amaticsc",
    "category": "handwriting",
@@ -78,6 +108,45 @@
     }
    ],
    "preview": "fonts/amaticsc/preview.ttf"
+  },
+  {
+   "name": "Amiri",
+   "slug": "amiri",
+   "category": "serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/amiri/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/amiri/Amiri-Regular.ttf",
+     "bytes": 385840,
+     "sha256": "7f19c4a5dc77b0ef435b430d750759170def15d6e3801006e0704dadc7f220e3"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/amiri/Amiri-Bold.ttf",
+     "bytes": 368616,
+     "sha256": "65e3e6fe6af66bb6d24959bd537a89ea35de14083f5a2e2290c246136c2b047b"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/amiri/Amiri-Italic.ttf",
+     "bytes": 383140,
+     "sha256": "752fc8c04ff87e7134d2402b9d124d17aeb99cf0b252c8ce12c508b4357d9076"
+    }
+   ],
+   "preview": "fonts/amiri/preview.ttf"
   },
   {
    "name": "Anton",
@@ -217,6 +286,45 @@
    "preview": "fonts/arvo/preview.ttf"
   },
   {
+   "name": "Assistant",
+   "slug": "assistant",
+   "category": "sans-serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/assistant/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/assistant/Assistant-Regular.ttf",
+     "bytes": 47696,
+     "sha256": "7db29a71f35e1b3cd9168e69ecba50d2f9f1fddee3e4e9dd727166234c15d3cb"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/assistant/Assistant-Medium.ttf",
+     "bytes": 47640,
+     "sha256": "c886047bd7ddee950faa97a5df4ddad455d46d8e27fb2ed21850ab692c7cd05e"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/assistant/Assistant-Bold.ttf",
+     "bytes": 47644,
+     "sha256": "93ecab56b243eea4f4f2a890bc340341042898f484f46b9919c365017942d153"
+    }
+   ],
+   "preview": "fonts/assistant/preview.ttf"
+  },
+  {
    "name": "Audiowide",
    "slug": "audiowide",
    "category": "display",
@@ -277,6 +385,126 @@
     }
    ],
    "preview": "fonts/baloo2/preview.ttf"
+  },
+  {
+   "name": "Baloo Chettan 2",
+   "slug": "baloochettan2",
+   "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/baloochettan2/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/baloochettan2/BalooChettan2-Regular.ttf",
+     "bytes": 191152,
+     "sha256": "4c3547607eb34ea652d697aed8a1f36ab06ce12c70ef67a404d060506e7d1d14"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/baloochettan2/BalooChettan2-Medium.ttf",
+     "bytes": 191752,
+     "sha256": "97291bfbb86f38272662cb686c2df33176bd65eeb1df1df1c50815ece7c1291c"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/baloochettan2/BalooChettan2-Bold.ttf",
+     "bytes": 191672,
+     "sha256": "455e569ee4f98c183f793c7c2d24b8f513edb54d9021f4399175ec632d9e67af"
+    }
+   ],
+   "preview": "fonts/baloochettan2/preview.ttf"
+  },
+  {
+   "name": "Baloo Da 2",
+   "slug": "balooda2",
+   "category": "display",
+   "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/balooda2/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/balooda2/BalooDa2-Regular.ttf",
+     "bytes": 270020,
+     "sha256": "a49be51d4d98295c8882079b71bb15b4ebfc2d2207829a17e3854ff220db198f"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/balooda2/BalooDa2-Medium.ttf",
+     "bytes": 270552,
+     "sha256": "1d4dbcbffd41b49db1e327ba01d380a9b6470dd95e259958d9b5fea35ae7f815"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/balooda2/BalooDa2-Bold.ttf",
+     "bytes": 270380,
+     "sha256": "9ee3acce1d1e4dc6ff8991fc47f05ab486c672f556bf9dd7f2c981c4f2910eec"
+    }
+   ],
+   "preview": "fonts/balooda2/preview.ttf"
+  },
+  {
+   "name": "Baloo Tamma 2",
+   "slug": "balootamma2",
+   "category": "display",
+   "subsets": [
+    "kannada",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/balootamma2/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/balootamma2/BalooTamma2-Regular.ttf",
+     "bytes": 280480,
+     "sha256": "fce5295eca4a8471ebbe52e3258578d30b955e26ec15e2e9677211f279781e36"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/balootamma2/BalooTamma2-Medium.ttf",
+     "bytes": 281576,
+     "sha256": "a18f307f272bc033c0fefa3ebcf2144212ef6b0b28c995c1ec08c826a434cce0"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/balootamma2/BalooTamma2-Bold.ttf",
+     "bytes": 281660,
+     "sha256": "7235223eba252c28a616f4581cb7dde77af9c20120a43051f43beae8cc710cba"
+    }
+   ],
+   "preview": "fonts/balootamma2/preview.ttf"
   },
   {
    "name": "Bangers",
@@ -436,6 +664,28 @@
    "preview": "fonts/bitter/preview.ttf"
   },
   {
+   "name": "Black Han Sans",
+   "slug": "blackhansans",
+   "category": "sans-serif",
+   "subsets": [
+    "korean",
+    "latin"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/blackhansans/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/blackhansans/BlackHanSans-Regular.ttf",
+     "bytes": 979200,
+     "sha256": "4f74b64509a3916eafd273f1fc37ea2bde6de89068b8d2d064d13c5e72507eb9"
+    }
+   ],
+   "preview": "fonts/blackhansans/preview.ttf"
+  },
+  {
    "name": "Black Ops One",
    "slug": "blackopsone",
    "category": "display",
@@ -530,6 +780,100 @@
    "preview": "fonts/cabin/preview.ttf"
   },
   {
+   "name": "Cairo",
+   "slug": "cairo",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/cairo/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/cairo/Cairo-Regular.ttf",
+     "bytes": 91500,
+     "sha256": "7ecb9b6a465072bce7b0e2a6d2d0355add8151fa9f8f342b516b57b26a2914c6"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/cairo/Cairo-Medium.ttf",
+     "bytes": 91676,
+     "sha256": "361766f154ae7cab731b8aef8ee4470b64d7c8d1a4c9ad25b91a85b7bd2f1a1d"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/cairo/Cairo-Bold.ttf",
+     "bytes": 91664,
+     "sha256": "cad8564334938a5867e2b8200e9b882067811bc09e26314f2d3aa95ccfe54015"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/cairo/Cairo-Black.ttf",
+     "bytes": 91748,
+     "sha256": "f1ee9aa0c8f71b955ade18df058037eced413e89e07bf9a6cc32834bef445abe"
+    }
+   ],
+   "preview": "fonts/cairo/preview.ttf"
+  },
+  {
+   "name": "Catamaran",
+   "slug": "catamaran",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/catamaran/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/catamaran/Catamaran-Regular.ttf",
+     "bytes": 51680,
+     "sha256": "2d52b2c5266f1285fd21ff5f75c653ee037c5cf2d01b18f3b5129c4fa935265e"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/catamaran/Catamaran-Medium.ttf",
+     "bytes": 51676,
+     "sha256": "97a7375541526971d7cfbd50aec0d7d94b4e9fedbec977dac0a5a38970e7ca0f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/catamaran/Catamaran-Bold.ttf",
+     "bytes": 51636,
+     "sha256": "072da90134ae8ad9f7858c2f203814de16720df8395cb5415294dd835ebac8de"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/catamaran/Catamaran-Black.ttf",
+     "bytes": 51620,
+     "sha256": "cc61c958614984304e2ba53fcdeb34bf77ab49d073a084acb8a6cda748da15d2"
+    }
+   ],
+   "preview": "fonts/catamaran/preview.ttf"
+  },
+  {
    "name": "Caveat",
    "slug": "caveat",
    "category": "handwriting",
@@ -568,6 +912,45 @@
     }
    ],
    "preview": "fonts/caveat/preview.ttf"
+  },
+  {
+   "name": "Changa",
+   "slug": "changa",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/changa/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/changa/Changa-Regular.ttf",
+     "bytes": 64044,
+     "sha256": "828b575d6279f8fbc69c1ff43ab0c5f691c5455cc3fc36d9308295b2c61e9ba7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/changa/Changa-Medium.ttf",
+     "bytes": 64340,
+     "sha256": "7a0dcab033609a67c08af86a7b60c9e73dd2c947537139206c4b6278e5d09dff"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/changa/Changa-Bold.ttf",
+     "bytes": 64888,
+     "sha256": "374ad5868ea69c52e4a0f0e5d44beec807105a215d57e00a2188ffca2c39f5d5"
+    }
+   ],
+   "preview": "fonts/changa/preview.ttf"
   },
   {
    "name": "Chewy",
@@ -912,6 +1295,28 @@
    "preview": "fonts/dancingscript/preview.ttf"
   },
   {
+   "name": "Do Hyeon",
+   "slug": "dohyeon",
+   "category": "sans-serif",
+   "subsets": [
+    "korean",
+    "latin"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/dohyeon/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/dohyeon/DoHyeon-Regular.ttf",
+     "bytes": 858292,
+     "sha256": "c2dd2b5ce27694085c1ef16a05353fd3fbddd33c4ffbd63170191872424dd566"
+    }
+   ],
+   "preview": "fonts/dohyeon/preview.ttf"
+  },
+  {
    "name": "EB Garamond",
    "slug": "ebgaramond",
    "category": "serif",
@@ -961,6 +1366,46 @@
     }
    ],
    "preview": "fonts/ebgaramond/preview.ttf"
+  },
+  {
+   "name": "El Messiri",
+   "slug": "elmessiri",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "cyrillic",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/elmessiri/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/elmessiri/ElMessiri-Regular.ttf",
+     "bytes": 83724,
+     "sha256": "02d62a9cecb347b1d9b343244518045f326d6e9e5673cce198619a4fbb321b83"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/elmessiri/ElMessiri-Medium.ttf",
+     "bytes": 84144,
+     "sha256": "b790ace6955f61a3ed2548383a0ce4bac0743aacdf514f650d971947b0c005d4"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/elmessiri/ElMessiri-Bold.ttf",
+     "bytes": 83884,
+     "sha256": "0ad7d761bbcc73204e10db9264595fcebe4e85bc5dd57489ea8ca6d229e1b267"
+    }
+   ],
+   "preview": "fonts/elmessiri/preview.ttf"
   },
   {
    "name": "Exo 2",
@@ -1115,6 +1560,53 @@
     }
    ],
    "preview": "fonts/firacode/preview.ttf"
+  },
+  {
+   "name": "Frank Ruhl Libre",
+   "slug": "frankruhllibre",
+   "category": "serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/frankruhllibre/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/frankruhllibre/FrankRuhlLibre-Regular.ttf",
+     "bytes": 66932,
+     "sha256": "89478e290c257456eb61d846bea77ab06d944f09c7f84000c4fd8cdedde6845a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/frankruhllibre/FrankRuhlLibre-Medium.ttf",
+     "bytes": 66824,
+     "sha256": "296122a9df1fe04f7407171a07d1ca108b1625552211bb8c4d9f5789a1831ea5"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/frankruhllibre/FrankRuhlLibre-Bold.ttf",
+     "bytes": 67000,
+     "sha256": "148f52c4a2be4676aab8ca8da8ef0fa07a08a94ec684e65206e1afd5f4ee6265"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/frankruhllibre/FrankRuhlLibre-Black.ttf",
+     "bytes": 66932,
+     "sha256": "358ae6dd0cf7a2ccf5047cece76a3cae399f9c83d899b3271c07055ad36e4384"
+    }
+   ],
+   "preview": "fonts/frankruhllibre/preview.ttf"
   },
   {
    "name": "Fraunces",
@@ -1284,6 +1776,201 @@
     }
    ],
    "preview": "fonts/heebo/preview.ttf"
+  },
+  {
+   "name": "Hind",
+   "slug": "hind",
+   "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/hind/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/hind/Hind-Regular.ttf",
+     "bytes": 291116,
+     "sha256": "f947664ff88db42e7b7dbcc5cf76f20de7e2fb46d16f50d0ac1ae3b46ac22f10"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/hind/Hind-Medium.ttf",
+     "bytes": 268960,
+     "sha256": "e7266eb82b61aceb6a6549535ea8e487eb17494a0d08dc2c215cd0f4ea702094"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/hind/Hind-Bold.ttf",
+     "bytes": 278416,
+     "sha256": "c62acc58d15d080171f637a956ff313a8a9d80b72889e788d663b38329288784"
+    }
+   ],
+   "preview": "fonts/hind/preview.ttf"
+  },
+  {
+   "name": "Hind Guntur",
+   "slug": "hindguntur",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/hindguntur/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/hindguntur/HindGuntur-Regular.ttf",
+     "bytes": 318856,
+     "sha256": "82661d818b38319adbb0e6cb796719973261bbfd6695aeb57ab3a6128b1fb291"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/hindguntur/HindGuntur-Medium.ttf",
+     "bytes": 317632,
+     "sha256": "ef196a12f5f8c4457e16ae03db1809549ef8d45277b19429ba8d68b232215e32"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/hindguntur/HindGuntur-Bold.ttf",
+     "bytes": 337072,
+     "sha256": "2144b161f8dd3641073c984271be9cc7df71a89b9f8ac881faa354a4fe743af5"
+    }
+   ],
+   "preview": "fonts/hindguntur/preview.ttf"
+  },
+  {
+   "name": "Hind Madurai",
+   "slug": "hindmadurai",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/hindmadurai/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/hindmadurai/HindMadurai-Regular.ttf",
+     "bytes": 128220,
+     "sha256": "4f5cb04952c8c5e0f46e013eaebd871d135ee6f7bec5eaa92f3d25866dd83feb"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/hindmadurai/HindMadurai-Medium.ttf",
+     "bytes": 128968,
+     "sha256": "4c5d1d6730d9d176ed830cdb794dd571492eaadea894a0e9b4998da6881b7581"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/hindmadurai/HindMadurai-Bold.ttf",
+     "bytes": 132312,
+     "sha256": "1dc8b638c95ca4e334d16846433415c3269da971d7f0395f047b46c9e594dc4f"
+    }
+   ],
+   "preview": "fonts/hindmadurai/preview.ttf"
+  },
+  {
+   "name": "Hind Siliguri",
+   "slug": "hindsiliguri",
+   "category": "sans-serif",
+   "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/hindsiliguri/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/hindsiliguri/HindSiliguri-Regular.ttf",
+     "bytes": 246764,
+     "sha256": "4b4718bda2202ddabf239510c005d550e39ec5252986b5607e2337c69a8a75e1"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/hindsiliguri/HindSiliguri-Medium.ttf",
+     "bytes": 263040,
+     "sha256": "34babfafef5a52547bccd3785daf3684a12b298f19cda1e2e8352e7f6eb025b0"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/hindsiliguri/HindSiliguri-Bold.ttf",
+     "bytes": 284372,
+     "sha256": "1de9cb6e50edac8b7a1bbde6e349bff4efe9a952f6269d99cb9c094dd221bb02"
+    }
+   ],
+   "preview": "fonts/hindsiliguri/preview.ttf"
+  },
+  {
+   "name": "Hind Vadodara",
+   "slug": "hindvadodara",
+   "category": "sans-serif",
+   "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/hindvadodara/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/hindvadodara/HindVadodara-Regular.ttf",
+     "bytes": 236764,
+     "sha256": "9e05abfa3fb1e5b8351ce7485345870d2f6e225e7e0021a820d380c2defca935"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/hindvadodara/HindVadodara-Medium.ttf",
+     "bytes": 235312,
+     "sha256": "e0581dc542f0cfe2ff880994303e3d9a09813e91a18a5dce302e654450c408f2"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/hindvadodara/HindVadodara-Bold.ttf",
+     "bytes": 245524,
+     "sha256": "0fcdafb3785b1fa6229338c2445665c47e17f61b114068a9c977f9ff323ae275"
+    }
+   ],
+   "preview": "fonts/hindvadodara/preview.ttf"
   },
   {
    "name": "Homemade Apple",
@@ -1579,6 +2266,28 @@
    "preview": "fonts/josefinslab/preview.ttf"
   },
   {
+   "name": "Jua",
+   "slug": "jua",
+   "category": "sans-serif",
+   "subsets": [
+    "korean",
+    "latin"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/jua/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/jua/Jua-Regular.ttf",
+     "bytes": 2101200,
+     "sha256": "0c44ba452204546ac2311f49240014b44149909959843de2d4ed52259b3d4134"
+    }
+   ],
+   "preview": "fonts/jua/preview.ttf"
+  },
+  {
    "name": "Kalam",
    "slug": "kalam",
    "category": "handwriting",
@@ -1608,6 +2317,62 @@
     }
    ],
    "preview": "fonts/kalam/preview.ttf"
+  },
+  {
+   "name": "Kanit",
+   "slug": "kanit",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/kanit/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/kanit/Kanit-Regular.ttf",
+     "bytes": 168768,
+     "sha256": "0b101fdc1a77fb29137731819bf164b3e9b4da19b22a7b2295f0e233c53c486d"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/kanit/Kanit-Medium.ttf",
+     "bytes": 170316,
+     "sha256": "7f81bb404e52302360bc7cca04d118212dc33abd72d0861ebbc764f8231659af"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/kanit/Kanit-Bold.ttf",
+     "bytes": 171900,
+     "sha256": "72213d8d3b09dc14036b2efdcdbe12d2cdf0ed6f0389dff55f0c762ddae9104f"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/kanit/Kanit-Black.ttf",
+     "bytes": 172472,
+     "sha256": "6aa2c0a99f2fac0421a6f533107f414bbc55bedeed7f44313017e4f7ffc73c2c"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/kanit/Kanit-Italic.ttf",
+     "bytes": 170900,
+     "sha256": "3fe0ae6ba8135a5be6887e3828bb2c53406b067b3ef4490948210583b10c21d6"
+    }
+   ],
+   "preview": "fonts/kanit/preview.ttf"
   },
   {
    "name": "Karla",
@@ -1676,6 +2441,45 @@
     }
    ],
    "preview": "fonts/kaushanscript/preview.ttf"
+  },
+  {
+   "name": "Khand",
+   "slug": "khand",
+   "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/khand/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/khand/Khand-Regular.ttf",
+     "bytes": 314504,
+     "sha256": "5662eb6070aca78e2f6e3408231c2adf26f34134ac29ac4feb6b98a7f526c4f4"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/khand/Khand-Medium.ttf",
+     "bytes": 327576,
+     "sha256": "48fd26c93fa26d8b23976c936abf7ca81eb4278b83537f17c560ed2fe8328c06"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/khand/Khand-Bold.ttf",
+     "bytes": 356284,
+     "sha256": "62a7032d755769c06c58bf8d40ab13a90848e1271fbabbeaf5ebabd00525184b"
+    }
+   ],
+   "preview": "fonts/khand/preview.ttf"
   },
   {
    "name": "Lato",
@@ -1868,6 +2672,37 @@
    "preview": "fonts/luckiestguy/preview.ttf"
   },
   {
+   "name": "Manjari",
+   "slug": "manjari",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/manjari/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/manjari/Manjari-Regular.ttf",
+     "bytes": 148768,
+     "sha256": "10bbe4ad3163fa37bcc3049fa0aaa78dfca54fee0f1741a36e1e65781ca0624e"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/manjari/Manjari-Bold.ttf",
+     "bytes": 148412,
+     "sha256": "1893aa712a809c821b642c7c1d436c2ef9a049c698878fd65a7e9177d7684b1b"
+    }
+   ],
+   "preview": "fonts/manjari/preview.ttf"
+  },
+  {
    "name": "Manrope",
    "slug": "manrope",
    "category": "sans-serif",
@@ -1932,6 +2767,45 @@
    "preview": "fonts/marcellus/preview.ttf"
   },
   {
+   "name": "Martel",
+   "slug": "martel",
+   "category": "serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/martel/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/martel/Martel-Regular.ttf",
+     "bytes": 166172,
+     "sha256": "3575317e005288dab84cd2d5112d68eb829c317b4400de21df8556703500edd7"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/martel/Martel-Bold.ttf",
+     "bytes": 166104,
+     "sha256": "962c3d374565480b9a04b4d705567e70e0eb72b6427ecfa63e1d448c5ec6f142"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/martel/Martel-Black.ttf",
+     "bytes": 160296,
+     "sha256": "282070552c0a612140a25f34b6ae1ace7b44c195649755cc8573273f7fa983d2"
+    }
+   ],
+   "preview": "fonts/martel/preview.ttf"
+  },
+  {
    "name": "Merriweather",
    "slug": "merriweather",
    "category": "serif",
@@ -1987,6 +2861,46 @@
     }
    ],
    "preview": "fonts/merriweather/preview.ttf"
+  },
+  {
+   "name": "Mitr",
+   "slug": "mitr",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/mitr/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/mitr/Mitr-Regular.ttf",
+     "bytes": 218412,
+     "sha256": "72debf48d3109d30c9a3ded6888004faba19d8ff56faaafd860709cf92e9795c"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/mitr/Mitr-Medium.ttf",
+     "bytes": 217968,
+     "sha256": "231af8f4a9a70979cf1e74f467da474b8f74060d6bd74134c38410469ac0f363"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/mitr/Mitr-Bold.ttf",
+     "bytes": 220364,
+     "sha256": "a9b2332ccbf7b4686f441eba949a778c03d7a4d3f1a43f3776c00f5680e6fb67"
+    }
+   ],
+   "preview": "fonts/mitr/preview.ttf"
   },
   {
    "name": "Monoton",
@@ -2066,6 +2980,84 @@
     }
    ],
    "preview": "fonts/montserrat/preview.ttf"
+  },
+  {
+   "name": "Mukta",
+   "slug": "mukta",
+   "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/mukta/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/mukta/Mukta-Regular.ttf",
+     "bytes": 419816,
+     "sha256": "0f15e7baff0baf25b4ed6185ac42dd80b38c28e85052e79ac62ed3b9ac7157a9"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/mukta/Mukta-Medium.ttf",
+     "bytes": 407332,
+     "sha256": "12af38091aad8dea57f83373030345bb9315368a52b26b2fab6da450dc1de577"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/mukta/Mukta-Bold.ttf",
+     "bytes": 405708,
+     "sha256": "90f501c283fa657fa2d25c9f164b56989c2b7e7dd84ab1c2c532db0cf1d4d1d9"
+    }
+   ],
+   "preview": "fonts/mukta/preview.ttf"
+  },
+  {
+   "name": "Mukta Mahee",
+   "slug": "muktamahee",
+   "category": "sans-serif",
+   "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/muktamahee/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/muktamahee/MuktaMahee-Regular.ttf",
+     "bytes": 166204,
+     "sha256": "b1168eb9ee40df28045050fd2e48f02ea936e2a6d73a67d5a87aba1ad52c299a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/muktamahee/MuktaMahee-Medium.ttf",
+     "bytes": 163516,
+     "sha256": "5703359f8667b675a0e94b90a4ade0d3544308f4ddc2ecd39e40666dca5cbbb8"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/muktamahee/MuktaMahee-Bold.ttf",
+     "bytes": 168680,
+     "sha256": "2f5f7945b70f0d1d4cf530d4f0d01b9522aea74b3ee5781787a35797b6155183"
+    }
+   ],
+   "preview": "fonts/muktamahee/preview.ttf"
   },
   {
    "name": "Mulish",
@@ -2860,6 +3852,62 @@
    "preview": "fonts/pressstart2p/preview.ttf"
   },
   {
+   "name": "Prompt",
+   "slug": "prompt",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/prompt/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/prompt/Prompt-Regular.ttf",
+     "bytes": 152988,
+     "sha256": "3a78595458f626e22fe9f800df463c80c1d8f3e69ea1b590754de1a3c3c0dc6c"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/prompt/Prompt-Medium.ttf",
+     "bytes": 160432,
+     "sha256": "1cd7ee536d710154466c0c2c9cb9b1a65fce543a251409a95ae12430161588e5"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/prompt/Prompt-Bold.ttf",
+     "bytes": 162864,
+     "sha256": "6b96aa4373d100e17521777a3ced50c586c409cab5fb195b0134025cacb9f79b"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/prompt/Prompt-Black.ttf",
+     "bytes": 160424,
+     "sha256": "9670b6686e7915528c44f4f21ab2194197339b6b2c7a7e71c1b181a84a93eb35"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/prompt/Prompt-Italic.ttf",
+     "bytes": 163196,
+     "sha256": "2091bfcc5d77e9a8b80067030c680e5f0a8db94653d6141256427d08b7648db3"
+    }
+   ],
+   "preview": "fonts/prompt/preview.ttf"
+  },
+  {
    "name": "Quicksand",
    "slug": "quicksand",
    "category": "sans-serif",
@@ -2993,6 +4041,46 @@
     }
    ],
    "preview": "fonts/raleway/preview.ttf"
+  },
+  {
+   "name": "Reem Kufi",
+   "slug": "reemkufi",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/reemkufi/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/reemkufi/ReemKufi-Regular.ttf",
+     "bytes": 82740,
+     "sha256": "c6ffe23b03b6d2f9ca46e2ab1bb2f6b5acfd63630cfa9b53fd387b93d843a4f1"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/reemkufi/ReemKufi-Medium.ttf",
+     "bytes": 82884,
+     "sha256": "6e03f2dcddd46529c80adaebf84f88fa474a59c4f89122123fbce0e0a3dba548"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/reemkufi/ReemKufi-Bold.ttf",
+     "bytes": 82668,
+     "sha256": "f26a45f176126b2897137372ec16c9d9fd587f4ae58c56a2ff20f7e254b3606b"
+    }
+   ],
+   "preview": "fonts/reemkufi/preview.ttf"
   },
   {
    "name": "Righteous",
@@ -3200,6 +4288,29 @@
    "preview": "fonts/rocksalt/preview.ttf"
   },
   {
+   "name": "Rozha One",
+   "slug": "rozhaone",
+   "category": "serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/rozhaone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/rozhaone/RozhaOne-Regular.ttf",
+     "bytes": 309256,
+     "sha256": "8505e4ccb9627658842d6f93bf5da0be864cdec92e68c1713b183622703a2963"
+    }
+   ],
+   "preview": "fonts/rozhaone/preview.ttf"
+  },
+  {
    "name": "Rubik",
    "slug": "rubik",
    "category": "sans-serif",
@@ -3303,6 +4414,54 @@
    "preview": "fonts/sacramento/preview.ttf"
   },
   {
+   "name": "Sarabun",
+   "slug": "sarabun",
+   "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/sarabun/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/sarabun/Sarabun-Regular.ttf",
+     "bytes": 81516,
+     "sha256": "5c9d6412daf0096c19356366746e0e5af10efe5f93dad67e0f76b38369310ffa"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/sarabun/Sarabun-Medium.ttf",
+     "bytes": 81452,
+     "sha256": "9c22319c37ee2ea49962fb4869ea17c43ce357d647458b0a9991ee93aeac5899"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/sarabun/Sarabun-Bold.ttf",
+     "bytes": 81028,
+     "sha256": "2dae951e530434908390d84bf661be43e8de447fa18426590a7c97b26794a002"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/sarabun/Sarabun-Italic.ttf",
+     "bytes": 84452,
+     "sha256": "2e55d180c054d34b07fa244ae558a02811e3cf7011f985d10e9eb6527e02864d"
+    }
+   ],
+   "preview": "fonts/sarabun/preview.ttf"
+  },
+  {
    "name": "Satisfy",
    "slug": "satisfy",
    "category": "handwriting",
@@ -3322,6 +4481,29 @@
     }
    ],
    "preview": "fonts/satisfy/preview.ttf"
+  },
+  {
+   "name": "Secular One",
+   "slug": "secularone",
+   "category": "sans-serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/secularone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/secularone/SecularOne-Regular.ttf",
+     "bytes": 79828,
+     "sha256": "4d824c6a652946706135be99f2e11f0d2fa2203e9d8e52060e8a737d56ef5728"
+    }
+   ],
+   "preview": "fonts/secularone/preview.ttf"
   },
   {
    "name": "Shadows Into Light",
@@ -3579,6 +4761,29 @@
    "preview": "fonts/spacemono/preview.ttf"
   },
   {
+   "name": "Suez One",
+   "slug": "suezone",
+   "category": "serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/suezone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/suezone/SuezOne-Regular.ttf",
+     "bytes": 64104,
+     "sha256": "f322f8dfcb4bc82d2366781f3a2d1eae859d8e94cca541a8efc3cd05269df8dd"
+    }
+   ],
+   "preview": "fonts/suezone/preview.ttf"
+  },
+  {
    "name": "Syne",
    "slug": "syne",
    "category": "sans-serif",
@@ -3618,6 +4823,52 @@
    "preview": "fonts/syne/preview.ttf"
   },
   {
+   "name": "Tajawal",
+   "slug": "tajawal",
+   "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "latin"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/tajawal/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/tajawal/Tajawal-Regular.ttf",
+     "bytes": 55072,
+     "sha256": "ce4e98e477f2a36cc7a28bee546f736d67090afaa32073ceef1b7b4cdd076f21"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "fonts/tajawal/Tajawal-Medium.ttf",
+     "bytes": 56284,
+     "sha256": "268bd626bf7738c1d963458fe27961c8314e95f6f449c401a9b15d04210bcc26"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "fonts/tajawal/Tajawal-Bold.ttf",
+     "bytes": 55520,
+     "sha256": "7edc53d44b612e72d3d6d01940a14a96f970047c0a37c537be4d4b3806d3ba53"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "fonts/tajawal/Tajawal-Black.ttf",
+     "bytes": 54672,
+     "sha256": "1fb78caa278c6e1396089d3b785dd453305106359086da585ba8745eba17a18f"
+    }
+   ],
+   "preview": "fonts/tajawal/preview.ttf"
+  },
+  {
    "name": "Teko",
    "slug": "teko",
    "category": "sans-serif",
@@ -3655,6 +4906,37 @@
     }
    ],
    "preview": "fonts/teko/preview.ttf"
+  },
+  {
+   "name": "Tiro Devanagari Hindi",
+   "slug": "tirodevanagarihindi",
+   "category": "serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/tirodevanagarihindi/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/tirodevanagarihindi/TiroDevanagariHindi-Regular.ttf",
+     "bytes": 376908,
+     "sha256": "611617bab084f061e4789b91b6f0b5aab776c557cdf0b49f72393f58ef716724"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "fonts/tirodevanagarihindi/TiroDevanagariHindi-Italic.ttf",
+     "bytes": 379396,
+     "sha256": "b918d5c29cd5a93793ee2d00f506b4a705a35b6e31f3b764f551063cd3687cb9"
+    }
+   ],
+   "preview": "fonts/tirodevanagarihindi/preview.ttf"
   },
   {
    "name": "Titan One",
@@ -3874,6 +5156,29 @@
     }
    ],
    "preview": "fonts/yanonekaffeesatz/preview.ttf"
+  },
+  {
+   "name": "Yatra One",
+   "slug": "yatraone",
+   "category": "display",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "license": "OFL",
+   "licenseFile": "fonts/yatraone/LICENSE.txt",
+   "styles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "fonts/yatraone/YatraOne-Regular.ttf",
+     "bytes": 267144,
+     "sha256": "59a2bd61b34a6a2072c27f83345f4680f2780824a415fc0d1e3ca6d2074fd2b0"
+    }
+   ],
+   "preview": "fonts/yatraone/preview.ttf"
   },
   {
    "name": "Yellowtail",
