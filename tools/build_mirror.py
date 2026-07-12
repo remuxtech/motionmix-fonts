@@ -276,6 +276,9 @@ def main():
             "name": family,
             "slug": slug,
             "category": category,
+            # Language coverage (Google's subsets, minus the internal "menu"
+            # entry) — drives the picker's language filter. Additive field.
+            "subsets": sorted(s for s in meta.get("subsets", []) if s != "menu"),
             "license": license_id.upper(),
             "licenseFile": f"fonts/{slug}/LICENSE.txt",
             "styles": styles,

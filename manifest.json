@@ -5,6 +5,10 @@
    "name": "Abril Fatface",
    "slug": "abrilfatface",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/abrilfatface/LICENSE.txt",
    "styles": [
@@ -23,6 +27,11 @@
    "name": "Alfa Slab One",
    "slug": "alfaslabone",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/alfaslabone/LICENSE.txt",
    "styles": [
@@ -41,6 +50,13 @@
    "name": "Amatic SC",
    "slug": "amaticsc",
    "category": "handwriting",
+   "subsets": [
+    "cyrillic",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/amaticsc/LICENSE.txt",
    "styles": [
@@ -67,6 +83,11 @@
    "name": "Anton",
    "slug": "anton",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/anton/LICENSE.txt",
    "styles": [
@@ -85,6 +106,11 @@
    "name": "Archivo",
    "slug": "archivo",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/archivo/LICENSE.txt",
    "styles": [
@@ -135,6 +161,10 @@
    "name": "Archivo Black",
    "slug": "archivoblack",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/archivoblack/LICENSE.txt",
    "styles": [
@@ -153,6 +183,9 @@
    "name": "Arvo",
    "slug": "arvo",
    "category": "serif",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/arvo/LICENSE.txt",
    "styles": [
@@ -187,6 +220,10 @@
    "name": "Audiowide",
    "slug": "audiowide",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/audiowide/LICENSE.txt",
    "styles": [
@@ -205,6 +242,12 @@
    "name": "Baloo 2",
    "slug": "baloo2",
    "category": "display",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/baloo2/LICENSE.txt",
    "styles": [
@@ -239,6 +282,11 @@
    "name": "Bangers",
    "slug": "bangers",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/bangers/LICENSE.txt",
    "styles": [
@@ -257,6 +305,11 @@
    "name": "Barlow",
    "slug": "barlow",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/barlow/LICENSE.txt",
    "styles": [
@@ -307,6 +360,10 @@
    "name": "Bebas Neue",
    "slug": "bebasneue",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/bebasneue/LICENSE.txt",
    "styles": [
@@ -325,6 +382,13 @@
    "name": "Bitter",
    "slug": "bitter",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/bitter/LICENSE.txt",
    "styles": [
@@ -375,6 +439,12 @@
    "name": "Black Ops One",
    "slug": "blackopsone",
    "category": "display",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/blackopsone/LICENSE.txt",
    "styles": [
@@ -393,6 +463,11 @@
    "name": "Bungee",
    "slug": "bungee",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/bungee/LICENSE.txt",
    "styles": [
@@ -411,6 +486,11 @@
    "name": "Cabin",
    "slug": "cabin",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/cabin/LICENSE.txt",
    "styles": [
@@ -453,6 +533,12 @@
    "name": "Caveat",
    "slug": "caveat",
    "category": "handwriting",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/caveat/LICENSE.txt",
    "styles": [
@@ -487,6 +573,9 @@
    "name": "Chewy",
    "slug": "chewy",
    "category": "display",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/chewy/LICENSE.txt",
    "styles": [
@@ -505,6 +594,10 @@
    "name": "Cinzel",
    "slug": "cinzel",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/cinzel/LICENSE.txt",
    "styles": [
@@ -547,6 +640,14 @@
    "name": "Comfortaa",
    "slug": "comfortaa",
    "category": "display",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/comfortaa/LICENSE.txt",
    "styles": [
@@ -581,6 +682,13 @@
    "name": "Cormorant Garamond",
    "slug": "cormorantgaramond",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/cormorantgaramond/LICENSE.txt",
    "styles": [
@@ -623,6 +731,10 @@
    "name": "Courgette",
    "slug": "courgette",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/courgette/LICENSE.txt",
    "styles": [
@@ -641,6 +753,11 @@
    "name": "Crimson Text",
    "slug": "crimsontext",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/crimsontext/LICENSE.txt",
    "styles": [
@@ -675,6 +792,10 @@
    "name": "DM Sans",
    "slug": "dmsans",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/dmsans/LICENSE.txt",
    "styles": [
@@ -725,6 +846,10 @@
    "name": "DM Serif Display",
    "slug": "dmserifdisplay",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/dmserifdisplay/LICENSE.txt",
    "styles": [
@@ -751,6 +876,11 @@
    "name": "Dancing Script",
    "slug": "dancingscript",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/dancingscript/LICENSE.txt",
    "styles": [
@@ -785,6 +915,15 @@
    "name": "EB Garamond",
    "slug": "ebgaramond",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/ebgaramond/LICENSE.txt",
    "styles": [
@@ -827,6 +966,13 @@
    "name": "Exo 2",
    "slug": "exo2",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/exo2/LICENSE.txt",
    "styles": [
@@ -877,6 +1023,10 @@
    "name": "Figtree",
    "slug": "figtree",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/figtree/LICENSE.txt",
    "styles": [
@@ -927,6 +1077,15 @@
    "name": "Fira Code",
    "slug": "firacode",
    "category": "monospace",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "symbols2"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/firacode/LICENSE.txt",
    "styles": [
@@ -961,6 +1120,11 @@
    "name": "Fraunces",
    "slug": "fraunces",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/fraunces/LICENSE.txt",
    "styles": [
@@ -1011,6 +1175,11 @@
    "name": "Fredoka",
    "slug": "fredoka",
    "category": "sans-serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/fredoka/LICENSE.txt",
    "styles": [
@@ -1045,6 +1214,14 @@
    "name": "Great Vibes",
    "slug": "greatvibes",
    "category": "handwriting",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/greatvibes/LICENSE.txt",
    "styles": [
@@ -1063,6 +1240,13 @@
    "name": "Heebo",
    "slug": "heebo",
    "category": "sans-serif",
+   "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/heebo/LICENSE.txt",
    "styles": [
@@ -1105,6 +1289,9 @@
    "name": "Homemade Apple",
    "slug": "homemadeapple",
    "category": "handwriting",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/homemadeapple/LICENSE.txt",
    "styles": [
@@ -1123,6 +1310,13 @@
    "name": "IBM Plex Mono",
    "slug": "ibmplexmono",
    "category": "monospace",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/ibmplexmono/LICENSE.txt",
    "styles": [
@@ -1165,6 +1359,11 @@
    "name": "Inconsolata",
    "slug": "inconsolata",
    "category": "monospace",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/inconsolata/LICENSE.txt",
    "styles": [
@@ -1207,6 +1406,10 @@
    "name": "Indie Flower",
    "slug": "indieflower",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/indieflower/LICENSE.txt",
    "styles": [
@@ -1225,6 +1428,15 @@
    "name": "Inter",
    "slug": "inter",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/inter/LICENSE.txt",
    "styles": [
@@ -1275,6 +1487,14 @@
    "name": "JetBrains Mono",
    "slug": "jetbrainsmono",
    "category": "monospace",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/jetbrainsmono/LICENSE.txt",
    "styles": [
@@ -1317,6 +1537,9 @@
    "name": "Josefin Slab",
    "slug": "josefinslab",
    "category": "serif",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/josefinslab/LICENSE.txt",
    "styles": [
@@ -1359,6 +1582,11 @@
    "name": "Kalam",
    "slug": "kalam",
    "category": "handwriting",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/kalam/LICENSE.txt",
    "styles": [
@@ -1385,6 +1613,10 @@
    "name": "Karla",
    "slug": "karla",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/karla/LICENSE.txt",
    "styles": [
@@ -1427,6 +1659,10 @@
    "name": "Kaushan Script",
    "slug": "kaushanscript",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/kaushanscript/LICENSE.txt",
    "styles": [
@@ -1445,6 +1681,10 @@
    "name": "Lato",
    "slug": "lato",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/lato/LICENSE.txt",
    "styles": [
@@ -1487,6 +1727,10 @@
    "name": "Libre Baskerville",
    "slug": "librebaskerville",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/librebaskerville/LICENSE.txt",
    "styles": [
@@ -1529,6 +1773,13 @@
    "name": "Lobster",
    "slug": "lobster",
    "category": "display",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/lobster/LICENSE.txt",
    "styles": [
@@ -1547,6 +1798,15 @@
    "name": "Lora",
    "slug": "lora",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/lora/LICENSE.txt",
    "styles": [
@@ -1589,6 +1849,10 @@
    "name": "Luckiest Guy",
    "slug": "luckiestguy",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/luckiestguy/LICENSE.txt",
    "styles": [
@@ -1607,6 +1871,14 @@
    "name": "Manrope",
    "slug": "manrope",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/manrope/LICENSE.txt",
    "styles": [
@@ -1641,6 +1913,10 @@
    "name": "Marcellus",
    "slug": "marcellus",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/marcellus/LICENSE.txt",
    "styles": [
@@ -1659,6 +1935,13 @@
    "name": "Merriweather",
    "slug": "merriweather",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/merriweather/LICENSE.txt",
    "styles": [
@@ -1709,6 +1992,10 @@
    "name": "Monoton",
    "slug": "monoton",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/monoton/LICENSE.txt",
    "styles": [
@@ -1727,6 +2014,13 @@
    "name": "Montserrat",
    "slug": "montserrat",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/montserrat/LICENSE.txt",
    "styles": [
@@ -1777,6 +2071,13 @@
    "name": "Mulish",
    "slug": "mulish",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/mulish/LICENSE.txt",
    "styles": [
@@ -1827,6 +2128,16 @@
    "name": "Noto Sans",
    "slug": "notosans",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "devanagari",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/notosans/LICENSE.txt",
    "styles": [
@@ -1877,6 +2188,16 @@
    "name": "Noto Serif",
    "slug": "notoserif",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/notoserif/LICENSE.txt",
    "styles": [
@@ -1927,6 +2248,13 @@
    "name": "Nunito",
    "slug": "nunito",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/nunito/LICENSE.txt",
    "styles": [
@@ -1977,6 +2305,18 @@
    "name": "Open Sans",
    "slug": "opensans",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/opensans/LICENSE.txt",
    "styles": [
@@ -2019,6 +2359,9 @@
    "name": "Orbitron",
    "slug": "orbitron",
    "category": "sans-serif",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/orbitron/LICENSE.txt",
    "styles": [
@@ -2061,6 +2404,13 @@
    "name": "Oswald",
    "slug": "oswald",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/oswald/LICENSE.txt",
    "styles": [
@@ -2095,6 +2445,10 @@
    "name": "Outfit",
    "slug": "outfit",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/outfit/LICENSE.txt",
    "styles": [
@@ -2137,6 +2491,12 @@
    "name": "PT Sans",
    "slug": "ptsans",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/ptsans/LICENSE.txt",
    "styles": [
@@ -2171,6 +2531,12 @@
    "name": "PT Serif",
    "slug": "ptserif",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/ptserif/LICENSE.txt",
    "styles": [
@@ -2205,6 +2571,13 @@
    "name": "Pacifico",
    "slug": "pacifico",
    "category": "handwriting",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/pacifico/LICENSE.txt",
    "styles": [
@@ -2223,6 +2596,10 @@
    "name": "Passion One",
    "slug": "passionone",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/passionone/LICENSE.txt",
    "styles": [
@@ -2257,6 +2634,9 @@
    "name": "Permanent Marker",
    "slug": "permanentmarker",
    "category": "handwriting",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/permanentmarker/LICENSE.txt",
    "styles": [
@@ -2275,6 +2655,12 @@
    "name": "Playfair Display",
    "slug": "playfairdisplay",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/playfairdisplay/LICENSE.txt",
    "styles": [
@@ -2325,6 +2711,12 @@
    "name": "Plus Jakarta Sans",
    "slug": "plusjakartasans",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/plusjakartasans/LICENSE.txt",
    "styles": [
@@ -2367,6 +2759,11 @@
    "name": "Poppins",
    "slug": "poppins",
    "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/poppins/LICENSE.txt",
    "styles": [
@@ -2417,6 +2814,12 @@
    "name": "Prata",
    "slug": "prata",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/prata/LICENSE.txt",
    "styles": [
@@ -2435,6 +2838,13 @@
    "name": "Press Start 2P",
    "slug": "pressstart2p",
    "category": "display",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/pressstart2p/LICENSE.txt",
    "styles": [
@@ -2453,6 +2863,11 @@
    "name": "Quicksand",
    "slug": "quicksand",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/quicksand/LICENSE.txt",
    "styles": [
@@ -2487,6 +2902,11 @@
    "name": "Rajdhani",
    "slug": "rajdhani",
    "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/rajdhani/LICENSE.txt",
    "styles": [
@@ -2521,6 +2941,13 @@
    "name": "Raleway",
    "slug": "raleway",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/raleway/LICENSE.txt",
    "styles": [
@@ -2571,6 +2998,10 @@
    "name": "Righteous",
    "slug": "righteous",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/righteous/LICENSE.txt",
    "styles": [
@@ -2589,6 +3020,17 @@
    "name": "Roboto",
    "slug": "roboto",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/roboto/LICENSE.txt",
    "styles": [
@@ -2639,6 +3081,14 @@
    "name": "Roboto Mono",
    "slug": "robotomono",
    "category": "monospace",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/robotomono/LICENSE.txt",
    "styles": [
@@ -2681,6 +3131,15 @@
    "name": "Roboto Slab",
    "slug": "robotoslab",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/robotoslab/LICENSE.txt",
    "styles": [
@@ -2723,6 +3182,9 @@
    "name": "Rock Salt",
    "slug": "rocksalt",
    "category": "handwriting",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/rocksalt/LICENSE.txt",
    "styles": [
@@ -2741,6 +3203,14 @@
    "name": "Rubik",
    "slug": "rubik",
    "category": "sans-serif",
+   "subsets": [
+    "arabic",
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/rubik/LICENSE.txt",
    "styles": [
@@ -2791,6 +3261,11 @@
    "name": "Russo One",
    "slug": "russoone",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/russoone/LICENSE.txt",
    "styles": [
@@ -2809,6 +3284,10 @@
    "name": "Sacramento",
    "slug": "sacramento",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/sacramento/LICENSE.txt",
    "styles": [
@@ -2827,6 +3306,9 @@
    "name": "Satisfy",
    "slug": "satisfy",
    "category": "handwriting",
+   "subsets": [
+    "latin"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/satisfy/LICENSE.txt",
    "styles": [
@@ -2845,6 +3327,10 @@
    "name": "Shadows Into Light",
    "slug": "shadowsintolight",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/shadowsintolight/LICENSE.txt",
    "styles": [
@@ -2863,6 +3349,10 @@
    "name": "Sora",
    "slug": "sora",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/sora/LICENSE.txt",
    "styles": [
@@ -2897,6 +3387,15 @@
    "name": "Source Code Pro",
    "slug": "sourcecodepro",
    "category": "monospace",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/sourcecodepro/LICENSE.txt",
    "styles": [
@@ -2947,6 +3446,14 @@
    "name": "Source Serif 4",
    "slug": "sourceserif4",
    "category": "serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/sourceserif4/LICENSE.txt",
    "styles": [
@@ -2997,6 +3504,11 @@
    "name": "Space Grotesk",
    "slug": "spacegrotesk",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/spacegrotesk/LICENSE.txt",
    "styles": [
@@ -3031,6 +3543,11 @@
    "name": "Space Mono",
    "slug": "spacemono",
    "category": "monospace",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/spacemono/LICENSE.txt",
    "styles": [
@@ -3065,6 +3582,11 @@
    "name": "Syne",
    "slug": "syne",
    "category": "sans-serif",
+   "subsets": [
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/syne/LICENSE.txt",
    "styles": [
@@ -3099,6 +3621,11 @@
    "name": "Teko",
    "slug": "teko",
    "category": "sans-serif",
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/teko/LICENSE.txt",
    "styles": [
@@ -3133,6 +3660,10 @@
    "name": "Titan One",
    "slug": "titanone",
    "category": "display",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/titanone/LICENSE.txt",
    "styles": [
@@ -3151,6 +3682,14 @@
    "name": "Ubuntu",
    "slug": "ubuntu",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/ubuntu/LICENSE.txt",
    "styles": [
@@ -3193,6 +3732,13 @@
    "name": "Unbounded",
    "slug": "unbounded",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/unbounded/LICENSE.txt",
    "styles": [
@@ -3235,6 +3781,11 @@
    "name": "Work Sans",
    "slug": "worksans",
    "category": "sans-serif",
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/worksans/LICENSE.txt",
    "styles": [
@@ -3285,6 +3836,15 @@
    "name": "Yanone Kaffeesatz",
    "slug": "yanonekaffeesatz",
    "category": "sans-serif",
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/yanonekaffeesatz/LICENSE.txt",
    "styles": [
@@ -3319,6 +3879,10 @@
    "name": "Yellowtail",
    "slug": "yellowtail",
    "category": "handwriting",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/yellowtail/LICENSE.txt",
    "styles": [
@@ -3337,6 +3901,10 @@
    "name": "Zilla Slab",
    "slug": "zillaslab",
    "category": "serif",
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
    "license": "OFL",
    "licenseFile": "fonts/zillaslab/LICENSE.txt",
    "styles": [
