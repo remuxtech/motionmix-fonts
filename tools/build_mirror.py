@@ -47,6 +47,18 @@ LICENSE_URLS = {
 UA = "curl/7.64"  # a non-browser UA makes css2 serve static TTF urls
 
 # ---------------------------------------------------------------------------
+# FEATURED (the picker's hand-picked rail, shown before All fonts): ~14 faces
+# spanning every category with strong style variety — deliberately ORDERED for
+# browse rhythm (categories interleaved), so keep the order meaningful.
+# Additive manifest field ("featured"); schemaVersion stays 1.
+# ---------------------------------------------------------------------------
+FEATURED = [
+    "Inter", "Playfair Display", "Bebas Neue", "Caveat", "Montserrat",
+    "Abril Fatface", "Space Grotesk", "Dancing Script", "Fraunces",
+    "Bangers", "Lora", "Pacifico", "Righteous", "JetBrains Mono",
+]
+
+# ---------------------------------------------------------------------------
 # The CURATED catalog (ADR 125 §4): ~90 families across the five categories a
 # video editor needs. Weights requested = available ∩ POLICY below.
 # ---------------------------------------------------------------------------
@@ -319,8 +331,11 @@ def main():
             entry["preview"] = preview_rel  # additive — schemaVersion stays 1
         manifest_families.append(entry)
 
+    built_names = {f["name"] for f in manifest_families}
     manifest = {
         "schemaVersion": 1,
+        # Ordered hand-picked rail (only families that actually built).
+        "featured": [f for f in FEATURED if f in built_names],
         "families": sorted(manifest_families, key=lambda f: f["name"]),
     }
     MANIFEST.write_text(json.dumps(manifest, indent=1) + "\n")

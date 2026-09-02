@@ -1,5 +1,21 @@
 {
  "schemaVersion": 1,
+ "featured": [
+  "Inter",
+  "Playfair Display",
+  "Bebas Neue",
+  "Caveat",
+  "Montserrat",
+  "Abril Fatface",
+  "Space Grotesk",
+  "Dancing Script",
+  "Fraunces",
+  "Bangers",
+  "Lora",
+  "Pacifico",
+  "Righteous",
+  "JetBrains Mono"
+ ],
  "families": [
   {
    "name": "Abril Fatface",
