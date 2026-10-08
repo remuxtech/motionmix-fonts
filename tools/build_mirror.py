@@ -13,7 +13,13 @@ Layout produced (the repo root, served via jsDelivr):
     fonts/<slug>/LICENSE.txt
 
 Idempotent: existing files are kept unless --force; the manifest is always
-rewritten from what's on disk + fetched metadata.
+rewritten from what's on disk + fetched metadata. The licence id is derived
+from each family's licence text (never defaulted) and `rfn` flags families
+whose modified derivatives must drop the name (ADR 125 Am. 2).
+
+This builds the FROZEN jsDelivr catalog (rung R1, ~150 families, served from
+this repo). The R2 catalog (rung R2, library.motionmix.app/fonts/) is built
+by tools/build_catalog.py.
 
 Usage:
     tools/build_mirror.py [--limit N] [--force] [--only family,family,...]
@@ -28,10 +34,13 @@ import sys
 import time
 import urllib.request
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))  # sibling modules, even under -I
+import gfmeta  # noqa: E402
+
 try:
-    from fontTools import subset as ft_subset
+    import preview as ft_preview  # noqa: E402
 except ImportError:  # previews skipped; `.venv/bin/pip install fonttools`
-    ft_subset = None
+    ft_preview = None
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS_DIR = ROOT / "fonts"
@@ -39,11 +48,6 @@ MANIFEST = ROOT / "manifest.json"
 
 METADATA_URL = "https://fonts.google.com/metadata/fonts"
 CSS2_URL = "https://fonts.googleapis.com/css2?family={spec}"
-LICENSE_URLS = {
-    "ofl": "https://raw.githubusercontent.com/google/fonts/main/ofl/{slug}/OFL.txt",
-    "apache": "https://raw.githubusercontent.com/google/fonts/main/apache/{slug}/LICENSE.txt",
-    "ufl": "https://raw.githubusercontent.com/google/fonts/main/ufl/{slug}/UFL.txt",
-}
 UA = "curl/7.64"  # a non-browser UA makes css2 serve static TTF urls
 
 # ---------------------------------------------------------------------------
@@ -231,7 +235,6 @@ def main():
             skipped.append((family, "not in Google metadata"))
             continue
         category = (meta.get("category", "").lower() or "sans-serif").replace(" ", "-")
-        license_id = (meta.get("license") or "ofl").lower()
         variants = wanted_variants(meta)
         if not variants:
             skipped.append((family, "no usable variants"))
@@ -240,7 +243,7 @@ def main():
         slug = slug_of(family)
         fam_dir = FONTS_DIR / slug
         fam_dir.mkdir(parents=True, exist_ok=True)
-        print(f"{family}  [{category}, {license_id}] {[style_name(w, i) for w, i in variants]}")
+        print(f"{family}  [{category}] {[style_name(w, i) for w, i in variants]}")
 
         css = fetch(CSS2_URL.format(spec=css2_spec(family, variants))).decode("utf-8")
         served = {(w, i): url for w, i, url in parse_css2(css)}
@@ -271,23 +274,16 @@ def main():
         # The NAME-SUBSET preview face (ADR 125): the family's Regular-most
         # style cut down to exactly its own name's glyphs — a few KB the
         # picker renders each row's title with, without fetching real fonts.
+        # A subset is a Modified Version (OFL FAQ 2.2), so it carries a
+        # NEUTRAL name table, never the family's (Reserved) name — see
+        # tools/preview.py. Existing previews without it are regenerated.
         preview_rel = None
-        if ft_subset is not None and styles:
+        if ft_preview is not None and styles:
             src = ROOT / min(styles, key=lambda s: abs(s["weight"] - 400) + (1 if s["italic"] else 0))["file"]
             preview_path = fam_dir / "preview.ttf"
-            if args.force or not preview_path.exists():
+            if args.force or not preview_path.exists() or not ft_preview.preview_is_neutral(preview_path):
                 try:
-                    options = ft_subset.Options()
-                    options.layout_features = []       # no shaping machinery
-                    options.name_IDs = []              # strip the name table noise
-                    options.hinting = False
-                    options.notdef_outline = False
-                    subsetter = ft_subset.Subsetter(options=options)
-                    font = ft_subset.load_font(str(src), options)
-                    subsetter.populate(text=family)
-                    subsetter.subset(font)
-                    ft_subset.save_font(font, str(preview_path), options)
-                    font.close()
+                    ft_preview.make_preview(str(src), family, str(preview_path))
                 except Exception as e:  # noqa: BLE001 — preview is a nicety, never fatal
                     print(f"    ! preview subset failed ({e}) — row falls back to the default face")
             if preview_path.exists():
@@ -295,19 +291,12 @@ def main():
 
         lic_path = fam_dir / "LICENSE.txt"
         if args.force or not lic_path.exists():
-            # The google/fonts dir layout varies (a family's metadata license
-            # doesn't always match its directory) — try every candidate.
-            candidates = []
-            primary = LICENSE_URLS.get(license_id)
-            if primary:
-                candidates.append(primary.format(slug=slug))
+            # The family's licence lives in exactly one of google/fonts'
+            # ofl/ apache/ ufl/ directories — try each; the TEXT decides the id.
             for d, f in (("ofl", "OFL.txt"), ("apache", "LICENSE.txt"), ("ufl", "UFL.txt")):
                 url = f"https://raw.githubusercontent.com/google/fonts/main/{d}/{slug}/{f}"
-                if url not in candidates:
-                    candidates.append(url)
-            for lic_url in candidates:
                 try:
-                    lic_path.write_bytes(fetch(lic_url, retries=1))
+                    lic_path.write_bytes(fetch(url, retries=1))
                     break
                 except Exception:
                     continue
@@ -316,6 +305,19 @@ def main():
                 skipped.append((family, "license fetch failed"))
                 continue
 
+        # The licence id is DERIVED from the licence text shipped beside the
+        # files (never defaulted): OFL-1.1 / Apache-2.0 / UFL-1.0. RFN = the
+        # Reserved Font Names in the OFL copyright header; `rfn` = whether a
+        # modified derivative of THIS family must drop its name (an RFN that
+        # reaches the family name, or any UFL family) — ADR 125 Am. 2.
+        lic_text = lic_path.read_text("utf-8", "replace")
+        lic_kind = gfmeta.licence_kind_from_text(lic_text)
+        if lic_kind not in gfmeta.ALLOWED_LICENSES:
+            print(f"    ! licence text not OFL / Apache-2.0 / UFL — family refused")
+            skipped.append((family, "licence not allowed / unrecognised"))
+            continue
+        reserved = gfmeta.reserved_font_names(lic_text) if lic_kind == "OFL" else []
+
         entry = {
             "name": family,
             "slug": slug,
@@ -323,10 +325,13 @@ def main():
             # Language coverage (Google's subsets, minus the internal "menu"
             # entry) — drives the picker's language filter. Additive field.
             "subsets": sorted(s for s in meta.get("subsets", []) if s != "menu"),
-            "license": license_id.upper(),
+            "license": gfmeta.LICENSE_IDS[lic_kind],
             "licenseFile": f"fonts/{slug}/LICENSE.txt",
+            "rfn": gfmeta.must_rename_if_modified(family, lic_kind, reserved),
             "styles": styles,
         }
+        if reserved:
+            entry["reservedFontNames"] = reserved  # as declared in the licence header
         if preview_rel:
             entry["preview"] = preview_rel  # additive — schemaVersion stays 1
         manifest_families.append(entry)

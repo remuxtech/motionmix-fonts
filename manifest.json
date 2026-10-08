@@ -25,8 +25,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/abrilfatface/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -36,6 +37,10 @@
      "bytes": 56308,
      "sha256": "c426e1328c73a1d1c1c36809ead3353b487ae71d3b387ac8daca2d4b6d9124c0"
     }
+   ],
+   "reservedFontNames": [
+    "Abril",
+    "Abril Fatface"
    ],
    "preview": "fonts/abrilfatface/preview.ttf"
   },
@@ -48,8 +53,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/alfaslabone/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -59,6 +65,9 @@
      "bytes": 91272,
      "sha256": "0e834ddadca6dc95b5502c01f8911b7a77f50a350ac7400a6e2d9a3bfb1cd02f"
     }
+   ],
+   "reservedFontNames": [
+    "Alfa Slab"
    ],
    "preview": "fonts/alfaslabone/preview.ttf"
   },
@@ -70,8 +79,9 @@
     "arabic",
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/almarai/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -103,8 +113,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/amaticsc/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -134,8 +145,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/amiri/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -173,8 +185,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/anton/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -196,8 +209,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/archivo/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -250,8 +264,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/archivoblack/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -271,8 +286,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/arvo/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -299,6 +315,9 @@
      "sha256": "916d103f771685f12c2a6977d0d8f7185ddef97b7d13748522a3ed2422fe4eb4"
     }
    ],
+   "reservedFontNames": [
+    "Arvo"
+   ],
    "preview": "fonts/arvo/preview.ttf"
   },
   {
@@ -310,8 +329,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/assistant/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -338,6 +358,9 @@
      "sha256": "93ecab56b243eea4f4f2a890bc340341042898f484f46b9919c365017942d153"
     }
    ],
+   "reservedFontNames": [
+    "Source"
+   ],
    "preview": "fonts/assistant/preview.ttf"
   },
   {
@@ -348,8 +371,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/audiowide/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -359,6 +383,9 @@
      "bytes": 46972,
      "sha256": "c42a74135f7f527e69a16826220cece45ec376776cfacdfd6cfd750053215146"
     }
+   ],
+   "reservedFontNames": [
+    "Audiowide"
    ],
    "preview": "fonts/audiowide/preview.ttf"
   },
@@ -372,8 +399,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/baloo2/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -412,8 +440,9 @@
     "malayalam",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/baloochettan2/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -452,8 +481,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/balooda2/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -492,8 +522,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/balootamma2/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -531,8 +562,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/bangers/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -554,8 +586,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/barlow/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -608,8 +641,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/bebasneue/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -633,8 +667,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/bitter/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -677,6 +712,9 @@
      "sha256": "53e9a4769672971e329e7bad7e4788b3447c8e524a1868a438733199fccf05c2"
     }
    ],
+   "reservedFontNames": [
+    "Bitter Pro"
+   ],
    "preview": "fonts/bitter/preview.ttf"
   },
   {
@@ -687,8 +725,9 @@
     "korean",
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/blackhansans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -711,8 +750,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/blackopsone/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -734,8 +774,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/bungee/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -757,8 +798,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/cabin/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -804,8 +846,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/cairo/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -851,8 +894,9 @@
     "latin-ext",
     "tamil"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/catamaran/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -899,8 +943,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/caveat/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -938,8 +983,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/changa/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -975,8 +1021,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/chewy/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -997,8 +1044,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/cinzel/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1047,8 +1095,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/comfortaa/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -1075,6 +1124,9 @@
      "sha256": "990742fd8ec75da91f4eabcce954f36316de713e1ff0140eeefda0db1c44f91f"
     }
    ],
+   "reservedFontNames": [
+    "Comfortaa"
+   ],
    "preview": "fonts/comfortaa/preview.ttf"
   },
   {
@@ -1088,8 +1140,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/cormorantgaramond/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1134,8 +1187,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/courgette/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -1145,6 +1199,9 @@
      "bytes": 117596,
      "sha256": "9950490ccc48d4acbf950a28709e8799bf06996a2e4feafc8ed29e248525acba"
     }
+   ],
+   "reservedFontNames": [
+    "Courgette"
    ],
    "preview": "fonts/courgette/preview.ttf"
   },
@@ -1157,8 +1214,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/crimsontext/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1195,8 +1253,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/dmsans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1249,8 +1308,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/dmserifdisplay/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1269,6 +1329,9 @@
      "sha256": "0ab2fcacedaafc0a7536453d4a763f131ba83a636706d3ec2d685cf04478a920"
     }
    ],
+   "reservedFontNames": [
+    "Source"
+   ],
    "preview": "fonts/dmserifdisplay/preview.ttf"
   },
   {
@@ -1280,8 +1343,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/dancingscript/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -1308,6 +1372,9 @@
      "sha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee"
     }
    ],
+   "reservedFontNames": [
+    "Dancing Script"
+   ],
    "preview": "fonts/dancingscript/preview.ttf"
   },
   {
@@ -1318,8 +1385,9 @@
     "korean",
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/dohyeon/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1345,8 +1413,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/ebgaramond/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1393,8 +1462,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/elmessiri/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1434,8 +1504,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/exo2/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1488,8 +1559,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/figtree/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1547,8 +1619,9 @@
     "latin-ext",
     "symbols2"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/firacode/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1586,8 +1659,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/frankruhllibre/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1633,8 +1707,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/fraunces/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1688,8 +1763,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/fredoka/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1730,8 +1806,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/greatvibes/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1755,8 +1832,9 @@
     "math",
     "symbols"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/heebo/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1802,8 +1880,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/hind/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1841,8 +1920,9 @@
     "latin-ext",
     "telugu"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/hindguntur/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1880,8 +1960,9 @@
     "latin-ext",
     "tamil"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/hindmadurai/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1919,8 +2000,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/hindsiliguri/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1958,8 +2040,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/hindvadodara/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -1995,8 +2078,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/homemadeapple/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2020,8 +2104,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/ibmplexmono/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2056,6 +2141,9 @@
      "sha256": "b8282cd74fb0321912a5f74aae7c0a50ef94af598fae65e6e8c4ad941d9a1fa9"
     }
    ],
+   "reservedFontNames": [
+    "Plex"
+   ],
    "preview": "fonts/ibmplexmono/preview.ttf"
   },
   {
@@ -2067,8 +2155,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/inconsolata/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2113,8 +2202,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/indieflower/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2140,8 +2230,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/inter/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2198,8 +2289,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/jetbrainsmono/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2243,8 +2335,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/josefinslab/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2279,6 +2372,9 @@
      "sha256": "111b77c4f03aba08891b4f5875e90177229216de1fdea4d4e3a47c8af226af02"
     }
    ],
+   "reservedFontNames": [
+    "Josefin"
+   ],
    "preview": "fonts/josefinslab/preview.ttf"
   },
   {
@@ -2289,8 +2385,9 @@
     "korean",
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/jua/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2312,8 +2409,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/kalam/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2344,8 +2442,9 @@
     "thai",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/kanit/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2398,8 +2497,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/karla/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2444,8 +2544,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/kaushanscript/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2455,6 +2556,9 @@
      "bytes": 179848,
      "sha256": "423a2aa7c70d3e00312dfe35d3f6ba44ab6bf062ad4480437fc65dcc5d596c6e"
     }
+   ],
+   "reservedFontNames": [
+    "Kaushan Script"
    ],
    "preview": "fonts/kaushanscript/preview.ttf"
   },
@@ -2467,8 +2571,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/khand/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2505,8 +2610,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/lato/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2541,6 +2647,9 @@
      "sha256": "ae2f4abf0bf802b3710c474f05d1a34f086ef57001f5751d03e428e113f5a684"
     }
    ],
+   "reservedFontNames": [
+    "Lato"
+   ],
    "preview": "fonts/lato/preview.ttf"
   },
   {
@@ -2551,8 +2660,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/librebaskerville/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2587,6 +2697,9 @@
      "sha256": "b2149da8101de6ecbc0d5ea9616a0a0a45fbd01701f012a0ae9b0d0ed733c070"
     }
    ],
+   "reservedFontNames": [
+    "Libre Baskerville"
+   ],
    "preview": "fonts/librebaskerville/preview.ttf"
   },
   {
@@ -2600,8 +2713,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/lobster/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2611,6 +2725,9 @@
      "bytes": 392208,
      "sha256": "dfdc22543e8a5188aa6d774aa2e9a1f3c9cb363dc814ba1e919ac9e379daec03"
     }
+   ],
+   "reservedFontNames": [
+    "Lobster"
    ],
    "preview": "fonts/lobster/preview.ttf"
   },
@@ -2627,8 +2744,9 @@
     "symbols",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/lora/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2663,6 +2781,9 @@
      "sha256": "26243fda8cd938cc2734f46d20d7464822d89378c7f375e187e39f9ed3f20907"
     }
    ],
+   "reservedFontNames": [
+    "Lora"
+   ],
    "preview": "fonts/lora/preview.ttf"
   },
   {
@@ -2673,8 +2794,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/luckiestguy/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2696,8 +2818,9 @@
     "latin-ext",
     "malayalam"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/manjari/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2730,8 +2853,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/manrope/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2768,8 +2892,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/marcellus/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2779,6 +2904,9 @@
      "bytes": 43288,
      "sha256": "2f6fa616f76102d81c4a935c3a8cd547a8db9de679ad9fda9cfd42f16e7f0743"
     }
+   ],
+   "reservedFontNames": [
+    "Marcellus"
    ],
    "preview": "fonts/marcellus/preview.ttf"
   },
@@ -2791,8 +2919,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/martel/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2819,6 +2948,9 @@
      "sha256": "282070552c0a612140a25f34b6ae1ace7b44c195649755cc8573273f7fa983d2"
     }
    ],
+   "reservedFontNames": [
+    "Merriweather"
+   ],
    "preview": "fonts/martel/preview.ttf"
   },
   {
@@ -2832,8 +2964,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/merriweather/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2876,6 +3009,9 @@
      "sha256": "afff81272b7653417bb6f8bef57add055b1f9fda36f27eba5f32b40752bd08da"
     }
    ],
+   "reservedFontNames": [
+    "Merriweather"
+   ],
    "preview": "fonts/merriweather/preview.ttf"
   },
   {
@@ -2888,8 +3024,9 @@
     "thai",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/mitr/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -2926,8 +3063,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/monoton/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -2937,6 +3075,9 @@
      "bytes": 49768,
      "sha256": "c7ace162e95aa75817aad0963d23009190cd0a3a7cf80bf376d4de8f5200b376"
     }
+   ],
+   "reservedFontNames": [
+    "Monoton"
    ],
    "preview": "fonts/monoton/preview.ttf"
   },
@@ -2951,8 +3092,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/montserrat/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3006,8 +3148,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/mukta/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3045,8 +3188,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/muktamahee/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3086,8 +3230,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/mulish/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3143,8 +3288,9 @@
     "math",
     "symbols"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notonaskharabic/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3182,8 +3328,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notonastaliqurdu/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3226,8 +3373,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3283,8 +3431,9 @@
     "math",
     "symbols"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansarabic/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3330,8 +3479,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansbengali/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3377,8 +3527,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansdevanagari/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3426,8 +3577,9 @@
     "math",
     "symbols"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansgujarati/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3473,8 +3625,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansgurmukhi/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3522,8 +3675,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosanshebrew/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3569,8 +3723,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosanskannada/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3616,8 +3771,9 @@
     "latin-ext",
     "malayalam"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansmalayalam/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3663,8 +3819,9 @@
     "latin-ext",
     "tamil"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosanstamil/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3710,8 +3867,9 @@
     "latin-ext",
     "telugu"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosanstelugu/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3757,8 +3915,9 @@
     "latin-ext",
     "thai"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notosansthai/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3809,8 +3968,9 @@
     "math",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notoserif/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3864,8 +4024,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notoserifdevanagari/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3911,8 +4072,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notoserifhebrew/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -3958,8 +4120,9 @@
     "latin-ext",
     "thai"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/notoserifthai/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4007,8 +4170,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/nunito/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4069,8 +4233,9 @@
     "symbols",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/opensans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4114,8 +4279,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/orbitron/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4150,6 +4316,9 @@
      "sha256": "27cd313045d12280384256b4fba922366a4883e32ffb866b9acd62c5a859de61"
     }
    ],
+   "reservedFontNames": [
+    "Orbitron"
+   ],
    "preview": "fonts/orbitron/preview.ttf"
   },
   {
@@ -4163,8 +4332,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/oswald/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4201,8 +4371,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/outfit/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4249,8 +4420,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/ptsans/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4277,6 +4449,10 @@
      "sha256": "e74cb297fba7325d8622fc1b933a8b7bf170479e16a28b65782bb4fdbec5d019"
     }
    ],
+   "reservedFontNames": [
+    "PT Sans",
+    "ParaType"
+   ],
    "preview": "fonts/ptsans/preview.ttf"
   },
   {
@@ -4289,8 +4465,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/ptserif/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4317,6 +4494,11 @@
      "sha256": "009698a23dcc4267ecabc3e0e72f30b61174fe78db20ac6172ef98d15c5f0927"
     }
    ],
+   "reservedFontNames": [
+    "PT Sans",
+    "PT Serif",
+    "ParaType"
+   ],
    "preview": "fonts/ptserif/preview.ttf"
   },
   {
@@ -4330,8 +4512,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/pacifico/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4352,8 +4535,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/passionone/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4380,6 +4564,9 @@
      "sha256": "d47d329aea956cdec4826ca8fbe8e1ab65ab6da6ecb225a3f31cf4f5d368f21d"
     }
    ],
+   "reservedFontNames": [
+    "Passion"
+   ],
    "preview": "fonts/passionone/preview.ttf"
   },
   {
@@ -4389,8 +4576,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/permanentmarker/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4413,8 +4601,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/playfairdisplay/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4457,6 +4646,9 @@
      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
     }
    ],
+   "reservedFontNames": [
+    "Playfair Display"
+   ],
    "preview": "fonts/playfairdisplay/preview.ttf"
   },
   {
@@ -4469,8 +4661,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/plusjakartasans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4516,8 +4709,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/poppins/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4572,8 +4766,9 @@
     "latin",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/prata/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4597,8 +4792,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/pressstart2p/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4608,6 +4804,9 @@
      "bytes": 115280,
      "sha256": "7b939b816f8ce185dd8c2c59e85fb05d3dcd5cde0c0b0de4a1651cb5af9c2c2b"
     }
+   ],
+   "reservedFontNames": [
+    "Press Start 2P"
    ],
    "preview": "fonts/pressstart2p/preview.ttf"
   },
@@ -4621,8 +4820,9 @@
     "thai",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/prompt/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4676,8 +4876,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/quicksand/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4704,6 +4905,9 @@
      "sha256": "8fb2148170b16156ad78d9d787a5d98a2c00752f91fc0fe88c9367c0809ecba3"
     }
    ],
+   "reservedFontNames": [
+    "Quicksand"
+   ],
    "preview": "fonts/quicksand/preview.ttf"
   },
   {
@@ -4715,8 +4919,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/rajdhani/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4756,8 +4961,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/raleway/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4800,6 +5006,9 @@
      "sha256": "947194506dcf722728b84075659c60350c6a730d1ef8bbfe03acb4980e0b165a"
     }
    ],
+   "reservedFontNames": [
+    "Raleway"
+   ],
    "preview": "fonts/raleway/preview.ttf"
   },
   {
@@ -4812,8 +5021,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/reemkufi/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4840,6 +5050,9 @@
      "sha256": "f26a45f176126b2897137372ec16c9d9fd587f4ae58c56a2ff20f7e254b3606b"
     }
    ],
+   "reservedFontNames": [
+    "Josefin Sans"
+   ],
    "preview": "fonts/reemkufi/preview.ttf"
   },
   {
@@ -4850,8 +5063,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/righteous/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -4861,6 +5075,9 @@
      "bytes": 40364,
      "sha256": "82e2ac84900128219615a1e3a986a1821409e727e2bdb67714b2dcfe4447b946"
     }
+   ],
+   "reservedFontNames": [
+    "Righteous"
    ],
    "preview": "fonts/righteous/preview.ttf"
   },
@@ -4879,8 +5096,9 @@
     "symbols",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/roboto/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4937,8 +5155,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/robotomono/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -4988,8 +5207,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/robotoslab/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5033,8 +5253,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/rocksalt/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5056,8 +5277,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/rozhaone/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5082,8 +5304,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/rubik/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5137,8 +5360,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/russoone/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -5148,6 +5372,9 @@
      "bytes": 36816,
      "sha256": "7a022de179a466ad9711d5f2848123c5cba6eedf22e51a8dc04ed6e5d64b205d"
     }
+   ],
+   "reservedFontNames": [
+    "Russo"
    ],
    "preview": "fonts/russoone/preview.ttf"
   },
@@ -5159,8 +5386,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/sacramento/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -5170,6 +5398,9 @@
      "bytes": 64108,
      "sha256": "15597dce1d707e88a188f804fb927e526b2ad959d03e9df9c812492ceed0a4ab"
     }
+   ],
+   "reservedFontNames": [
+    "Sacramento"
    ],
    "preview": "fonts/sacramento/preview.ttf"
   },
@@ -5183,8 +5414,9 @@
     "thai",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/sarabun/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5228,8 +5460,9 @@
    "subsets": [
     "latin"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/satisfy/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5251,8 +5484,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/secularone/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5273,8 +5507,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/shadowsintolight/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5295,8 +5530,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/sora/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5338,8 +5574,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/sourcecodepro/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -5382,6 +5619,9 @@
      "sha256": "ccb7013cde3e3391663e4bb385dfd7019ff2f27486639e7604d905fea79664f6"
     }
    ],
+   "reservedFontNames": [
+    "Source"
+   ],
    "preview": "fonts/sourcecodepro/preview.ttf"
   },
   {
@@ -5396,8 +5636,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/sourceserif4/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5451,8 +5692,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/spacegrotesk/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5490,8 +5732,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/spacemono/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5529,8 +5772,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/suezone/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5552,8 +5796,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/syne/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5590,8 +5835,9 @@
     "arabic",
     "latin"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/tajawal/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5637,8 +5883,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/teko/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5676,8 +5923,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/tirodevanagarihindi/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5706,8 +5954,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/titanone/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -5717,6 +5966,9 @@
      "bytes": 52188,
      "sha256": "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd"
     }
+   ],
+   "reservedFontNames": [
+    "Titan"
    ],
    "preview": "fonts/titanone/preview.ttf"
   },
@@ -5732,8 +5984,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "UFL-1.0",
    "licenseFile": "fonts/ubuntu/LICENSE.txt",
+   "rfn": true,
    "styles": [
     {
      "name": "Regular",
@@ -5781,8 +6034,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/unbounded/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5828,8 +6082,9 @@
     "latin-ext",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/worksans/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5887,8 +6142,9 @@
     "symbols",
     "vietnamese"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/yanonekaffeesatz/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5926,8 +6182,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/yatraone/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5948,8 +6205,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "Apache-2.0",
    "licenseFile": "fonts/yellowtail/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
@@ -5970,8 +6228,9 @@
     "latin",
     "latin-ext"
    ],
-   "license": "OFL",
+   "license": "OFL-1.1",
    "licenseFile": "fonts/zillaslab/LICENSE.txt",
+   "rfn": false,
    "styles": [
     {
      "name": "Regular",
