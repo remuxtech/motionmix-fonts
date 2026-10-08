@@ -1,0 +1,832 @@
+{
+ "version": 1,
+ "catalogVersion": "2026.10.08.2",
+ "about": "Hand-checked font pairs (ADR 278): a quality floor and boost for the pair scorer. Matched by (display slug, support slug); the styles are the reviewed faces (slots still map by their own intents). moods are creator moods from tools/pairing/pair_scorer.py CREATOR_MOODS. Every family is in the R2 catalog at catalogVersion.",
+ "pairs": [
+  {
+   "display": {
+    "slug": "anton",
+    "name": "Anton",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "archivo",
+    "name": "Archivo",
+    "style": "Bold"
+   },
+   "moods": [
+    "bold",
+    "cinematic"
+   ],
+   "why": "The Bold collection pair: condensed neo-grotesque caps over a sturdy grotesque. Same rational skeleton, contrast by width and case."
+  },
+  {
+   "display": {
+    "slug": "bebasneue",
+    "name": "Bebas Neue",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Medium"
+   },
+   "moods": [
+    "bold",
+    "minimal",
+    "cinematic"
+   ],
+   "why": "Tall caps-only grotesque over a wide geometric: contrast by width and case, both plain."
+  },
+  {
+   "display": {
+    "slug": "oswald",
+    "name": "Oswald",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "opensans",
+    "name": "Open Sans",
+    "style": "Regular"
+   },
+   "moods": [
+    "bold",
+    "corporate"
+   ],
+   "why": "Condensed gothic headline with a humanist text face; the dependable news pairing."
+  },
+  {
+   "display": {
+    "slug": "leaguegothic",
+    "name": "League Gothic",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "worksans",
+    "name": "Work Sans",
+    "style": "Medium"
+   },
+   "moods": [
+    "bold",
+    "retro",
+    "cinematic"
+   ],
+   "why": "Narrow American gothic over a screen grotesque; poster energy that still reads small."
+  },
+  {
+   "display": {
+    "slug": "archivoblack",
+    "name": "Archivo Black",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "archivo",
+    "name": "Archivo",
+    "style": "Regular"
+   },
+   "moods": [
+    "bold",
+    "corporate"
+   ],
+   "why": "The black display cut over its own family's text weight: one voice, two volumes."
+  },
+  {
+   "display": {
+    "slug": "bigshoulders",
+    "name": "Big Shoulders",
+    "style": "Black"
+   },
+   "support": {
+    "slug": "barlow",
+    "name": "Barlow",
+    "style": "Regular"
+   },
+   "moods": [
+    "bold",
+    "cinematic",
+    "retro"
+   ],
+   "why": "Chicago-gothic condensed caps over a soft grotesque of the same industrial lineage."
+  },
+  {
+   "display": {
+    "slug": "rubikmonoone",
+    "name": "Rubik Mono One",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "rubik",
+    "name": "Rubik",
+    "style": "Medium"
+   },
+   "moods": [
+    "bold",
+    "playful",
+    "techy"
+   ],
+   "why": "Wide monospaced caps over their rounded parent family."
+  },
+  {
+   "display": {
+    "slug": "abrilfatface",
+    "name": "Abril Fatface",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "poppins",
+    "name": "Poppins",
+    "style": "Regular"
+   },
+   "moods": [
+    "bold",
+    "retro",
+    "editorial"
+   ],
+   "why": "Fat-face Didone headline with a clean geometric; heavy-thin drama against an even line."
+  },
+  {
+   "display": {
+    "slug": "alfaslabone",
+    "name": "Alfa Slab One",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "lato",
+    "name": "Lato",
+    "style": "Regular"
+   },
+   "moods": [
+    "retro",
+    "bold"
+   ],
+   "why": "Fat slab caps with a calm humanist sans that stays out of the way."
+  },
+  {
+   "display": {
+    "slug": "luckiestguy",
+    "name": "Luckiest Guy",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "nunito",
+    "name": "Nunito",
+    "style": "Medium"
+   },
+   "moods": [
+    "playful",
+    "bold"
+   ],
+   "why": "Cartoon caps over a rounded sans; both soft-cornered, very different volume."
+  },
+  {
+   "display": {
+    "slug": "bangers",
+    "name": "Bangers",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "rubik",
+    "name": "Rubik",
+    "style": "Medium"
+   },
+   "moods": [
+    "playful",
+    "bold"
+   ],
+   "why": "Comic-book caps with a slightly rounded grotesque for the details."
+  },
+  {
+   "display": {
+    "slug": "titanone",
+    "name": "Titan One",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "nunito",
+    "name": "Nunito",
+    "style": "Regular"
+   },
+   "moods": [
+    "playful",
+    "friendly"
+   ],
+   "why": "Chunky rounded display over a rounded text face; one softness, two weights."
+  },
+  {
+   "display": {
+    "slug": "fredoka",
+    "name": "Fredoka",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "nunito",
+    "name": "Nunito",
+    "style": "Regular"
+   },
+   "moods": [
+    "playful",
+    "friendly"
+   ],
+   "why": "Rounded geometric headline, rounded humanist text: friendly at every size."
+  },
+  {
+   "display": {
+    "slug": "baloo2",
+    "name": "Baloo 2",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "quicksand",
+    "name": "Quicksand",
+    "style": "Medium"
+   },
+   "moods": [
+    "playful",
+    "friendly"
+   ],
+   "why": "Bouncy rounded display over a light rounded geometric."
+  },
+  {
+   "display": {
+    "slug": "pacifico",
+    "name": "Pacifico",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "quicksand",
+    "name": "Quicksand",
+    "style": "Regular"
+   },
+   "moods": [
+    "playful",
+    "friendly",
+    "handmade"
+   ],
+   "why": "Brush script headline with a light rounded geometric; warm and casual."
+  },
+  {
+   "display": {
+    "slug": "lobster",
+    "name": "Lobster",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "cabin",
+    "name": "Cabin",
+    "style": "Regular"
+   },
+   "moods": [
+    "retro",
+    "playful"
+   ],
+   "why": "Fat connected script over a humanist sans of the same warmth."
+  },
+  {
+   "display": {
+    "slug": "caveat",
+    "name": "Caveat",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "karla",
+    "name": "Karla",
+    "style": "Regular"
+   },
+   "moods": [
+    "handmade",
+    "friendly"
+   ],
+   "why": "Handwriting headline, quirky grotesque detail: a note-to-self feel."
+  },
+  {
+   "display": {
+    "slug": "permanentmarker",
+    "name": "Permanent Marker",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Regular"
+   },
+   "moods": [
+    "handmade",
+    "bold"
+   ],
+   "why": "Marker caps for the shout, a plain geometric for everything else."
+  },
+  {
+   "display": {
+    "slug": "playfairdisplay",
+    "name": "Playfair Display",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "lato",
+    "name": "Lato",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "elegant"
+   ],
+   "why": "Didone display over a humanist sans: the classic magazine pair."
+  },
+  {
+   "display": {
+    "slug": "playfairdisplay",
+    "name": "Playfair Display",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Regular"
+   },
+   "moods": [
+    "luxury",
+    "elegant"
+   ],
+   "why": "Didone plus geometric sans: the fashion-magazine pairing."
+  },
+  {
+   "display": {
+    "slug": "dmserifdisplay",
+    "name": "DM Serif Display",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "corporate"
+   ],
+   "why": "A warm display serif over a neutral grotesque; the pull quote's own type."
+  },
+  {
+   "display": {
+    "slug": "librebaskerville",
+    "name": "Libre Baskerville",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "corporate"
+   ],
+   "why": "Transitional serif with a geometric sans: bookish but current."
+  },
+  {
+   "display": {
+    "slug": "lora",
+    "name": "Lora",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "worksans",
+    "name": "Work Sans",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "calm"
+   ],
+   "why": "Calligraphic text serif over a plain grotesque; easy reading for longer lines."
+  },
+  {
+   "display": {
+    "slug": "merriweather",
+    "name": "Merriweather",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "opensans",
+    "name": "Open Sans",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "calm",
+    "corporate"
+   ],
+   "why": "Sturdy screen serif with a humanist sans of matching x-height."
+  },
+  {
+   "display": {
+    "slug": "ebgaramond",
+    "name": "EB Garamond",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "lato",
+    "name": "Lato",
+    "style": "Regular"
+   },
+   "moods": [
+    "calm",
+    "elegant",
+    "editorial"
+   ],
+   "why": "Garamond's quiet elegance over a humanist sans built on similar proportions."
+  },
+  {
+   "display": {
+    "slug": "fraunces",
+    "name": "Fraunces",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "friendly"
+   ],
+   "why": "Soft, slightly wonky Old Style display over a neutral grotesque."
+  },
+  {
+   "display": {
+    "slug": "instrumentserif",
+    "name": "Instrument Serif",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial",
+    "minimal",
+    "elegant"
+   ],
+   "why": "Condensed contemporary serif over a neutral sans; quiet and current."
+  },
+  {
+   "display": {
+    "slug": "newsreader",
+    "name": "Newsreader",
+    "style": "Medium"
+   },
+   "support": {
+    "slug": "intertight",
+    "name": "Inter Tight",
+    "style": "Regular"
+   },
+   "moods": [
+    "editorial"
+   ],
+   "why": "Newspaper text serif with a tight grotesque; dense and readable."
+  },
+  {
+   "display": {
+    "slug": "crimsonpro",
+    "name": "Crimson Pro",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "publicsans",
+    "name": "Public Sans",
+    "style": "Regular"
+   },
+   "moods": [
+    "calm",
+    "editorial"
+   ],
+   "why": "Old Style book serif over a neutral grotesque; unhurried."
+  },
+  {
+   "display": {
+    "slug": "cormorantgaramond",
+    "name": "Cormorant Garamond",
+    "style": "Medium"
+   },
+   "support": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Regular"
+   },
+   "moods": [
+    "elegant",
+    "luxury"
+   ],
+   "why": "Fine Garalde display over a geometric sans; high-end without being cold."
+  },
+  {
+   "display": {
+    "slug": "bodonimoda",
+    "name": "Bodoni Moda",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "jost",
+    "name": "Jost",
+    "style": "Regular"
+   },
+   "moods": [
+    "luxury",
+    "elegant"
+   ],
+   "why": "Bodoni over a Futura-style geometric: the fashion house pairing."
+  },
+  {
+   "display": {
+    "slug": "cinzel",
+    "name": "Cinzel",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "raleway",
+    "name": "Raleway",
+    "style": "Regular"
+   },
+   "moods": [
+    "luxury",
+    "cinematic"
+   ],
+   "why": "Roman inscriptional caps over an elegant geometric sans."
+  },
+  {
+   "display": {
+    "slug": "prata",
+    "name": "Prata",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "lato",
+    "name": "Lato",
+    "style": "Regular"
+   },
+   "moods": [
+    "luxury",
+    "elegant"
+   ],
+   "why": "High-contrast Didone display with a calm humanist sans."
+  },
+  {
+   "display": {
+    "slug": "marcellus",
+    "name": "Marcellus",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "mulish",
+    "name": "Mulish",
+    "style": "Regular"
+   },
+   "moods": [
+    "luxury",
+    "elegant",
+    "calm"
+   ],
+   "why": "Flared Trajan-like serif over a minimal sans; refined, never loud."
+  },
+  {
+   "display": {
+    "slug": "greatvibes",
+    "name": "Great Vibes",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "lato",
+    "name": "Lato",
+    "style": "Regular"
+   },
+   "moods": [
+    "elegant",
+    "handmade"
+   ],
+   "why": "Formal script for names, a quiet humanist sans for the details: invitation type."
+  },
+  {
+   "display": {
+    "slug": "dancingscript",
+    "name": "Dancing Script",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "poppins",
+    "name": "Poppins",
+    "style": "Regular"
+   },
+   "moods": [
+    "friendly",
+    "handmade",
+    "elegant"
+   ],
+   "why": "Lively connected script over a clean geometric."
+  },
+  {
+   "display": {
+    "slug": "parisienne",
+    "name": "Parisienne",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "cormorantgaramond",
+    "name": "Cormorant Garamond",
+    "style": "Medium"
+   },
+   "moods": [
+    "elegant",
+    "luxury"
+   ],
+   "why": "Formal script with a Garalde serif: wedding stationery."
+  },
+  {
+   "display": {
+    "slug": "spacegrotesk",
+    "name": "Space Grotesk",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "spacemono",
+    "name": "Space Mono",
+    "style": "Regular"
+   },
+   "moods": [
+    "techy",
+    "minimal"
+   ],
+   "why": "One superfamily across classes: proportional headline, monospaced detail."
+  },
+  {
+   "display": {
+    "slug": "jetbrainsmono",
+    "name": "JetBrains Mono",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "techy",
+    "minimal"
+   ],
+   "why": "A coder's monospace headline over a neutral UI sans."
+  },
+  {
+   "display": {
+    "slug": "syne",
+    "name": "Syne",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "techy",
+    "minimal",
+    "bold"
+   ],
+   "why": "Wide, idiosyncratic grotesque display over a neutral sans."
+  },
+  {
+   "display": {
+    "slug": "orbitron",
+    "name": "Orbitron",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "exo2",
+    "name": "Exo 2",
+    "style": "Regular"
+   },
+   "moods": [
+    "techy"
+   ],
+   "why": "Square sci-fi caps over a technical sans that still reads small."
+  },
+  {
+   "display": {
+    "slug": "unbounded",
+    "name": "Unbounded",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "manrope",
+    "name": "Manrope",
+    "style": "Regular"
+   },
+   "moods": [
+    "techy",
+    "bold"
+   ],
+   "why": "Wide rounded-square display over a modern grotesque."
+  },
+  {
+   "display": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "inter",
+    "name": "Inter",
+    "style": "Regular"
+   },
+   "moods": [
+    "corporate",
+    "minimal"
+   ],
+   "why": "One family, weight contrast only: the safe lower third."
+  },
+  {
+   "display": {
+    "slug": "montserrat",
+    "name": "Montserrat",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "sourceserif4",
+    "name": "Source Serif 4",
+    "style": "Regular"
+   },
+   "moods": [
+    "corporate",
+    "editorial"
+   ],
+   "why": "Geometric name over a serif detail line: a confident inversion."
+  },
+  {
+   "display": {
+    "slug": "robotoslab",
+    "name": "Roboto Slab",
+    "style": "Bold"
+   },
+   "support": {
+    "slug": "roboto",
+    "name": "Roboto",
+    "style": "Regular"
+   },
+   "moods": [
+    "corporate",
+    "friendly"
+   ],
+   "why": "Slab and sans of one superfamily: matched proportions, two textures."
+  },
+  {
+   "display": {
+    "slug": "rye",
+    "name": "Rye",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "robotoslab",
+    "name": "Roboto Slab",
+    "style": "Regular"
+   },
+   "moods": [
+    "retro"
+   ],
+   "why": "Western woodtype caps over a plain slab; saloon poster."
+  },
+  {
+   "display": {
+    "slug": "limelight",
+    "name": "Limelight",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "raleway",
+    "name": "Raleway",
+    "style": "Regular"
+   },
+   "moods": [
+    "retro",
+    "luxury"
+   ],
+   "why": "Art Deco display over an elegant geometric sans."
+  },
+  {
+   "display": {
+    "slug": "righteous",
+    "name": "Righteous",
+    "style": "Regular"
+   },
+   "support": {
+    "slug": "poppins",
+    "name": "Poppins",
+    "style": "Regular"
+   },
+   "moods": [
+    "retro",
+    "playful"
+   ],
+   "why": "Streamlined 70s display over a clean geometric."
+  }
+ ]
+}

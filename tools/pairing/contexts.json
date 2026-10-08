@@ -1,0 +1,402 @@
+{
+  "about": "Template contexts the pair scorer is tuned and golden-tested on. A context is what a template declares (moods, roles) plus what the host derives at shuffle time (intents from the authored faces, scripts from the live text, the lock, the seed). Intents: {stem: authored face m.stemc} or {weight: n}, optional italic.",
+  "contexts": {
+    "bold_hook": {
+      "note": "Bold collection hook title: Anton caps headline + Archivo Bold aside, vertical social video",
+      "moods": {
+        "bold": 1.0
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.199
+            }
+          ],
+          "caps": true
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.217
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "I quit my job",
+        "support": "Nobody tells you this part"
+      }
+    },
+    "editorial_quote": {
+      "note": "Pull quote: a display serif quote in sentence case + a small attribution line",
+      "moods": {
+        "editorial": 1.0,
+        "calm": 0.5
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.131
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.128
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "The words are the picture.",
+        "support": "Ada Lindqvist, designer"
+      }
+    },
+    "playful_kids": {
+      "note": "Kids / family channel title: bouncy headline + friendly subline",
+      "moods": {
+        "playful": 1.0,
+        "friendly": 0.5
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.2
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.14
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Story time!",
+        "support": "Join us every Saturday at ten"
+      }
+    },
+    "corporate_lower_third": {
+      "note": "Lower third: name in bold + role in regular; both lines matter equally",
+      "moods": {
+        "corporate": 1.0,
+        "minimal": 0.4
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.2
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.128
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.5,
+        "support": 0.5
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Jane Okafor",
+        "support": "Head of Product, Northwind"
+      }
+    },
+    "luxury_fashion": {
+      "note": "Fashion / luxury title card: high-contrast caps headline + light tracked subline",
+      "moods": {
+        "luxury": 1.0,
+        "elegant": 0.6
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.127
+            }
+          ],
+          "caps": true
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.115
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Maison Été",
+        "support": "Autumn Winter Collection 2027"
+      }
+    },
+    "tech_minimal": {
+      "note": "Product / tech launch title: clean confident headline + plain subline",
+      "moods": {
+        "techy": 1.0,
+        "minimal": 0.6
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.17
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.125
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Ship faster.",
+        "support": "Build, test and deploy in one place"
+      }
+    },
+    "handmade_wedding": {
+      "note": "Wedding / invitation title: a script or soft display headline + an elegant subline",
+      "moods": {
+        "elegant": 1.0,
+        "handmade": 0.6,
+        "calm": 0.4
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.1
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.12
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Anna & Theo",
+        "support": "Saturday the twelfth of June"
+      }
+    },
+    "retro_poster": {
+      "note": "Retro event poster: vintage display + sturdy support",
+      "moods": {
+        "retro": 1.0,
+        "bold": 0.4
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.22
+            }
+          ],
+          "caps": true
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.15
+            }
+          ]
+        }
+      },
+      "roleWeights": {
+        "display": 0.7,
+        "support": 0.3
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "Summer Fair",
+        "support": "Live music, food and games all day"
+      }
+    },
+    "bold_hook_locked_display": {
+      "note": "Bold hook with the display locked to Anton: only the support varies",
+      "moods": {
+        "bold": 1.0
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.199
+            }
+          ],
+          "caps": true
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.217
+            }
+          ]
+        }
+      },
+      "locked": {
+        "role": "display",
+        "slug": "anton"
+      },
+      "scripts": [
+        "latin"
+      ],
+      "seed": 7,
+      "sample": {
+        "display": "I quit my job",
+        "support": "Nobody tells you this part"
+      }
+    },
+    "editorial_quote_hindi": {
+      "note": "The quote with Hindi text: both faces must cover Devanagari",
+      "moods": {
+        "editorial": 1.0,
+        "calm": 0.5
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.131
+            }
+          ],
+          "caps": false
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.128
+            }
+          ]
+        }
+      },
+      "scripts": [
+        "devanagari",
+        "latin"
+      ],
+      "seed": 1,
+      "sample": {
+        "display": "शब्द ही तस्वीर हैं।",
+        "support": "अदा लिंडक्विस्ट, डिज़ाइनर"
+      }
+    },
+    "caption_bold": {
+      "note": "Social captions with a bold display: the support family must also read as small captions over video",
+      "moods": {
+        "bold": 1.0,
+        "friendly": 0.3
+      },
+      "roles": {
+        "display": {
+          "intents": [
+            {
+              "stem": 0.22
+            }
+          ],
+          "caps": true
+        },
+        "support": {
+          "intents": [
+            {
+              "stem": 0.17
+            }
+          ]
+        },
+        "caption": {
+          "intents": [
+            {
+              "stem": 0.17
+            }
+          ]
+        }
+      },
+      "outline": true,
+      "scripts": [
+        "latin",
+        "latin-ext"
+      ],
+      "seed": 3,
+      "sample": {
+        "display": "Wait for it",
+        "support": "and then everything changed"
+      }
+    }
+  }
+}

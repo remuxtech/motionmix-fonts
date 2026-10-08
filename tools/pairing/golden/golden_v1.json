@@ -1,0 +1,4664 @@
+{
+ "scorer": "pair-1",
+ "about": "Golden vectors for ports of the pair scorer (the Kotlin port in appkit runs the same cases and must match).",
+ "index": {
+  "file": "index_fixture.json",
+  "sha256": "8492ccbe59351451de895d70c75f7249bab46aafb7765b1f46516f2ce88517fd",
+  "families": 341,
+  "fixtureOf": "2026.10.08.2"
+ },
+ "seeds": {
+  "file": "../../../pairing/seed_pairs.json",
+  "sha256": "ad23bb527a11508e906d3702ef8410c4acc96ca2d5d91cf994fc78c443c6f345"
+ },
+ "topN": 15,
+ "deckN": 10,
+ "splitmix64": {
+  "0": {
+   "u64": [
+    "16294208416658607535",
+    "7960286522194355700",
+    "487617019471545679",
+    "17909611376780542444"
+   ],
+   "double": [
+    0.8833108082136426,
+    0.43152799704850997,
+    0.026433771592597743,
+    0.9708819781538285
+   ]
+  },
+  "1": {
+   "u64": [
+    "10451216379200822465",
+    "13757245211066428519",
+    "17911839290282890590",
+    "8196980753821780235"
+   ],
+   "double": [
+    0.5665615751722809,
+    0.7457817572627011,
+    0.9710027535867962,
+    0.4443592170557721
+   ]
+  },
+  "42": {
+   "u64": [
+    "13679457532755275413",
+    "2949826092126892291",
+    "5139283748462763858",
+    "6349198060258255764"
+   ],
+   "double": [
+    0.7415648787718233,
+    0.1599103928769201,
+    0.27860113025513866,
+    0.34419071652363753
+   ]
+  },
+  "9007199254740991": {
+   "u64": [
+    "2646233860231550367",
+    "3513919288614318488",
+    "9765177950096426844",
+    "4715333810767792838"
+   ],
+   "double": [
+    0.1434526250083874,
+    0.1904899463327181,
+    0.5293713574101044,
+    0.25561875808143963
+   ]
+  }
+ },
+ "cases": {
+  "bold_hook": {
+   "input": {
+    "moods": {
+     "bold": 1.0
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.199
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.217
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 5059,
+    "rejects": {
+     "matrix": 5744,
+     "same-family": 83,
+     "twin": 1475
+    },
+    "top": [
+     [
+      "anton",
+      "Regular",
+      "archivo",
+      "Bold",
+      735157
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "mozillaheadline",
+      "Bold",
+      710501
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "bricolagegrotesque",
+      "Bold",
+      706609
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "splinesans",
+      "Bold",
+      702296
+     ],
+     [
+      "bigshoulders",
+      "Black",
+      "barlow",
+      "Bold",
+      701989
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "roboto",
+      "Bold",
+      701693
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "cossettetexte",
+      "Bold",
+      700876
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "schibstedgrotesk",
+      "Bold",
+      700309
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Bold",
+      699984
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "inter",
+      "Bold",
+      699606
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "archivo",
+      "Bold",
+      699564
+     ],
+     [
+      "alfaslabone",
+      "Regular",
+      "lato",
+      "Black",
+      699368
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "intertight",
+      "Bold",
+      699354
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "titilliumweb",
+      "Bold",
+      699186
+     ],
+     [
+      "anton",
+      "Regular",
+      "mozillaheadline",
+      "Bold",
+      698094
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 712980,
+      "fit": 779700,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 638889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "curated",
+       "same-skeleton",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 676618,
+      "fit": 851400,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 864921,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 674200,
+      "fit": 862200,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 827540,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "anton",
+      "archivo",
+      735157
+     ],
+     [
+      "abrilfatface",
+      "bricolagegrotesque",
+      664943
+     ],
+     [
+      "proteststrike",
+      "bricolagegrotesque",
+      706609
+     ],
+     [
+      "rowdies",
+      "lato",
+      691861
+     ],
+     [
+      "luckiestguy",
+      "nunito",
+      670501
+     ],
+     [
+      "rubikmonoone",
+      "mozillaheadline",
+      694517
+     ],
+     [
+      "alfaslabone",
+      "lato",
+      699368
+     ],
+     [
+      "robotoslab",
+      "roboto",
+      643846
+     ],
+     [
+      "bigshoulders",
+      "barlow",
+      701989
+     ],
+     [
+      "bungee",
+      "googlesansflex",
+      690242
+     ]
+    ]
+   }
+  },
+  "editorial_quote": {
+   "input": {
+    "moods": {
+     "editorial": 1.0,
+     "calm": 0.5
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.131
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.128
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 5973,
+    "rejects": {
+     "matrix": 1699,
+     "same-family": 43,
+     "twin": 689
+    },
+    "top": [
+     [
+      "merriweather",
+      "Regular",
+      "opensans",
+      "Regular",
+      754339
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "lato",
+      "Regular",
+      731700
+     ],
+     [
+      "ebgaramond",
+      "Regular",
+      "lato",
+      "Regular",
+      723056
+     ],
+     [
+      "ptserif",
+      "Regular",
+      "ptsans",
+      "Regular",
+      712637
+     ],
+     [
+      "ibmplexserif",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Regular",
+      712070
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "firasans",
+      "Regular",
+      711586
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "mukta",
+      "Regular",
+      710462
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "lato",
+      "Regular",
+      710094
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "recursive",
+      "Regular",
+      707140
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "commissioner",
+      "Regular",
+      706268
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "alegreyasans",
+      "Regular",
+      705003
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "notosans",
+      "Regular",
+      704811
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "hind",
+      "Regular",
+      704266
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "ptsans",
+      "Regular",
+      703360
+     ],
+     [
+      "merriweather",
+      "Regular",
+      "varelaround",
+      "Regular",
+      702433
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 734423,
+      "fit": 626700,
+      "balance": 1000000,
+      "harmony": 996000,
+      "quality": 833333,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "x-height",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 652008,
+      "fit": 800500,
+      "balance": 1000000,
+      "harmony": 810000,
+      "quality": 888889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 723781,
+      "fit": 696900,
+      "balance": 875000,
+      "harmony": 826000,
+      "quality": 819444,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "merriweather",
+      "opensans",
+      754339
+     ],
+     [
+      "oswald",
+      "lora",
+      656942
+     ],
+     [
+      "playfairdisplay",
+      "lato",
+      731700
+     ],
+     [
+      "ibmplexserif",
+      "ibmplexsanscondensed",
+      712070
+     ],
+     [
+      "ebgaramond",
+      "lato",
+      723056
+     ],
+     [
+      "ptserif",
+      "roboto",
+      695309
+     ],
+     [
+      "montserrat",
+      "sourceserif4",
+      672637
+     ],
+     [
+      "pragatinarrow",
+      "archivo",
+      643957
+     ],
+     [
+      "alegreya",
+      "alegreyasans",
+      702347
+     ],
+     [
+      "crimsonpro",
+      "publicsans",
+      676609
+     ]
+    ]
+   }
+  },
+  "playful_kids": {
+   "input": {
+    "moods": {
+     "playful": 1.0,
+     "friendly": 0.5
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.2
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.14
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 959,
+    "rejects": {
+     "matrix": 320,
+     "same-family": 9,
+     "twin": 30
+    },
+    "top": [
+     [
+      "dynapuff",
+      "Regular",
+      "varelaround",
+      "Regular",
+      734792
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "firasans",
+      "Regular",
+      727937
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "recursive",
+      "Regular",
+      725436
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "opensans",
+      "Medium",
+      718861
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "commissioner",
+      "Regular",
+      718416
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "lato",
+      "Regular",
+      718028
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "mukta",
+      "Regular",
+      717633
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "aneklatin",
+      "Regular",
+      716549
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "alansans",
+      "Regular",
+      714036
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "abeezee",
+      "Regular",
+      712912
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "unbounded",
+      "Regular",
+      712752
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "sansita",
+      "Regular",
+      711210
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "varta",
+      "Medium",
+      710702
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "alegreyasans",
+      "Medium",
+      710646
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "redditsans",
+      "Medium",
+      710322
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 848873,
+      "fit": 901000,
+      "balance": 1000000,
+      "harmony": 774000,
+      "quality": 610000,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 792015,
+      "fit": 927700,
+      "balance": 1000000,
+      "harmony": 838000,
+      "quality": 637778,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 789243,
+      "fit": 921100,
+      "balance": 1000000,
+      "harmony": 828000,
+      "quality": 643413,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "dynapuff",
+      "varelaround",
+      734792
+     ],
+     [
+      "pacifico",
+      "quicksand",
+      694792
+     ],
+     [
+      "sourgummy",
+      "quicksand",
+      706720
+     ],
+     [
+      "luckiestguy",
+      "nunito",
+      694792
+     ],
+     [
+      "coiny",
+      "fredoka",
+      696361
+     ],
+     [
+      "titanone",
+      "nunito",
+      694792
+     ],
+     [
+      "boogaloo",
+      "commissioner",
+      648825
+     ],
+     [
+      "bangers",
+      "rubik",
+      694792
+     ],
+     [
+      "chewy",
+      "fredoka",
+      666988
+     ],
+     [
+      "righteous",
+      "poppins",
+      694792
+     ]
+    ]
+   }
+  },
+  "corporate_lower_third": {
+   "input": {
+    "moods": {
+     "corporate": 1.0,
+     "minimal": 0.4
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.2
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.128
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.5,
+     "support": 0.5
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 10907,
+    "rejects": {
+     "matrix": 1934,
+     "same-family": 34,
+     "twin": 691
+    },
+    "top": [
+     [
+      "googlesans",
+      "Bold",
+      "googlesans",
+      "Regular",
+      819086
+     ],
+     [
+      "inter",
+      "Bold",
+      "inter",
+      "Regular",
+      817010
+     ],
+     [
+      "roboto",
+      "Bold",
+      "roboto",
+      "Regular",
+      807683
+     ],
+     [
+      "googlesans",
+      "Bold",
+      "googlesansflex",
+      "Regular",
+      802802
+     ],
+     [
+      "roboto",
+      "Bold",
+      "robotoflex",
+      "Regular",
+      802004
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "roboto",
+      "Regular",
+      799846
+     ],
+     [
+      "splinesans",
+      "Bold",
+      "splinesans",
+      "Regular",
+      798769
+     ],
+     [
+      "bricolagegrotesque",
+      "Bold",
+      "bricolagegrotesque",
+      "Regular",
+      798200
+     ],
+     [
+      "googlesansflex",
+      "Bold",
+      "googlesans",
+      "Regular",
+      796386
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "robotoflex",
+      "Regular",
+      794167
+     ],
+     [
+      "roboto",
+      "Bold",
+      "robotocondensed",
+      "Regular",
+      793896
+     ],
+     [
+      "inter",
+      "Bold",
+      "intertight",
+      "Regular",
+      792893
+     ],
+     [
+      "ibmplexsanscondensed",
+      "Bold",
+      "ibmplexsanscondensed",
+      "Regular",
+      792618
+     ],
+     [
+      "intertight",
+      "Bold",
+      "inter",
+      "Regular",
+      791190
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "robotocondensed",
+      "Regular",
+      786058
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 862621,
+      "fit": 723500,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 1000000,
+      "boost": 250000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 891799,
+      "fit": 739000,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 722222,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "curated",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 907877,
+      "fit": 733500,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 750000,
+      "boost": 250000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "inter",
+      "inter",
+      817010
+     ],
+     [
+      "montserrat",
+      "googlesans",
+      755323
+     ],
+     [
+      "merriweather",
+      "opensans",
+      779086
+     ],
+     [
+      "ibmplexsanscondensed",
+      "splinesans",
+      772327
+     ],
+     [
+      "archivoblack",
+      "archivo",
+      779086
+     ],
+     [
+      "roboto",
+      "roboto",
+      807683
+     ],
+     [
+      "librebaskerville",
+      "montserrat",
+      779086
+     ],
+     [
+      "instrumentsans",
+      "googlesans",
+      760779
+     ],
+     [
+      "oswald",
+      "opensans",
+      779086
+     ],
+     [
+      "publicsans",
+      "robotoflex",
+      745268
+     ]
+    ]
+   }
+  },
+  "luxury_fashion": {
+   "input": {
+    "moods": {
+     "luxury": 1.0,
+     "elegant": 0.6
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.127
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.115
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 4133,
+    "rejects": {
+     "matrix": 251,
+     "same-family": 10,
+     "twin": 48
+    },
+    "top": [
+     [
+      "playfairdisplay",
+      "Regular",
+      "montserrat",
+      "Regular",
+      706114
+     ],
+     [
+      "playfair",
+      "Regular",
+      "googlesans",
+      "Regular",
+      679283
+     ],
+     [
+      "playfair",
+      "Regular",
+      "googlesansflex",
+      "Regular",
+      675591
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "googlesans",
+      "Regular",
+      674746
+     ],
+     [
+      "playfair",
+      "Regular",
+      "bricolagegrotesque",
+      "Regular",
+      673823
+     ],
+     [
+      "playfair",
+      "Regular",
+      "mozillaheadline",
+      "Regular",
+      672114
+     ],
+     [
+      "playfair",
+      "Regular",
+      "robotoflex",
+      "Regular",
+      671917
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "googlesansflex",
+      "Regular",
+      671054
+     ],
+     [
+      "playfair",
+      "Regular",
+      "splinesans",
+      "Regular",
+      670254
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "googlesans",
+      "Regular",
+      670181
+     ],
+     [
+      "playfair",
+      "Regular",
+      "roboto",
+      "Regular",
+      669893
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "bricolagegrotesque",
+      "Regular",
+      669285
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "mozillaheadline",
+      "Regular",
+      667576
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "robotoflex",
+      "Regular",
+      667380
+     ],
+     [
+      "playfair",
+      "Regular",
+      "inter",
+      "Regular",
+      667324
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 603794,
+      "fit": 794800,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 875000,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 645182,
+      "fit": 768500,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 951032,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 637787,
+      "fit": 762200,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 951032,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "playfairdisplay",
+      "montserrat",
+      706114
+     ],
+     [
+      "viaodalibre",
+      "playfair",
+      579645
+     ],
+     [
+      "limelight",
+      "raleway",
+      639283
+     ],
+     [
+      "cinzel",
+      "commissioner",
+      643838
+     ],
+     [
+      "bodonimoda",
+      "jost",
+      651446
+     ],
+     [
+      "librebodoni",
+      "publicsans",
+      640663
+     ],
+     [
+      "prata",
+      "lato",
+      639283
+     ],
+     [
+      "imbue",
+      "playfair",
+      605319
+     ],
+     [
+      "marcellus",
+      "mulish",
+      639283
+     ],
+     [
+      "cormorant",
+      "commissioner",
+      635236
+     ]
+    ]
+   }
+  },
+  "tech_minimal": {
+   "input": {
+    "moods": {
+     "techy": 1.0,
+     "minimal": 0.6
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.17
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.125
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 3881,
+    "rejects": {
+     "matrix": 2616,
+     "same-family": 53,
+     "twin": 774
+    },
+    "top": [
+     [
+      "chakrapetch",
+      "Bold",
+      "googlesans",
+      "Regular",
+      709303
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "googlesansflex",
+      "Regular",
+      708362
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "dmsans",
+      "Regular",
+      689817
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "cairo",
+      "Medium",
+      688881
+     ],
+     [
+      "teko",
+      "Medium",
+      "poppins",
+      "Regular",
+      687162
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "plusjakartasans",
+      "Medium",
+      686012
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "exo2",
+      "Regular",
+      685541
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "instrumentsans",
+      "Regular",
+      685381
+     ],
+     [
+      "tomorrow",
+      "Medium",
+      "googlesans",
+      "Regular",
+      684557
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "momotrustsans",
+      "Regular",
+      683653
+     ],
+     [
+      "tomorrow",
+      "Medium",
+      "googlesansflex",
+      "Regular",
+      683615
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "tomorrow",
+      "Regular",
+      681902
+     ],
+     [
+      "sairacondensed",
+      "Bold",
+      "saira",
+      "Regular",
+      681767
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "redhatdisplay",
+      "Medium",
+      681238
+     ],
+     [
+      "chakrapetch",
+      "Bold",
+      "mulish",
+      "Regular",
+      681129
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 665886,
+      "fit": 856000,
+      "balance": 1000000,
+      "harmony": 998000,
+      "quality": 805556,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 665729,
+      "fit": 849700,
+      "balance": 1000000,
+      "harmony": 998000,
+      "quality": 805556,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 650616,
+      "fit": 843400,
+      "balance": 1000000,
+      "harmony": 982000,
+      "quality": 722222,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "chakrapetch",
+      "googlesansflex",
+      708362
+     ],
+     [
+      "jetbrainsmono",
+      "inter",
+      669303
+     ],
+     [
+      "teko",
+      "poppins",
+      687162
+     ],
+     [
+      "spacegrotesk",
+      "spacemono",
+      669303
+     ],
+     [
+      "sairacondensed",
+      "sairasemicondensed",
+      679361
+     ],
+     [
+      "tomorrow",
+      "googlesans",
+      684557
+     ],
+     [
+      "spacemono",
+      "dmsans",
+      663907
+     ],
+     [
+      "unbounded",
+      "manrope",
+      669303
+     ],
+     [
+      "cairo",
+      "dmsans",
+      663605
+     ],
+     [
+      "orbitron",
+      "exo2",
+      669303
+     ]
+    ]
+   }
+  },
+  "handmade_wedding": {
+   "input": {
+    "moods": {
+     "elegant": 1.0,
+     "handmade": 0.6,
+     "calm": 0.4
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.1
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.12
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 1330,
+    "rejects": {},
+    "top": [
+     [
+      "greatvibes",
+      "Regular",
+      "lato",
+      "Regular",
+      689092
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "merriweather",
+      "Regular",
+      673268
+     ],
+     [
+      "parisienne",
+      "Regular",
+      "cormorantgaramond",
+      "Medium",
+      673102
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "playfair",
+      "Regular",
+      669170
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "googlesans",
+      "Regular",
+      667387
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "ebgaramond",
+      "Regular",
+      666835
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "googlesansflex",
+      "Regular",
+      662896
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "lato",
+      "Regular",
+      662126
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "mukta",
+      "Regular",
+      661569
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "commissioner",
+      "Regular",
+      661233
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "googlesans",
+      "Regular",
+      661204
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "commissioner",
+      "Regular",
+      660329
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "firasans",
+      "Regular",
+      659668
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "montserrat",
+      "Regular",
+      659488
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "recursive",
+      "Regular",
+      658885
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 693385,
+      "fit": 861400,
+      "balance": 1000000,
+      "harmony": 300000,
+      "quality": 841746,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "script+sans",
+       "curated"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 670438,
+      "fit": 854100,
+      "balance": 1000000,
+      "harmony": 684000,
+      "quality": 807063,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "script+serif",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 701164,
+      "fit": 784900,
+      "balance": 1000000,
+      "harmony": 412000,
+      "quality": 661111,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "script+serif",
+       "curated"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Medium"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "greatvibes",
+      "lato",
+      689092
+     ],
+     [
+      "birthstone",
+      "merriweather",
+      673268
+     ],
+     [
+      "playfairdisplay",
+      "montserrat",
+      636106
+     ],
+     [
+      "luxuriousscript",
+      "ebgaramond",
+      666835
+     ],
+     [
+      "parisienne",
+      "cormorantgaramond",
+      673102
+     ],
+     [
+      "pinyonscript",
+      "googlesans",
+      645618
+     ],
+     [
+      "instrumentserif",
+      "inter",
+      633268
+     ],
+     [
+      "monsieurladoulaise",
+      "merriweather",
+      646831
+     ],
+     [
+      "cormorantgaramond",
+      "montserrat",
+      633268
+     ],
+     [
+      "aguafinascript",
+      "ebgaramond",
+      650759
+     ]
+    ]
+   }
+  },
+  "retro_poster": {
+   "input": {
+    "moods": {
+     "retro": 1.0,
+     "bold": 0.4
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.22
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.15
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 2023,
+    "rejects": {
+     "matrix": 9,
+     "same-family": 6,
+     "twin": 5
+    },
+    "top": [
+     [
+      "abrilfatface",
+      "Regular",
+      "poppins",
+      "Medium",
+      731685
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "creteround",
+      "Regular",
+      729079
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "mozillaheadline",
+      "Regular",
+      709816
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "breeserif",
+      "Regular",
+      709109
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "librefranklin",
+      "Medium",
+      706619
+     ],
+     [
+      "alfaslabone",
+      "Regular",
+      "lato",
+      "Regular",
+      705634
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "overpass",
+      "Medium",
+      705226
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "cossettetexte",
+      "Bold",
+      704999
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "besley",
+      "Medium",
+      704511
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "schibstedgrotesk",
+      "Medium",
+      703430
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "publicsans",
+      "Medium",
+      701095
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "archivo",
+      "Regular",
+      699980
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "titilliumweb",
+      "SemiBold",
+      699727
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "bricolagegrotesque",
+      "Regular",
+      699251
+     ],
+     [
+      "abrilfatface",
+      "Regular",
+      "atkinsonhyperlegible",
+      "Regular",
+      698189
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 639771,
+      "fit": 879800,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 875000,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "weight-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Medium"
+       ]
+      ]
+     },
+     {
+      "mood": 681279,
+      "fit": 839000,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 819444,
+      "boost": 200000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+slab",
+       "same-skeleton",
+       "weight-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 647962,
+      "fit": 871700,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 926270,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "same-skeleton",
+       "weight-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "abrilfatface",
+      "creteround",
+      729079
+     ],
+     [
+      "leaguegothic",
+      "worksans",
+      689079
+     ],
+     [
+      "passionone",
+      "slabo27px",
+      694840
+     ],
+     [
+      "rye",
+      "robotoslab",
+      689079
+     ],
+     [
+      "gravitasone",
+      "librefranklin",
+      694188
+     ],
+     [
+      "limelight",
+      "raleway",
+      689079
+     ],
+     [
+      "bungeeinline",
+      "googlesans",
+      675146
+     ],
+     [
+      "alfaslabone",
+      "lato",
+      705634
+     ],
+     [
+      "besley",
+      "mozillaheadline",
+      659901
+     ],
+     [
+      "ultra",
+      "librefranklin",
+      684951
+     ]
+    ]
+   }
+  },
+  "bold_hook_locked_display": {
+   "input": {
+    "moods": {
+     "bold": 1.0
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.199
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.217
+       }
+      ]
+     }
+    },
+    "locked": {
+     "role": "display",
+     "slug": "anton"
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 7
+   },
+   "expect": {
+    "ranked": 144,
+    "rejects": {
+     "matrix": 7,
+     "twin": 1
+    },
+    "top": [
+     [
+      "anton",
+      "Regular",
+      "archivo",
+      "Bold",
+      735157
+     ],
+     [
+      "anton",
+      "Regular",
+      "mozillaheadline",
+      "Bold",
+      698094
+     ],
+     [
+      "anton",
+      "Regular",
+      "bricolagegrotesque",
+      "Bold",
+      694202
+     ],
+     [
+      "anton",
+      "Regular",
+      "splinesans",
+      "Bold",
+      689889
+     ],
+     [
+      "anton",
+      "Regular",
+      "roboto",
+      "Bold",
+      689286
+     ],
+     [
+      "anton",
+      "Regular",
+      "overpass",
+      "Black",
+      688783
+     ],
+     [
+      "anton",
+      "Regular",
+      "cossettetexte",
+      "Bold",
+      688469
+     ],
+     [
+      "anton",
+      "Regular",
+      "schibstedgrotesk",
+      "Bold",
+      687902
+     ],
+     [
+      "anton",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Bold",
+      687577
+     ],
+     [
+      "anton",
+      "Regular",
+      "inter",
+      "Bold",
+      687199
+     ],
+     [
+      "anton",
+      "Regular",
+      "intertight",
+      "Bold",
+      686947
+     ],
+     [
+      "anton",
+      "Regular",
+      "librefranklin",
+      "Bold",
+      686821
+     ],
+     [
+      "anton",
+      "Regular",
+      "titilliumweb",
+      "Bold",
+      686779
+     ],
+     [
+      "anton",
+      "Regular",
+      "mulish",
+      "Bold",
+      685942
+     ],
+     [
+      "anton",
+      "Regular",
+      "geist",
+      "Bold",
+      685378
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 712980,
+      "fit": 779700,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 638889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "curated",
+       "same-skeleton",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 715398,
+      "fit": 771600,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 731825,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 712980,
+      "fit": 782400,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 694444,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "anton",
+      "archivo",
+      735157
+     ],
+     [
+      "anton",
+      "bricolagegrotesque",
+      694202
+     ],
+     [
+      "anton",
+      "mulish",
+      685942
+     ],
+     [
+      "anton",
+      "librefranklin",
+      686821
+     ],
+     [
+      "anton",
+      "titilliumweb",
+      686779
+     ],
+     [
+      "anton",
+      "golostext",
+      683278
+     ],
+     [
+      "anton",
+      "almarai",
+      685161
+     ],
+     [
+      "anton",
+      "googlesansflex",
+      682698
+     ],
+     [
+      "anton",
+      "geist",
+      685378
+     ],
+     [
+      "anton",
+      "atkinsonhyperlegible",
+      683407
+     ]
+    ]
+   }
+  },
+  "editorial_quote_hindi": {
+   "input": {
+    "moods": {
+     "editorial": 1.0,
+     "calm": 0.5
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.131
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.128
+       }
+      ]
+     }
+    },
+    "scripts": [
+     "devanagari",
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 195,
+    "rejects": {
+     "matrix": 26,
+     "same-family": 11,
+     "twin": 21
+    },
+    "top": [
+     [
+      "martel",
+      "Regular",
+      "martelsans",
+      "Regular",
+      691829
+     ],
+     [
+      "martel",
+      "Regular",
+      "biryani",
+      "Regular",
+      685606
+     ],
+     [
+      "martel",
+      "Regular",
+      "cambay",
+      "Regular",
+      676747
+     ],
+     [
+      "martel",
+      "Regular",
+      "notosans",
+      "Regular",
+      674620
+     ],
+     [
+      "martel",
+      "Regular",
+      "notosansdevanagari",
+      "Regular",
+      671849
+     ],
+     [
+      "martel",
+      "Regular",
+      "mukta",
+      "Regular",
+      660831
+     ],
+     [
+      "martel",
+      "Regular",
+      "amiko",
+      "Regular",
+      655556
+     ],
+     [
+      "martel",
+      "Regular",
+      "palanquin",
+      "Medium",
+      655159
+     ],
+     [
+      "eczar",
+      "Regular",
+      "mukta",
+      "Regular",
+      654076
+     ],
+     [
+      "martel",
+      "Regular",
+      "sarala",
+      "Regular",
+      651221
+     ],
+     [
+      "martelsans",
+      "Regular",
+      "martel",
+      "Regular",
+      650711
+     ],
+     [
+      "notoserifdevanagari",
+      "Regular",
+      "notosans",
+      "Regular",
+      648464
+     ],
+     [
+      "eczar",
+      "Regular",
+      "notosans",
+      "Regular",
+      647465
+     ],
+     [
+      "martel",
+      "Regular",
+      "gotu",
+      "Regular",
+      647028
+     ],
+     [
+      "notoserifdevanagari",
+      "Regular",
+      "notosansdevanagari",
+      "Regular",
+      645693
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 715193,
+      "fit": 610600,
+      "balance": 915000,
+      "harmony": 870000,
+      "quality": 653095,
+      "boost": 350000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "superfamily",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 706937,
+      "fit": 607000,
+      "balance": 910000,
+      "harmony": 980000,
+      "quality": 676587,
+      "boost": 200000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "x-height",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 714293,
+      "fit": 596500,
+      "balance": 1000000,
+      "harmony": 956000,
+      "quality": 725714,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "x-height",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "martel",
+      "martelsans",
+      691829
+     ],
+     [
+      "pragatinarrow",
+      "tirodevanagarihindi",
+      602216
+     ],
+     [
+      "eczar",
+      "mukta",
+      654076
+     ],
+     [
+      "palanquindark",
+      "cambay",
+      627548
+     ],
+     [
+      "rhodiumlibre",
+      "yantramanav",
+      638986
+     ],
+     [
+      "asar",
+      "cambay",
+      639203
+     ],
+     [
+      "notoserifdevanagari",
+      "notosansdevanagari",
+      645693
+     ],
+     [
+      "tirodevanagarihindi",
+      "googlesans",
+      635334
+     ],
+     [
+      "vesperlibre",
+      "yantramanav",
+      618431
+     ],
+     [
+      "sahitya",
+      "notosans",
+      620625
+     ]
+    ]
+   }
+  },
+  "caption_bold": {
+   "input": {
+    "moods": {
+     "bold": 1.0,
+     "friendly": 0.3
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.22
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.17
+       }
+      ]
+     },
+     "caption": {
+      "intents": [
+       {
+        "stem": 0.17
+       }
+      ]
+     }
+    },
+    "outline": true,
+    "scripts": [
+     "latin",
+     "latin-ext"
+    ],
+    "seed": 3
+   },
+   "expect": {
+    "ranked": 7267,
+    "rejects": {
+     "matrix": 2582,
+     "same-family": 93,
+     "twin": 618
+    },
+    "top": [
+     [
+      "anton",
+      "Regular",
+      "archivo",
+      "Medium",
+      685262
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "lato",
+      "Bold",
+      673650
+     ],
+     [
+      "bungee",
+      "Regular",
+      "alatsi",
+      "Regular",
+      672416
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "firasans",
+      "Medium",
+      669808
+     ],
+     [
+      "bigshoulders",
+      "Black",
+      "barlow",
+      "Bold",
+      669745
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "alegreyasans",
+      "Bold",
+      666983
+     ],
+     [
+      "alfaslabone",
+      "Regular",
+      "lato",
+      "Bold",
+      666977
+     ],
+     [
+      "bungee",
+      "Regular",
+      "calsans",
+      "Regular",
+      666738
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "mukta",
+      "Medium",
+      666075
+     ],
+     [
+      "bungee",
+      "Regular",
+      "montserratalternates",
+      "Medium",
+      665682
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "varelaround",
+      "Regular",
+      664541
+     ],
+     [
+      "bungee",
+      "Regular",
+      "capriola",
+      "Regular",
+      663227
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "opensans",
+      "Medium",
+      663211
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "notosans",
+      "Medium",
+      662798
+     ],
+     [
+      "rowdies",
+      "Regular",
+      "sansita",
+      "Regular",
+      662008
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 581677,
+      "fit": 779700,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 638889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "curated",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Medium"
+       ]
+      ]
+     },
+     {
+      "mood": 630424,
+      "fit": 834100,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 724286,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 564077,
+      "fit": 856800,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 897619,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "weight-contrast",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "rowdies",
+      "lato",
+      673650
+     ],
+     [
+      "alfaslabone",
+      "lato",
+      666977
+     ],
+     [
+      "bungee",
+      "alatsi",
+      672416
+     ],
+     [
+      "luckiestguy",
+      "nunito",
+      633650
+     ],
+     [
+      "proteststrike",
+      "overpass",
+      654482
+     ],
+     [
+      "racingsansone",
+      "encodesanssemiexpanded",
+      661448
+     ],
+     [
+      "abrilfatface",
+      "archivo",
+      623374
+     ],
+     [
+      "smoochsans",
+      "alatsi",
+      656686
+     ],
+     [
+      "bangers",
+      "rubik",
+      637098
+     ],
+     [
+      "anton",
+      "overpass",
+      638675
+     ]
+    ]
+   }
+  },
+  "bold_hook_seed42": {
+   "input": {
+    "moods": {
+     "bold": 1.0
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.199
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.217
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 42
+   },
+   "expect": {
+    "ranked": 5059,
+    "rejects": {
+     "matrix": 5744,
+     "same-family": 83,
+     "twin": 1475
+    },
+    "top": [
+     [
+      "anton",
+      "Regular",
+      "archivo",
+      "Bold",
+      735157
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "mozillaheadline",
+      "Bold",
+      710501
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "bricolagegrotesque",
+      "Bold",
+      706609
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "splinesans",
+      "Bold",
+      702296
+     ],
+     [
+      "bigshoulders",
+      "Black",
+      "barlow",
+      "Bold",
+      701989
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "roboto",
+      "Bold",
+      701693
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "cossettetexte",
+      "Bold",
+      700876
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "schibstedgrotesk",
+      "Bold",
+      700309
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Bold",
+      699984
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "inter",
+      "Bold",
+      699606
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "archivo",
+      "Bold",
+      699564
+     ],
+     [
+      "alfaslabone",
+      "Regular",
+      "lato",
+      "Black",
+      699368
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "intertight",
+      "Bold",
+      699354
+     ],
+     [
+      "proteststrike",
+      "Regular",
+      "titilliumweb",
+      "Bold",
+      699186
+     ],
+     [
+      "anton",
+      "Regular",
+      "mozillaheadline",
+      "Bold",
+      698094
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 712980,
+      "fit": 779700,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 638889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "curated",
+       "same-skeleton",
+       "width-contrast"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 676618,
+      "fit": 851400,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 864921,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     },
+     {
+      "mood": 674200,
+      "fit": 862200,
+      "balance": 1000000,
+      "harmony": 920000,
+      "quality": 827540,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Bold"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "anton",
+      "archivo",
+      735157
+     ],
+     [
+      "abrilfatface",
+      "bricolagegrotesque",
+      664943
+     ],
+     [
+      "bangers",
+      "rubik",
+      670501
+     ],
+     [
+      "rowdies",
+      "lato",
+      691861
+     ],
+     [
+      "bungee",
+      "googlesansflex",
+      690242
+     ],
+     [
+      "archivoblack",
+      "archivo",
+      693956
+     ],
+     [
+      "alfaslabone",
+      "mozillaheadline",
+      679516
+     ],
+     [
+      "luckiestguy",
+      "nunito",
+      670501
+     ],
+     [
+      "proteststrike",
+      "bricolagegrotesque",
+      706609
+     ],
+     [
+      "titanone",
+      "cabin",
+      687224
+     ]
+    ]
+   }
+  },
+  "editorial_exclude_shown": {
+   "input": {
+    "moods": {
+     "editorial": 1.0,
+     "calm": 0.5
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.131
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.128
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1,
+    "exclude": [
+     "merriweather",
+     "lato"
+    ],
+    "shown": [
+     [
+      "playfairdisplay",
+      "opensans"
+     ],
+     [
+      "ebgaramond",
+      "publicsans"
+     ]
+    ]
+   },
+   "expect": {
+    "ranked": 6248,
+    "rejects": {
+     "matrix": 1760,
+     "same-family": 44,
+     "twin": 711
+    },
+    "top": [
+     [
+      "ptserif",
+      "Regular",
+      "ptsans",
+      "Regular",
+      712637
+     ],
+     [
+      "ibmplexserif",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Regular",
+      712070
+     ],
+     [
+      "alegreya",
+      "Regular",
+      "alegreyasans",
+      "Regular",
+      702347
+     ],
+     [
+      "ptserif",
+      "Regular",
+      "roboto",
+      "Regular",
+      695309
+     ],
+     [
+      "ptserif",
+      "Regular",
+      "ptsanscaption",
+      "Regular",
+      691300
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "titilliumweb",
+      "Regular",
+      689017
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "robotoflex",
+      "Regular",
+      688352
+     ],
+     [
+      "librebaskerville",
+      "Regular",
+      "librefranklin",
+      "Regular",
+      685351
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "overpass",
+      "Regular",
+      684321
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "roboto",
+      "Regular",
+      683878
+     ],
+     [
+      "lora",
+      "Regular",
+      "worksans",
+      "Regular",
+      683744
+     ],
+     [
+      "alikeangular",
+      "Regular",
+      "commissioner",
+      "Regular",
+      682945
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "publicsans",
+      "Regular",
+      682849
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "librefranklin",
+      "Regular",
+      682631
+     ],
+     [
+      "playfairdisplay",
+      "Regular",
+      "ibmplexsanscondensed",
+      "Regular",
+      682255
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 711013,
+      "fit": 631800,
+      "balance": 1000000,
+      "harmony": 850000,
+      "quality": 750000,
+      "boost": 350000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "superfamily",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 683820,
+      "fit": 596800,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 722222,
+      "boost": 350000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "superfamily",
+       "x-height",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 604613,
+      "fit": 701900,
+      "balance": 1000000,
+      "harmony": 974000,
+      "quality": 795397,
+      "boost": 350000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "superfamily",
+       "x-height",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "ibmplexserif",
+      "ibmplexsanscondensed",
+      712070
+     ],
+     [
+      "montserrat",
+      "sourceserif4",
+      672637
+     ],
+     [
+      "librebaskerville",
+      "librefranklin",
+      685351
+     ],
+     [
+      "ebgaramond",
+      "commissioner",
+      681911
+     ],
+     [
+      "playfairdisplay",
+      "robotoflex",
+      688352
+     ],
+     [
+      "alegreya",
+      "alegreyasans",
+      702347
+     ],
+     [
+      "oswald",
+      "lora",
+      656942
+     ],
+     [
+      "ptserif",
+      "roboto",
+      695309
+     ],
+     [
+      "abrilfatface",
+      "poppins",
+      672637
+     ],
+     [
+      "alikeangular",
+      "ptsans",
+      678597
+     ]
+    ]
+   }
+  },
+  "luxury_locked_support": {
+   "input": {
+    "moods": {
+     "luxury": 1.0,
+     "elegant": 0.6
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.127
+       }
+      ],
+      "caps": true
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.115
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 5,
+    "locked": {
+     "role": "support",
+     "slug": "montserrat"
+    }
+   },
+   "expect": {
+    "ranked": 37,
+    "rejects": {},
+    "top": [
+     [
+      "playfairdisplay",
+      "Regular",
+      "montserrat",
+      "Regular",
+      706114
+     ],
+     [
+      "playfair",
+      "Regular",
+      "montserrat",
+      "Regular",
+      667216
+     ],
+     [
+      "playfairdisplaysc",
+      "Regular",
+      "montserrat",
+      "Regular",
+      662678
+     ],
+     [
+      "cormorantgaramond",
+      "Medium",
+      "montserrat",
+      "Regular",
+      639157
+     ],
+     [
+      "bodonimodasc",
+      "Regular",
+      "montserrat",
+      "Regular",
+      633066
+     ],
+     [
+      "bodonimoda",
+      "Regular",
+      "montserrat",
+      "Regular",
+      626539
+     ],
+     [
+      "librebodoni",
+      "Regular",
+      "montserrat",
+      "Regular",
+      623018
+     ],
+     [
+      "cinzel",
+      "Medium",
+      "montserrat",
+      "Regular",
+      607286
+     ],
+     [
+      "vidaloka",
+      "Regular",
+      "montserrat",
+      "Regular",
+      598895
+     ],
+     [
+      "cormorant",
+      "Medium",
+      "montserrat",
+      "Regular",
+      598685
+     ],
+     [
+      "cormorantinfant",
+      "Medium",
+      "montserrat",
+      "Regular",
+      597476
+     ],
+     [
+      "elsie",
+      "Regular",
+      "montserrat",
+      "Regular",
+      595568
+     ],
+     [
+      "imbue",
+      "Medium",
+      "montserrat",
+      "Regular",
+      594156
+     ],
+     [
+      "prata",
+      "Regular",
+      "montserrat",
+      "Regular",
+      592464
+     ],
+     [
+      "rufina",
+      "Regular",
+      "montserrat",
+      "Regular",
+      590383
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 603794,
+      "fit": 794800,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 875000,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 637787,
+      "fit": 761900,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 881587,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 640719,
+      "fit": 768200,
+      "balance": 1000000,
+      "harmony": 770000,
+      "quality": 827143,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "playfairdisplay",
+      "montserrat",
+      706114
+     ],
+     [
+      "cinzel",
+      "montserrat",
+      607286
+     ],
+     [
+      "bodonimodasc",
+      "montserrat",
+      633066
+     ],
+     [
+      "cormorantgaramond",
+      "montserrat",
+      639157
+     ],
+     [
+      "librebodoni",
+      "montserrat",
+      623018
+     ],
+     [
+      "imfellfrenchcanonsc",
+      "montserrat",
+      576243
+     ],
+     [
+      "rufina",
+      "montserrat",
+      590383
+     ],
+     [
+      "vidaloka",
+      "montserrat",
+      598895
+     ],
+     [
+      "elsie",
+      "montserrat",
+      595568
+     ],
+     [
+      "kalnia",
+      "montserrat",
+      581293
+     ]
+    ]
+   }
+  },
+  "corporate_weight_intents": {
+   "input": {
+    "moods": {
+     "corporate": 1.0,
+     "minimal": 0.4
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       700
+      ]
+     },
+     "support": {
+      "intents": [
+       400,
+       {
+        "weight": 400,
+        "italic": true
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.5,
+     "support": 0.5
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 12101,
+    "rejects": {
+     "matrix": 1187,
+     "same-family": 4,
+     "twin": 394
+    },
+    "top": [
+     [
+      "googlesans",
+      "Bold",
+      "googlesans",
+      "Regular",
+      819086
+     ],
+     [
+      "inter",
+      "Bold",
+      "inter",
+      "Regular",
+      817010
+     ],
+     [
+      "roboto",
+      "Bold",
+      "roboto",
+      "Regular",
+      807683
+     ],
+     [
+      "googlesans",
+      "Bold",
+      "googlesansflex",
+      "Regular",
+      802802
+     ],
+     [
+      "roboto",
+      "Bold",
+      "robotoflex",
+      "Regular",
+      802004
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "roboto",
+      "Regular",
+      799846
+     ],
+     [
+      "splinesans",
+      "Bold",
+      "splinesans",
+      "Regular",
+      798769
+     ],
+     [
+      "bricolagegrotesque",
+      "Bold",
+      "bricolagegrotesque",
+      "Regular",
+      798200
+     ],
+     [
+      "googlesansflex",
+      "Bold",
+      "googlesans",
+      "Regular",
+      796386
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "robotoflex",
+      "Regular",
+      794167
+     ],
+     [
+      "roboto",
+      "Bold",
+      "robotocondensed",
+      "Regular",
+      793896
+     ],
+     [
+      "inter",
+      "Bold",
+      "intertight",
+      "Regular",
+      792893
+     ],
+     [
+      "ibmplexsanscondensed",
+      "Bold",
+      "ibmplexsanscondensed",
+      "Regular",
+      792618
+     ],
+     [
+      "intertight",
+      "Bold",
+      "inter",
+      "Regular",
+      791190
+     ],
+     [
+      "robotocondensed",
+      "Bold",
+      "robotocondensed",
+      "Regular",
+      786058
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 862621,
+      "fit": 723500,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 1000000,
+      "boost": 250000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular",
+        "Italic"
+       ]
+      ]
+     },
+     {
+      "mood": 891799,
+      "fit": 739000,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 722222,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "curated",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular",
+        "Italic"
+       ]
+      ]
+     },
+     {
+      "mood": 907877,
+      "fit": 733500,
+      "balance": 1000000,
+      "harmony": 1000000,
+      "quality": 750000,
+      "boost": 250000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "same-family",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Bold"
+       ],
+       [
+        "Regular",
+        "Italic"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "inter",
+      "inter",
+      817010
+     ],
+     [
+      "ibmplexsanscondensed",
+      "splinesans",
+      772327
+     ],
+     [
+      "librebaskerville",
+      "montserrat",
+      779086
+     ],
+     [
+      "instrumentsans",
+      "googlesans",
+      760779
+     ],
+     [
+      "montserrat",
+      "sourceserif4",
+      779086
+     ],
+     [
+      "roboto",
+      "roboto",
+      807683
+     ],
+     [
+      "archivoblack",
+      "archivo",
+      779086
+     ],
+     [
+      "googlesans",
+      "googlesans",
+      819086
+     ],
+     [
+      "merriweather",
+      "opensans",
+      779086
+     ],
+     [
+      "publicsans",
+      "robotoflex",
+      745268
+     ]
+    ]
+   }
+  },
+  "quiet_title_italic": {
+   "input": {
+    "moods": {
+     "elegant": 1.0,
+     "calm": 0.6
+    },
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.1,
+        "italic": true
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.12,
+        "wdc": 0.84
+       }
+      ],
+      "caps": true
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 1
+   },
+   "expect": {
+    "ranked": 3394,
+    "rejects": {
+     "matrix": 169,
+     "same-family": 9,
+     "twin": 32
+    },
+    "top": [
+     [
+      "playfairdisplay",
+      "Italic",
+      "montserrat",
+      "Regular",
+      675762
+     ],
+     [
+      "playfairdisplay",
+      "Italic",
+      "lato",
+      "Regular",
+      671451
+     ],
+     [
+      "greatvibes",
+      "Regular",
+      "lato",
+      "Regular",
+      667658
+     ],
+     [
+      "parisienne",
+      "Regular",
+      "cormorantgaramond",
+      "Medium",
+      658146
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "merriweather",
+      "Regular",
+      656273
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "playfair",
+      "Regular",
+      650469
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "ebgaramond",
+      "Regular",
+      648819
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "googlesans",
+      "Regular",
+      645156
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "googlesans",
+      "Regular",
+      642029
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "playfair",
+      "Regular",
+      640622
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "mukta",
+      "Regular",
+      640543
+     ],
+     [
+      "ebgaramond",
+      "Italic",
+      "lato",
+      "Regular",
+      639894
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "merriweather",
+      "Regular",
+      639706
+     ],
+     [
+      "luxuriousscript",
+      "Regular",
+      "commissioner",
+      "Regular",
+      639577
+     ],
+     [
+      "birthstone",
+      "Regular",
+      "googlesansflex",
+      "Regular",
+      639381
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 520268,
+      "fit": 743000,
+      "balance": 1000000,
+      "harmony": 842000,
+      "quality": 875000,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Italic"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 535208,
+      "fit": 719750,
+      "balance": 1000000,
+      "harmony": 772000,
+      "quality": 888889,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "serif+sans",
+       "curated",
+       "x-height"
+      ],
+      "styles": [
+       [
+        "Italic"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 647645,
+      "fit": 832450,
+      "balance": 1000000,
+      "harmony": 300000,
+      "quality": 841746,
+      "boost": 400000,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "script+sans",
+       "curated"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "greatvibes",
+      "lato",
+      667658
+     ],
+     [
+      "birthstone",
+      "playfair",
+      650469
+     ],
+     [
+      "playfairdisplay",
+      "montserrat",
+      675762
+     ],
+     [
+      "luxuriousscript",
+      "ebgaramond",
+      648819
+     ],
+     [
+      "merriweather",
+      "recursive",
+      628903
+     ],
+     [
+      "aguafinascript",
+      "googlesans",
+      627598
+     ],
+     [
+      "parisienne",
+      "cormorantgaramond",
+      658146
+     ],
+     [
+      "instrumentserif",
+      "instrumentsans",
+      608906
+     ],
+     [
+      "prata",
+      "lato",
+      633792
+     ],
+     [
+      "pinyonscript",
+      "playfair",
+      630087
+     ]
+    ]
+   }
+  },
+  "playful_list_moods": {
+   "input": {
+    "moods": [
+     "playful",
+     "friendly",
+     "handmade"
+    ],
+    "roles": {
+     "display": {
+      "intents": [
+       {
+        "stem": 0.2
+       }
+      ],
+      "caps": false
+     },
+     "support": {
+      "intents": [
+       {
+        "stem": 0.14
+       }
+      ]
+     }
+    },
+    "roleWeights": {
+     "display": 0.7,
+     "support": 0.3
+    },
+    "scripts": [
+     "latin"
+    ],
+    "seed": 9
+   },
+   "expect": {
+    "ranked": 1543,
+    "rejects": {
+     "matrix": 417,
+     "same-family": 7,
+     "twin": 57
+    },
+    "top": [
+     [
+      "dynapuff",
+      "Regular",
+      "firasans",
+      "Regular",
+      674282
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "recursive",
+      "Regular",
+      671781
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "varelaround",
+      "Regular",
+      671637
+     ],
+     [
+      "cause",
+      "Black",
+      "googlesans",
+      "Medium",
+      670271
+     ],
+     [
+      "cause",
+      "Black",
+      "fredoka",
+      "Regular",
+      670085
+     ],
+     [
+      "cause",
+      "Black",
+      "googlesansflex",
+      "Medium",
+      668627
+     ],
+     [
+      "cause",
+      "Black",
+      "nunito",
+      "Medium",
+      665632
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "opensans",
+      "Medium",
+      665206
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "commissioner",
+      "Regular",
+      664760
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "lato",
+      "Regular",
+      664373
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "mukta",
+      "Regular",
+      663978
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "aneklatin",
+      "Regular",
+      662893
+     ],
+     [
+      "cause",
+      "Black",
+      "nunitosans",
+      "Medium",
+      660391
+     ],
+     [
+      "dynapuff",
+      "Regular",
+      "abeezee",
+      "Regular",
+      659257
+     ],
+     [
+      "cause",
+      "Black",
+      "snpro",
+      "Regular",
+      658861
+     ]
+    ],
+    "terms": [
+     {
+      "mood": 650817,
+      "fit": 927700,
+      "balance": 1000000,
+      "harmony": 838000,
+      "quality": 637778,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 648045,
+      "fit": 921100,
+      "balance": 1000000,
+      "harmony": 828000,
+      "quality": 643413,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     },
+     {
+      "mood": 682675,
+      "fit": 901000,
+      "balance": 1000000,
+      "harmony": 774000,
+      "quality": 610000,
+      "boost": 0,
+      "penalty": 0,
+      "floor": false,
+      "why": [
+       "sans+sans",
+       "same-skeleton"
+      ],
+      "styles": [
+       [
+        "Regular"
+       ],
+       [
+        "Regular"
+       ]
+      ]
+     }
+    ],
+    "deck": [
+     [
+      "dynapuff",
+      "firasans",
+      674282
+     ],
+     [
+      "kaushanscript",
+      "cabin",
+      648131
+     ],
+     [
+      "cause",
+      "fredoka",
+      670085
+     ],
+     [
+      "chewy",
+      "asap",
+      625049
+     ],
+     [
+      "titanone",
+      "nunito",
+      634282
+     ],
+     [
+      "sourgummy",
+      "asapcondensed",
+      642848
+     ],
+     [
+      "sarina",
+      "commissioner",
+      648994
+     ],
+     [
+      "dancingscript",
+      "poppins",
+      634282
+     ],
+     [
+      "winkyrough",
+      "quicksand",
+      634920
+     ],
+     [
+      "pacifico",
+      "quicksand",
+      634282
+     ]
+    ]
+   }
+  }
+ }
+}

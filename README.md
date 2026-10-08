@@ -53,6 +53,16 @@ the current file).
 The index schema (the contract for the studio pair scorer) is in
 [`INDEX.md`](INDEX.md).
 
+### Font pairing (ADR 278)
+
+`tools/pairing/pair_scorer.py` is the reference pair scorer (stdlib only, written to port 1:1 to Kotlin):
+`pair_scorer.py --context bold_hook --deck 12` ranks pairs for a template context and deals a Shuffle deck.
+`contexts.json` holds the tuning contexts, `golden.py --check` verifies the port's golden vectors
+(`golden/golden_v1.json` over `golden/index_fixture.json`), and `specimens.py --cache <dir> --out <dir>` (needs
+Pillow) renders contact sheets of a deck from the real font files. `pairing/seed_pairs.json` holds the
+hand-checked pairs the scorer uses as a quality floor. A constant change bumps `SCORER_VERSION`: look at the
+sheets, then `golden.py --write`.
+
 ### What is in the R2 catalog
 
 Google Fonts families with an allowed licence, minus Symbols / Special use /
