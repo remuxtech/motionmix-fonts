@@ -1,0 +1,5997 @@
+{
+ "schemaVersion": 1,
+ "about": "rfn families with no unmodified static TTF (ADR 125 Am. 2). Plan: once the engine renders a variable font's named instances (SkFontArguments), each family ships its UNMODIFIED variable file(s) and every targetStyle maps to the named instance given here; 'shipping-gf-api' families then retire their Fonts-API statics (shippedSha256 → heal map), 'excluded' families join the catalog.",
+ "googleFontsCommit": "2eb0b48d5f760f62e286216f0859a8c540dbc1bd",
+ "families": [
+  {
+   "family": "Bitter",
+   "slug": "bitter",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Bitter Pro"
+   ],
+   "googleFontsDir": "ofl/bitter",
+   "files": [
+    {
+     "path": "ofl/bitter/Bitter[wght].ttf",
+     "italic": false,
+     "bytes": 328636,
+     "sha256": "ef2b9a711fb02f1e5823b34da1b7450e0fc76793b7d733a8b41006e24916d4a7",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "Bitter-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "Bitter-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "Bitter-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "Bitter-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Bitter-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Bitter-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Bitter-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "Bitter-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "Bitter-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/bitter/Bitter-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 317652,
+     "sha256": "5e6e0af503171c9d7b4be7a22c16f474d7a638cf83a80051d825bcc58d664bc3",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin Italic",
+       "postscriptName": "Bitter-ThinItalic",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "Bitter-ExtraLightItalic",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "Bitter-LightItalic",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "Bitter-Italic",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "Bitter-MediumItalic",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "Bitter-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "Bitter-BoldItalic",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "Bitter-ExtraBoldItalic",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "Bitter-BlackItalic",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Bitter[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "04b9e632f0791325153b80c882bdb6b1f099fdd5de99406e0485aa9a00e5674a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Bitter[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "c118c4bd90bb524fd8569369d9227eef93551587ad447b4f624b3188d39611d4"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Bitter[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "266d6ec27877c5c2b5840d1ab5edd0fc1eeb686c6d820b320e7b35e0f62b3e65"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "Bitter[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     },
+     "shippedSha256": "bc0d75b77de8aad51cafb389d42987d85ba4e01262a3958a015d2e77dbd599c0"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "Bitter-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "53e9a4769672971e329e7bad7e4788b3447c8e524a1868a438733199fccf05c2"
+    }
+   ]
+  },
+  {
+   "family": "Comfortaa",
+   "slug": "comfortaa",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Comfortaa"
+   ],
+   "googleFontsDir": "ofl/comfortaa",
+   "files": [
+    {
+     "path": "ofl/comfortaa/Comfortaa[wght].ttf",
+     "italic": false,
+     "bytes": 201756,
+     "sha256": "0fc3f45dc48b614db9c39181502544b37217ecbf8bee2fb35886992bc96c5bd3",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light",
+       "postscriptName": "Comfortaa-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "Comfortaa-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Comfortaa-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Comfortaa-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Comfortaa-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Comfortaa[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "c5633dc8323c788158d456e461bacc78d251f713e33228527765a1f3fa84ec03"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Comfortaa[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "9e526c661ee58581a44aea8c7c4dd3c87600d3cf491c89bfe269dd15775ccf5b"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Comfortaa[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "990742fd8ec75da91f4eabcce954f36316de713e1ff0140eeefda0db1c44f91f"
+    }
+   ]
+  },
+  {
+   "family": "Dancing Script",
+   "slug": "dancingscript",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Dancing Script"
+   ],
+   "googleFontsDir": "ofl/dancingscript",
+   "files": [
+    {
+     "path": "ofl/dancingscript/DancingScript[wght].ttf",
+     "italic": false,
+     "bytes": 133636,
+     "sha256": "21808625578fe8d8cd10cb684be546dca077b27cd03a53a2f1ec11dc743c924c",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": "DancingScript-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "DancingScript-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "DancingScript-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "DancingScript-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "DancingScript[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "cbf45d12702db573b174863d83fc137f29ac270240f289aa41942b36032d5201"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "DancingScript[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "7e16dc0c53665907f8b4c685bb75a8aaa0b1509445ce3de0a967846a37b1e7c1"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "DancingScript[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee"
+    }
+   ]
+  },
+  {
+   "family": "Josefin Slab",
+   "slug": "josefinslab",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Josefin"
+   ],
+   "googleFontsDir": "ofl/josefinslab",
+   "files": [
+    {
+     "path": "ofl/josefinslab/JosefinSlab[wght].ttf",
+     "italic": false,
+     "bytes": 48792,
+     "sha256": "52f8addf239848d129cfde96c3290b78e271ad657ef5645068d4f08046c2d1b8",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/josefinslab/JosefinSlab-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 51020,
+     "sha256": "2629d8e5c81bf652f096179d89e525c3d02824307cdd10852053979fe72c8ee9",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "JosefinSlab[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "4e8b71bd0fab4c1820a0f312032aa3c40140b153066412ef95880604a29fbc16"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "JosefinSlab[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "a6e61718d8183b688a884f3c5b025a601cbf2151fffa584526774d632bfbc1e3"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "JosefinSlab[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "982d92f2e26a6679a2c35cacb60c9fa5504173a30b7cbdbf1521b51f06dece58"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "JosefinSlab-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "111b77c4f03aba08891b4f5875e90177229216de1fdea4d4e3a47c8af226af02"
+    }
+   ]
+  },
+  {
+   "family": "Libre Baskerville",
+   "slug": "librebaskerville",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Libre Baskerville"
+   ],
+   "googleFontsDir": "ofl/librebaskerville",
+   "files": [
+    {
+     "path": "ofl/librebaskerville/LibreBaskerville[wght].ttf",
+     "italic": false,
+     "bytes": 171900,
+     "sha256": "05a95421961341c5b2556285e8415df9db27dab4f4abe22b446b3c6a8b916c5d",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": "LibreBaskerville-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LibreBaskerville-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LibreBaskerville-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LibreBaskerville-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/librebaskerville/LibreBaskerville-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 167456,
+     "sha256": "223959683dc73ec4437bd61fabaa4b3f22209e22855ffd3aee36ba61a5116e97",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Italic",
+       "postscriptName": "LibreBaskerville-Italic",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "LibreBaskerville-MediumItalic",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "LibreBaskerville-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "LibreBaskerville-BoldItalic",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LibreBaskerville[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "f5bc4341f15de5e877d8d95b6b14b33e9a3da1f8fef4ed0700ed407f096cffb6"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LibreBaskerville[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "6c80b13c0dee742b2998ee5ea6dd24b1f59e7030333897f220837ed35a9d9552"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LibreBaskerville[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "8b008ffdae31b314657cb8e28d822da09893035d06bad9b1ab53ea762549cbd1"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "LibreBaskerville-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "b2149da8101de6ecbc0d5ea9616a0a0a45fbd01701f012a0ae9b0d0ed733c070"
+    }
+   ]
+  },
+  {
+   "family": "Lora",
+   "slug": "lora",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Lora"
+   ],
+   "googleFontsDir": "ofl/lora",
+   "files": [
+    {
+     "path": "ofl/lora/Lora[wght].ttf",
+     "italic": false,
+     "bytes": 212196,
+     "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/lora/Lora-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 221232,
+     "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Lora[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "1d37d1e34c77be80f0119754ad78df9aad30d5b1c78132a4cbdac0fe567f5d4f"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Lora[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "9bfe70fd1d70600c523d7ef66c8a024187270f115570d82baf97df7f05e6c2aa"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Lora[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "ac3145cd8846b6ab3522ac0579a4f5378271f6a93896cb800d27f301fa9f7758"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "Lora-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "26243fda8cd938cc2734f46d20d7464822d89378c7f375e187e39f9ed3f20907"
+    }
+   ]
+  },
+  {
+   "family": "Merriweather",
+   "slug": "merriweather",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Merriweather"
+   ],
+   "googleFontsDir": "ofl/merriweather",
+   "files": [
+    {
+     "path": "ofl/merriweather/Merriweather[opsz,wdth,wght].ttf",
+     "italic": false,
+     "bytes": 4628080,
+     "sha256": "d0ed0e359e396af7ad05e73dffd11a3a4c326ea0d0283c56bd9361cb2cc86a96",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 300.0,
+       "max": 900.0
+      },
+      {
+       "tag": "wdth",
+       "min": 87.0,
+       "default": 100.0,
+       "max": 112.0
+      },
+      {
+       "tag": "opsz",
+       "min": 18.0,
+       "default": 18.0,
+       "max": 144.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light",
+       "postscriptName": "Merriweather-Light",
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "Merriweather-Regular",
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Merriweather-Medium",
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Merriweather-SemiBold",
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Merriweather-Bold",
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "Merriweather-ExtraBold",
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "Merriweather-Black",
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].ttf",
+     "italic": true,
+     "bytes": 4591168,
+     "sha256": "f68a8f4989258679e4fbaf50aa42400132b5373c2d9d2514ba82ef6e85947a0b",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 300.0,
+       "max": 900.0
+      },
+      {
+       "tag": "wdth",
+       "min": 87.0,
+       "default": 100.0,
+       "max": 112.0
+      },
+      {
+       "tag": "opsz",
+       "min": 18.0,
+       "default": 18.0,
+       "max": 144.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light Italic",
+       "postscriptName": "Merriweather-LightItalic",
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "Merriweather-Italic",
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "Merriweather-MediumItalic",
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "Merriweather-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "Merriweather-BoldItalic",
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "Merriweather-ExtraBoldItalic",
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "Merriweather-BlackItalic",
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 100.0,
+        "opsz": 18.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Merriweather[opsz,wdth,wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 100.0,
+      "opsz": 18.0
+     },
+     "shippedSha256": "e029d3b71e5bae3877c73f4f2b15af28db16593d49b0aed2a328d37ff7075846"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Merriweather[opsz,wdth,wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0,
+      "wdth": 100.0,
+      "opsz": 18.0
+     },
+     "shippedSha256": "5ce8a7ccb9a180feff4a8f29a0b0a207a66d740adb67d9f3ebd3d96d8094579f"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Merriweather[opsz,wdth,wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0,
+      "wdth": 100.0,
+      "opsz": 18.0
+     },
+     "shippedSha256": "90b7db4460fcd1a5ca49575c2668a793f3cd6447664d312a068d690e1c01e6bc"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "Merriweather[opsz,wdth,wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0,
+      "wdth": 100.0,
+      "opsz": 18.0
+     },
+     "shippedSha256": "0d17518d468ebb7bf6be187fe39caf344dd83a51c22618d230bde02dd99f08d2"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "Merriweather-Italic[opsz,wdth,wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 100.0,
+      "opsz": 18.0
+     },
+     "shippedSha256": "afff81272b7653417bb6f8bef57add055b1f9fda36f27eba5f32b40752bd08da"
+    }
+   ]
+  },
+  {
+   "family": "Orbitron",
+   "slug": "orbitron",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Orbitron"
+   ],
+   "googleFontsDir": "ofl/orbitron",
+   "files": [
+    {
+     "path": "ofl/orbitron/Orbitron[wght].ttf",
+     "italic": false,
+     "bytes": 38576,
+     "sha256": "f42db2dd16e642258e35782916eceb1dcdbea06fb958d77ad71dc5963587e8fd",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": "Orbitron-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Orbitron-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Orbitron-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Orbitron-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "Orbitron-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "Orbitron-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Orbitron[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "59c2bc6487139f1b8c5754e0cc98ea431ab4c1c1ee142d9d2433ecabe444b59a"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Orbitron[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "e1dd2875a4cf1711615b7bc7eb2ae8d05bef3861f87a7fdd847a78199169b458"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Orbitron[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "a24fe8031eefd8451d40e31882868d768ce6bed7c3659293281b3c5c7732a952"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "Orbitron[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     },
+     "shippedSha256": "27cd313045d12280384256b4fba922366a4883e32ffb866b9acd62c5a859de61"
+    }
+   ]
+  },
+  {
+   "family": "Playfair Display",
+   "slug": "playfairdisplay",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Playfair Display"
+   ],
+   "googleFontsDir": "ofl/playfairdisplay",
+   "files": [
+    {
+     "path": "ofl/playfairdisplay/PlayfairDisplay[wght].ttf",
+     "italic": false,
+     "bytes": 300724,
+     "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": "PlayfairDisplayRoman-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "PlayfairDisplayRoman-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "PlayfairDisplayRoman-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "PlayfairDisplayRoman-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "PlayfairDisplayRoman-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "PlayfairDisplayRoman-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/playfairdisplay/PlayfairDisplay-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 278688,
+     "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Italic",
+       "postscriptName": "PlayfairDisplayItalic-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "PlayfairDisplayItalic-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "PlayfairDisplayItalic-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "PlayfairDisplayItalic-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "PlayfairDisplayItalic-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "PlayfairDisplayItalic-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "PlayfairDisplay[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "PlayfairDisplay[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "b60ffb0ee2b4e09d71d67ff3ea16d6a23cf2e0cf637c5f4e36fff2e3b1465252"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "PlayfairDisplay[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "adefc53e7b3d483f1fa5e85edd82b7689ca79db25a1f6786bd7949cdcfeec601"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "PlayfairDisplay[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     },
+     "shippedSha256": "c549b1064828d22e398c5d9bdce9267aa130569b177c67d550daaf1e8c636288"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "PlayfairDisplay-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    }
+   ]
+  },
+  {
+   "family": "Quicksand",
+   "slug": "quicksand",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Quicksand"
+   ],
+   "googleFontsDir": "ofl/quicksand",
+   "files": [
+    {
+     "path": "ofl/quicksand/Quicksand[wght].ttf",
+     "italic": false,
+     "bytes": 124824,
+     "sha256": "39c9b64223561f56aaff6062a6f04063c4fc86809ad6768722c06614d977e1cc",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 300.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light",
+       "postscriptName": "Quicksand-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "Quicksand-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Quicksand-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Quicksand-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Quicksand-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Quicksand[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "0977c1d9781e03adfc1b120b3b60b6c4db776b5261e801ec881549cd17894351"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Quicksand[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "50a6caf101a335e465f0d5e030cd5d55952013abc6e903589f550571f1792718"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Quicksand[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "8fb2148170b16156ad78d9d787a5d98a2c00752f91fc0fe88c9367c0809ecba3"
+    }
+   ]
+  },
+  {
+   "family": "Raleway",
+   "slug": "raleway",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Raleway"
+   ],
+   "googleFontsDir": "ofl/raleway",
+   "files": [
+    {
+     "path": "ofl/raleway/Raleway[wght].ttf",
+     "italic": false,
+     "bytes": 312352,
+     "sha256": "8bbcc3eb8275c388f4bcd998832f8a4b943eadbaf6a595205312774b5951aefb",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "RalewayRoman-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "RalewayRoman-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "RalewayRoman-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "RalewayRoman-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "RalewayRoman-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "RalewayRoman-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "RalewayRoman-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "RalewayRoman-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "RalewayRoman-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/raleway/Raleway-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 318476,
+     "sha256": "96629caf2202183fab46c70237055a7d67e6a5400b85413d45a77ed6f2a0770c",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin Italic",
+       "postscriptName": "RalewayItalic-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "RalewayItalic-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "RalewayItalic-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "RalewayItalic-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "RalewayItalic-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "RalewayItalic-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "RalewayItalic-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "RalewayItalic-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "RalewayItalic-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Raleway[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "943300b002516feaf028c27aceaa2f473f2e1c0229ed913652a406d43277d9ba"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Raleway[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "c2f3b7985c385221ae1c9d3482d2b7d292c240cfe92dd55c2784d3f3cbc2afff"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Raleway[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "6cd34aa42be80b5ae85cc8c816f241d46a6d77a3a3277a6a20962b134b567cea"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "Raleway[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     },
+     "shippedSha256": "3b46ad8e1a038673b378215fa6cf4bb96e8bae9cb821f614db1bf18252fafa5e"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "Raleway-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "947194506dcf722728b84075659c60350c6a730d1ef8bbfe03acb4980e0b165a"
+    }
+   ]
+  },
+  {
+   "family": "Source Code Pro",
+   "slug": "sourcecodepro",
+   "status": "shipping-gf-api",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Source"
+   ],
+   "googleFontsDir": "ofl/sourcecodepro",
+   "files": [
+    {
+     "path": "ofl/sourcecodepro/SourceCodePro[wght].ttf",
+     "italic": false,
+     "bytes": 212340,
+     "sha256": "b400fc584e10aff25d0e775ce181b4fc1c5ea1b5dc37b81aeb2084375b945790",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": "SourceCodePro-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "SourceCodePro-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "SourceCodePro-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "SourceCodePro-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "SourceCodePro-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "SourceCodePro-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "SourceCodePro-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "SourceCodePro-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/sourcecodepro/SourceCodePro-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 174852,
+     "sha256": "6db77d25aa7b30eff449305b5c998e475694c74d398421127ea5a60f536413cd",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "SourceCodePro-ExtraLightItalic",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "SourceCodePro-LightItalic",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "SourceCodePro-Italic",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "SourceCodePro-MediumItalic",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "SourceCodePro-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "SourceCodePro-BoldItalic",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "SourceCodePro-ExtraBoldItalic",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "SourceCodePro-BlackItalic",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "SourceCodePro[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "66a11c481af5bdcdb91a72282bdb0b9bb5992208a72d89e1dd393e5e8255c7a2"
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "SourceCodePro[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     },
+     "shippedSha256": "d04c6deeebebe706b13e82b0fc91d0becba43b492ec84e3763ce4724132f05ea"
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "SourceCodePro[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     },
+     "shippedSha256": "9caf5a028723b6bf7a23a8eff5da13aadbc44b7c18be4320a89fbd30b3f2df25"
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "SourceCodePro[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     },
+     "shippedSha256": "46fa780846a6f24643b65a665ff84821976e2a562dbe365ff501c26ab8937fcd"
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "SourceCodePro-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     },
+     "shippedSha256": "ccb7013cde3e3391663e4bb385dfd7019ff2f27486639e7604d905fea79664f6"
+    }
+   ]
+  },
+  {
+   "family": "Cascadia Code",
+   "slug": "cascadiacode",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Cascadia Code"
+   ],
+   "googleFontsDir": "ofl/cascadiacode",
+   "files": [
+    {
+     "path": "ofl/cascadiacode/CascadiaCode[wght].ttf",
+     "italic": false,
+     "bytes": 727940,
+     "sha256": "30f2e14a5c389b346b1fce110c4ddcf0dc5ce8265faf5eca2ab7323f49dba590",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/cascadiacode/CascadiaCode-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 530444,
+     "sha256": "33559b4beb60523b824e25a416b5de2779a9bc7c7ce32ce128490b42acbf4681",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "CascadiaCode[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "SemiBold",
+     "weight": 600,
+     "italic": false,
+     "file": "CascadiaCode[wght].ttf",
+     "instance": "SemiBold",
+     "coordinates": {
+      "wght": 600.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "CascadiaCode[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "CascadiaCode-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Cascadia Mono",
+   "slug": "cascadiamono",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Cascadia Code"
+   ],
+   "googleFontsDir": "ofl/cascadiamono",
+   "files": [
+    {
+     "path": "ofl/cascadiamono/CascadiaMono[wght].ttf",
+     "italic": false,
+     "bytes": 704344,
+     "sha256": "78864a1b4d03767a44731454a6f24c6b7d6e93fb5f62932860eb02e409cd50cb",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/cascadiamono/CascadiaMono-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 513984,
+     "sha256": "53f999d8032b8e16332507d0e18ad638e59cbe72cae52c3ee62ec99337942e51",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "CascadiaMono[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "SemiBold",
+     "weight": 600,
+     "italic": false,
+     "file": "CascadiaMono[wght].ttf",
+     "instance": "SemiBold",
+     "coordinates": {
+      "wght": 600.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "CascadiaMono[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "CascadiaMono-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Cuprum",
+   "slug": "cuprum",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Cuprum"
+   ],
+   "googleFontsDir": "ofl/cuprum",
+   "files": [
+    {
+     "path": "ofl/cuprum/Cuprum[wght].ttf",
+     "italic": false,
+     "bytes": 84324,
+     "sha256": "be75585aa57a5f1c1d10de61305bb4266effa1b9083722d20c26adf97e911534",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": "CuprumRoman-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "CuprumRoman-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/cuprum/Cuprum-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 84360,
+     "sha256": "1b2fa2441b421e16176ed3b0356949f406ef44497df17b2ee7977aa7f838312a",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Italic",
+       "postscriptName": "CuprumItalic-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "CuprumItalic-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Cuprum[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Cuprum[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "Cuprum-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Domine",
+   "slug": "domine",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Domine"
+   ],
+   "googleFontsDir": "ofl/domine",
+   "files": [
+    {
+     "path": "ofl/domine/Domine[wght].ttf",
+     "italic": false,
+     "bytes": 101904,
+     "sha256": "c63552cb60c658e90c1da3e83f9e7cf203562c39cdbf5a78ba9df62d8e7a1ed7",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 400.0,
+       "default": 400.0,
+       "max": 700.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Domine[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Domine[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Encode Sans",
+   "slug": "encodesans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Encode Sans"
+   ],
+   "googleFontsDir": "ofl/encodesans",
+   "files": [
+    {
+     "path": "ofl/encodesans/EncodeSans[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 285792,
+     "sha256": "7735320abb63a1022d086c938872dae32754db733ecd4dcd402f2a445cbeb43f",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      },
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 75.0,
+       "max": 125.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Condensed Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "SemiCondensed Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiExpanded Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "Expanded Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 125.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "EncodeSans[wdth,wght].ttf",
+     "instance": "Condensed Regular",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "EncodeSans[wdth,wght].ttf",
+     "instance": "Condensed Medium",
+     "coordinates": {
+      "wght": 500.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "EncodeSans[wdth,wght].ttf",
+     "instance": "Condensed Bold",
+     "coordinates": {
+      "wght": 700.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "EncodeSans[wdth,wght].ttf",
+     "instance": "Condensed Black",
+     "coordinates": {
+      "wght": 900.0,
+      "wdth": 75.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Encode Sans SC",
+   "slug": "encodesanssc",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Encode Sans"
+   ],
+   "googleFontsDir": "ofl/encodesanssc",
+   "files": [
+    {
+     "path": "ofl/encodesanssc/EncodeSansSC[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 217392,
+     "sha256": "fcad22c3440992bf42216e6a0ad6e8640d2d1dfff1ddc5573934933152123bd0",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 100.0,
+       "max": 900.0
+      },
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 75.0,
+       "max": 125.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Condensed Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "Condensed Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 75.0
+       }
+      },
+      {
+       "name": "SemiCondensed Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "SemiCondensed Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 87.5
+       }
+      },
+      {
+       "name": "Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiExpanded Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "SemiExpanded Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 112.5
+       }
+      },
+      {
+       "name": "Expanded Thin",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0,
+        "wdth": 125.0
+       }
+      },
+      {
+       "name": "Expanded Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0,
+        "wdth": 125.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "EncodeSansSC[wdth,wght].ttf",
+     "instance": "Condensed Regular",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "EncodeSansSC[wdth,wght].ttf",
+     "instance": "Condensed Medium",
+     "coordinates": {
+      "wght": 500.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "EncodeSansSC[wdth,wght].ttf",
+     "instance": "Condensed Bold",
+     "coordinates": {
+      "wght": 700.0,
+      "wdth": 75.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "EncodeSansSC[wdth,wght].ttf",
+     "instance": "Condensed Black",
+     "coordinates": {
+      "wght": 900.0,
+      "wdth": 75.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Hubot Sans",
+   "slug": "hubotsans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Hubot"
+   ],
+   "googleFontsDir": "ofl/hubotsans",
+   "files": [
+    {
+     "path": "ofl/hubotsans/HubotSans[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 369548,
+     "sha256": "229c7682f64b499668d2f47ac803bbde0b5a63225326c8659ea436748ab29965",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 75.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/hubotsans/HubotSans-Italic[wdth,wght].ttf",
+     "italic": true,
+     "bytes": 381520,
+     "sha256": "785b129a5b9c8f04b4e8883dd26235ef7ae58d862068726a3e254092c28bc829",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 75.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 75.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "HubotSans[wdth,wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wdth": 75.0,
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "HubotSans[wdth,wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wdth": 75.0,
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "HubotSans[wdth,wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wdth": 75.0,
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "HubotSans[wdth,wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wdth": 75.0,
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "HubotSans-Italic[wdth,wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wdth": 75.0,
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "IBM Plex Sans",
+   "slug": "ibmplexsans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Plex"
+   ],
+   "googleFontsDir": "ofl/ibmplexsans",
+   "files": [
+    {
+     "path": "ofl/ibmplexsans/IBMPlexSans[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 537244,
+     "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 700.0
+      },
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 100.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "IBMPlexSans-Thin",
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "IBMPlexSans-ExtraLight",
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "IBMPlexSans-Light",
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "IBMPlexSans-Regular",
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "IBMPlexSans-Medium",
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "IBMPlexSans-SemiBold",
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "IBMPlexSans-Bold",
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/ibmplexsans/IBMPlexSans-Italic[wdth,wght].ttf",
+     "italic": true,
+     "bytes": 599624,
+     "sha256": "0b94c5e981993764db32bf9c610ecc60cbd34ad77ec2f10ba03c64ab75124d8e",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 700.0
+      },
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 100.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin Italic",
+       "postscriptName": "IBMPlexSans-ThinItalic",
+       "coordinates": {
+        "wght": 100.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "IBMPlexSans-ExtraLightItalic",
+       "coordinates": {
+        "wght": 200.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "IBMPlexSans-LightItalic",
+       "coordinates": {
+        "wght": 300.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "IBMPlexSans-Italic",
+       "coordinates": {
+        "wght": 400.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "IBMPlexSans-MediumItalic",
+       "coordinates": {
+        "wght": 500.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "IBMPlexSans-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0,
+        "wdth": 100.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "IBMPlexSans-BoldItalic",
+       "coordinates": {
+        "wght": 700.0,
+        "wdth": 100.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "IBMPlexSans[wdth,wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 100.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "IBMPlexSans[wdth,wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0,
+      "wdth": 100.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "IBMPlexSans[wdth,wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0,
+      "wdth": 100.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "IBMPlexSans-Italic[wdth,wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0,
+      "wdth": 100.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend",
+   "slug": "lexend",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexend",
+   "files": [
+    {
+     "path": "ofl/lexend/Lexend[wght].ttf",
+     "italic": false,
+     "bytes": 175756,
+     "sha256": "3add53e641fbc81da64da4bb254285e2831b52b029527bc0714e2b9610832ee6",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "Lexend-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "Lexend-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "Lexend-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "Lexend-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "Lexend-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "Lexend-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "Lexend-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "Lexend-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "Lexend-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "Lexend[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "Lexend[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "Lexend[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "Lexend[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Deca",
+   "slug": "lexenddeca",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexenddeca",
+   "files": [
+    {
+     "path": "ofl/lexenddeca/LexendDeca[wght].ttf",
+     "italic": false,
+     "bytes": 175928,
+     "sha256": "d11c12298f431d7e416a1e615d33f2c2b98bda2318a0c186c8c94f08c2d90ce8",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendDeca-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendDeca-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendDeca-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendDeca-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendDeca-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendDeca-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendDeca-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendDeca-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendDeca-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendDeca[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendDeca[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendDeca[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendDeca[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Exa",
+   "slug": "lexendexa",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexendexa",
+   "files": [
+    {
+     "path": "ofl/lexendexa/LexendExa[wght].ttf",
+     "italic": false,
+     "bytes": 189908,
+     "sha256": "d03a5ef7cf352a5508c6a64dc7b7b9e50bb7afddba1a90d792a801a6f421a63c",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendExa-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendExa-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendExa-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendExa-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendExa-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendExa-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendExa-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendExa-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendExa-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendExa[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendExa[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendExa[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendExa[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Mega",
+   "slug": "lexendmega",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexendmega",
+   "files": [
+    {
+     "path": "ofl/lexendmega/LexendMega[wght].ttf",
+     "italic": false,
+     "bytes": 192116,
+     "sha256": "caf207a658a8519365a89274b64d8bea36ecf5927453d388965789ce7be25df9",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendMega-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendMega-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendMega-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendMega-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendMega-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendMega-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendMega-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendMega-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendMega-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendMega[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendMega[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendMega[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendMega[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Peta",
+   "slug": "lexendpeta",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexendpeta",
+   "files": [
+    {
+     "path": "ofl/lexendpeta/LexendPeta[wght].ttf",
+     "italic": false,
+     "bytes": 192228,
+     "sha256": "48bd753c216bdb19a469a6570a8756f23045c1e46f8d498f6cf1038cbcdc135b",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendPeta-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendPeta-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendPeta-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendPeta-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendPeta-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendPeta-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendPeta-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendPeta-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendPeta-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendPeta[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendPeta[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendPeta[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendPeta[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Tera",
+   "slug": "lexendtera",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexendtera",
+   "files": [
+    {
+     "path": "ofl/lexendtera/LexendTera[wght].ttf",
+     "italic": false,
+     "bytes": 192544,
+     "sha256": "153c623deb39a4a79f26972e1a7b61651c16f9d567d4af83be2942303307dfac",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendTera-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendTera-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendTera-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendTera-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendTera-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendTera-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendTera-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendTera-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendTera-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendTera[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendTera[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendTera[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendTera[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Lexend Zetta",
+   "slug": "lexendzetta",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "RevReading Lexend"
+   ],
+   "googleFontsDir": "ofl/lexendzetta",
+   "files": [
+    {
+     "path": "ofl/lexendzetta/LexendZetta[wght].ttf",
+     "italic": false,
+     "bytes": 192720,
+     "sha256": "705ba2f80f8daf3c93b9aec2798d054e5f31cb1bded00f1706800549f47c35df",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 100.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Thin",
+       "postscriptName": "LexendZetta-Thin",
+       "coordinates": {
+        "wght": 100.0
+       }
+      },
+      {
+       "name": "ExtraLight",
+       "postscriptName": "LexendZetta-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "LexendZetta-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "LexendZetta-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "LexendZetta-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "LexendZetta-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "LexendZetta-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "LexendZetta-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "LexendZetta-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "LexendZetta[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "LexendZetta[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "LexendZetta[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "LexendZetta[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Merriweather Sans",
+   "slug": "merriweathersans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Merriweather"
+   ],
+   "googleFontsDir": "ofl/merriweathersans",
+   "files": [
+    {
+     "path": "ofl/merriweathersans/MerriweatherSans[wght].ttf",
+     "italic": false,
+     "bytes": 266512,
+     "sha256": "bef90d227eeb5b58e27d0a421df6c5d8df2e6a6d68aa08bdc51faa54f1d997dc",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 400.0,
+       "max": 800.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light",
+       "postscriptName": "MerriweatherSansRoman-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "MerriweatherSansRoman-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "MerriweatherSansRoman-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "MerriweatherSansRoman-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/merriweathersans/MerriweatherSans-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 236768,
+     "sha256": "882e6763fa1f35dc03cd61c1e3186dba2408828c807895dfa16875b1242ad59d",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 300.0,
+       "default": 400.0,
+       "max": 800.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "Light Italic",
+       "postscriptName": "MerriweatherSansItalic-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "MerriweatherSansItalic-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "MerriweatherSansItalic-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "MerriweatherSansItalic-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "MerriweatherSans[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "MerriweatherSans[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "ExtraBold",
+     "weight": 800,
+     "italic": false,
+     "file": "MerriweatherSans[wght].ttf",
+     "instance": "ExtraBold",
+     "coordinates": {
+      "wght": 800.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "MerriweatherSans-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Mona Sans",
+   "slug": "monasans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Mona"
+   ],
+   "googleFontsDir": "ofl/monasans",
+   "files": [
+    {
+     "path": "ofl/monasans/MonaSans[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 349140,
+     "sha256": "fd6e79634b5ae804a45aac7e2e3c2a325b41291fba59034f4732b0135b8475b3",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/monasans/MonaSans-Italic[wdth,wght].ttf",
+     "italic": true,
+     "bytes": 360440,
+     "sha256": "31e7df54477a3cd46677356ada1d2806bcb4c0dbe3b32987783a74a139d8d064",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "MonaSans[wdth,wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "MonaSans[wdth,wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "MonaSans[wdth,wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "MonaSans[wdth,wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "MonaSans-Italic[wdth,wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Source Sans 3",
+   "slug": "sourcesans3",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Source"
+   ],
+   "googleFontsDir": "ofl/sourcesans3",
+   "files": [
+    {
+     "path": "ofl/sourcesans3/SourceSans3[wght].ttf",
+     "italic": false,
+     "bytes": 646340,
+     "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/sourcesans3/SourceSans3-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 395372,
+     "sha256": "39e3ab05ccd7cb94907c31005bb5bec1d5432f0b096a2b782976e217a540eb6c",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 200.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": null,
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "SourceSans3[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "SourceSans3[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "SourceSans3[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "SourceSans3[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "SourceSans3-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Zalando Sans",
+   "slug": "zalandosans",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Zalando"
+   ],
+   "googleFontsDir": "ofl/zalandosans",
+   "files": [
+    {
+     "path": "ofl/zalandosans/ZalandoSans[wdth,wght].ttf",
+     "italic": false,
+     "bytes": 281728,
+     "sha256": "9ef9c85d9b108f588858e045aee46ebbc8e324002d1891c2f662d40a2704dcd8",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": "ZalandoSans-ExtraLight",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "ZalandoSans-Light",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "ZalandoSans-Regular",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "ZalandoSans-Medium",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "ZalandoSans-SemiBold",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "ZalandoSans-Bold",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "ZalandoSans-ExtraBold",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "ZalandoSans-Black",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/zalandosans/ZalandoSans-Italic[wdth,wght].ttf",
+     "italic": true,
+     "bytes": 289792,
+     "sha256": "70dcf38b38ee3f179211f4a43f99a4cf4e976e16336676d83ae83a8e79078336",
+     "axes": [
+      {
+       "tag": "wdth",
+       "min": 75.0,
+       "default": 100.0,
+       "max": 125.0
+      },
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "ZalandoSans-ExtraLightItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "ZalandoSans-LightItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "ZalandoSans-Italic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "ZalandoSans-MediumItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "ZalandoSans-SemiBoldItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "ZalandoSans-BoldItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "ZalandoSans-ExtraBoldItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "ZalandoSans-BlackItalic",
+       "coordinates": {
+        "wdth": 100.0,
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "ZalandoSans[wdth,wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "ZalandoSans[wdth,wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "ZalandoSans[wdth,wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "ZalandoSans[wdth,wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "ZalandoSans-Italic[wdth,wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wdth": 100.0,
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Zalando Sans Expanded",
+   "slug": "zalandosansexpanded",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Zalando"
+   ],
+   "googleFontsDir": "ofl/zalandosansexpanded",
+   "files": [
+    {
+     "path": "ofl/zalandosansexpanded/ZalandoSansExpanded[wght].ttf",
+     "italic": false,
+     "bytes": 146688,
+     "sha256": "e3f331b7125dfdcd202f2135c8b48a3766ba5c4fafaa6fedad1bf37b01d6fb3b",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": "ZalandoSansExpanded-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "ZalandoSansExpanded-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "ZalandoSansExpanded-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "ZalandoSansExpanded-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "ZalandoSansExpanded-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "ZalandoSansExpanded-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "ZalandoSansExpanded-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "ZalandoSansExpanded-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/zalandosansexpanded/ZalandoSansExpanded-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 149396,
+     "sha256": "289cd38cd7880f4af8e2714a6190f6511ebde887354eb9ad5f5e45c1c892c6de",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "ZalandoSansExpanded-ExtraLightItalic",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "ZalandoSansExpanded-LightItalic",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "ZalandoSansExpanded-Italic",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "ZalandoSansExpanded-MediumItalic",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "ZalandoSansExpanded-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "ZalandoSansExpanded-BoldItalic",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "ZalandoSansExpanded-ExtraBoldItalic",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "ZalandoSansExpanded-BlackItalic",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "ZalandoSansExpanded[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "ZalandoSansExpanded[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "ZalandoSansExpanded[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "ZalandoSansExpanded[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "ZalandoSansExpanded-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  },
+  {
+   "family": "Zalando Sans SemiExpanded",
+   "slug": "zalandosanssemiexpanded",
+   "status": "excluded",
+   "license": "OFL-1.1",
+   "reservedFontNames": [
+    "Zalando"
+   ],
+   "googleFontsDir": "ofl/zalandosanssemiexpanded",
+   "files": [
+    {
+     "path": "ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded[wght].ttf",
+     "italic": false,
+     "bytes": 148796,
+     "sha256": "d4ef6e1d652da0590b7d0cceb5b4d5a1a063b4927be99f52dcb7a679eb3ae92b",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight",
+       "postscriptName": "ZalandoSansSemiExpanded-ExtraLight",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light",
+       "postscriptName": "ZalandoSansSemiExpanded-Light",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Regular",
+       "postscriptName": "ZalandoSansSemiExpanded-Regular",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium",
+       "postscriptName": "ZalandoSansSemiExpanded-Medium",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold",
+       "postscriptName": "ZalandoSansSemiExpanded-SemiBold",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold",
+       "postscriptName": "ZalandoSansSemiExpanded-Bold",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold",
+       "postscriptName": "ZalandoSansSemiExpanded-ExtraBold",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black",
+       "postscriptName": "ZalandoSansSemiExpanded-Black",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    },
+    {
+     "path": "ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded-Italic[wght].ttf",
+     "italic": true,
+     "bytes": 153352,
+     "sha256": "b24ebdd0e0f1a3fa959fc38d78b108249b1ac57bd1125ef3c18acecd90f3120d",
+     "axes": [
+      {
+       "tag": "wght",
+       "min": 200.0,
+       "default": 400.0,
+       "max": 900.0
+      }
+     ],
+     "namedInstances": [
+      {
+       "name": "ExtraLight Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-ExtraLightItalic",
+       "coordinates": {
+        "wght": 200.0
+       }
+      },
+      {
+       "name": "Light Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-LightItalic",
+       "coordinates": {
+        "wght": 300.0
+       }
+      },
+      {
+       "name": "Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-Italic",
+       "coordinates": {
+        "wght": 400.0
+       }
+      },
+      {
+       "name": "Medium Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-MediumItalic",
+       "coordinates": {
+        "wght": 500.0
+       }
+      },
+      {
+       "name": "SemiBold Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-SemiBoldItalic",
+       "coordinates": {
+        "wght": 600.0
+       }
+      },
+      {
+       "name": "Bold Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-BoldItalic",
+       "coordinates": {
+        "wght": 700.0
+       }
+      },
+      {
+       "name": "ExtraBold Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-ExtraBoldItalic",
+       "coordinates": {
+        "wght": 800.0
+       }
+      },
+      {
+       "name": "Black Italic",
+       "postscriptName": "ZalandoSansSemiExpanded-BlackItalic",
+       "coordinates": {
+        "wght": 900.0
+       }
+      }
+     ]
+    }
+   ],
+   "targetStyles": [
+    {
+     "name": "Regular",
+     "weight": 400,
+     "italic": false,
+     "file": "ZalandoSansSemiExpanded[wght].ttf",
+     "instance": "Regular",
+     "coordinates": {
+      "wght": 400.0
+     }
+    },
+    {
+     "name": "Medium",
+     "weight": 500,
+     "italic": false,
+     "file": "ZalandoSansSemiExpanded[wght].ttf",
+     "instance": "Medium",
+     "coordinates": {
+      "wght": 500.0
+     }
+    },
+    {
+     "name": "Bold",
+     "weight": 700,
+     "italic": false,
+     "file": "ZalandoSansSemiExpanded[wght].ttf",
+     "instance": "Bold",
+     "coordinates": {
+      "wght": 700.0
+     }
+    },
+    {
+     "name": "Black",
+     "weight": 900,
+     "italic": false,
+     "file": "ZalandoSansSemiExpanded[wght].ttf",
+     "instance": "Black",
+     "coordinates": {
+      "wght": 900.0
+     }
+    },
+    {
+     "name": "Italic",
+     "weight": 400,
+     "italic": true,
+     "file": "ZalandoSansSemiExpanded-Italic[wght].ttf",
+     "instance": "Italic",
+     "coordinates": {
+      "wght": 400.0
+     }
+    }
+   ]
+  }
+ ]
+}

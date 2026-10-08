@@ -227,9 +227,22 @@ def main():
     print(f"metadata: {METADATA_URL}")
     metadata = load_metadata()
 
+    # Families switched to their unmodified google/fonts statics (rfn policy,
+    # tools/rfn_upstream.py) are carried over verbatim — never re-fetched
+    # from the Fonts API, whose files are Google-processed.
+    carried = {}
+    if MANIFEST.exists():
+        for f in json.loads(MANIFEST.read_text()).get("families", []):
+            if f.get("origin") == "gf-repo":
+                carried[f["name"]] = f
+
     manifest_families = []
     skipped = []
     for family in families:
+        if family in carried:
+            print(f"{family}  [carried: gf-repo originals]")
+            manifest_families.append(carried[family])
+            continue
         meta = metadata.get(family)
         if not meta:
             skipped.append((family, "not in Google metadata"))

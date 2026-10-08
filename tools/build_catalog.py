@@ -268,8 +268,12 @@ def build_family(plan, args, frozen):
                 raise RuntimeError(f"{name}: frozen file {s['file']} does not match its sha256")
             files.append((s["weight"], s["italic"], data))
         category, subsets = v1["category"], v1["subsets"]
-        origin = "gf-api"  # the jsDelivr catalog was built from the Fonts API
+        # R1 was built from the Fonts API; its rfn families with static
+        # originals now ship those (origin gf-repo, see tools/rfn_upstream.py)
+        origin = v1.get("origin", "gf-api")
+        replaces = {(s["weight"], s["italic"]): s["replaces"] for s in v1["styles"] if s.get("replaces")}
     else:
+        replaces = {}
         lic_bytes = pathlib.Path(rec["licensePath"]).read_bytes()
         category = category_of(site)
         subsets = sorted(s for s in site.get("subsets", []) if s != "menu")
@@ -313,6 +317,8 @@ def build_family(plan, args, frozen):
         digest, _ = put(build, "files", data, "ttf")
         styles.append({"name": style_name(w, i), "weight": w, "italic": i,
                        "file": f"files/{digest}.ttf", "bytes": len(data), "sha256": digest})
+        if replaces.get((w, i)):
+            styles[-1]["replaces"] = replaces[(w, i)]   # earlier sha256s of this style (heal map)
 
     src_style = min(styles, key=lambda s: abs(s["weight"] - 400) + (1 if s["italic"] else 0))
     tmp_prev = build / "tmp" / f"{slug}.preview.ttf"
@@ -356,7 +362,9 @@ def fetch_repo_blobs(gf_repo, plans):
         return
     current = subprocess.run(["git", "-C", gf_repo, "sparse-checkout", "list"],
                              capture_output=True, text=True, check=True).stdout.split()
-    patterns = sorted(set(current) | {"/" + p for p in paths})
+    def literal(path):   # sparse patterns are globs: escape [ ] * ? (e.g. "Font[wght].ttf")
+        return "/" + "".join("\\" + c if c in "[]*?" else c for c in path)
+    patterns = sorted(set(current) | {literal(p) for p in paths})
     print(f"sparse checkout: +{len(missing)} font files")
     subprocess.run(["git", "-C", gf_repo, "sparse-checkout", "set", "--no-cone", "--stdin"],
                    input="\n".join(patterns) + "\n", text=True, check=True)
@@ -369,7 +377,8 @@ def main():
     ap.add_argument("--build", required=True, help="output tree (files/ previews/ licenses/)")
     ap.add_argument("--out", default=str(OUT_DIR), help="where manifest.json / excluded.json go")
     ap.add_argument("--frozen-only", action="store_true", help="only the jsDelivr catalog's families")
-    ap.add_argument("--only", default="", help="comma-separated family filter (debug)")
+    ap.add_argument("--only", default="", help="comma-separated families to (re)build and MERGE into the "
+                    "existing <out>/manifest.json (others and excluded.json kept)")
     ap.add_argument("--jobs", type=int, default=8)
     ap.add_argument("--version", default=datetime.date.today().strftime("%Y.%m.%d") + ".1")
     args = ap.parse_args()
@@ -415,6 +424,11 @@ def main():
 
     commit = subprocess.run(["git", "-C", args.gf_repo, "rev-parse", "HEAD"],
                             capture_output=True, text=True).stdout.strip()
+    out = pathlib.Path(args.out)
+    if args.only and (out / "manifest.json").exists():   # merge mode
+        rebuilt = {e["name"] for e in entries}
+        previous = json.loads((out / "manifest.json").read_text())
+        entries += [e for e in previous["families"] if e["name"] not in rebuilt]
     names = {e["name"] for e in entries}
     manifest = {
         "schemaVersion": 1,
@@ -425,11 +439,11 @@ def main():
         "featured": [f for f in FEATURED if f in names],
         "families": sorted(entries, key=lambda e: e["name"]),
     }
-    out = pathlib.Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     text = json.dumps(manifest, separators=(",", ":"), ensure_ascii=False) + "\n"
     (out / "manifest.json").write_text(text)
-    (out / "excluded.json").write_text(json.dumps(dict(sorted(excluded.items())), indent=0, ensure_ascii=False) + "\n")
+    if not args.only:
+        (out / "excluded.json").write_text(json.dumps(dict(sorted(excluded.items())), indent=0, ensure_ascii=False) + "\n")
     shutil.rmtree(pathlib.Path(args.build) / "tmp", ignore_errors=True)
 
     files = [s for e in entries for s in e["styles"]]

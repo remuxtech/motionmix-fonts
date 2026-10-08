@@ -37,14 +37,18 @@ index), `featured` (ordered names), `families`.
 Per family: `name · slug · category · subsets · license` (SPDX:
 `OFL-1.1` / `Apache-2.0` / `UFL-1.0`, derived from the licence text) `·
 licenseFile · rfn · reservedFontNames? · origin · designer? · preview? ·
-styles[{name, weight, italic, file, bytes, sha256}]`.
+styles[{name, weight, italic, file, bytes, sha256, replaces?}]`. `replaces`
+lists earlier sha256s of the same style (a template that pinned one heals to
+the current file).
 
 - `rfn: true` — a *modified* derivative of this family may not use its name
   (an OFL Reserved Font Name that reaches the family name, or any UFL
   family). Its files are served unmodified; its preview is renamed (below).
 - `origin` — `gf-repo`: the static TTF from github.com/google/fonts,
-  byte-identical; `gf-api`: Google's own static instance from the Fonts API
-  (variable-only families, and the frozen R1 families).
+  byte-identical; `gf-api`: Google's static instance from the Fonts API
+  (Google-processed: subset glyphs, trimmed name table) — variable-only
+  families and the R1 families without `rfn`. On R1 the 20 `rfn` families
+  with static originals live at `fonts/<slug>/upstream/`.
 
 The index schema (the contract for the studio pair scorer) is in
 [`INDEX.md`](INDEX.md).
@@ -73,10 +77,14 @@ licence text is published (`licenseFile`) and must travel with its files
   name `MotionMix Preview` (PostScript `MotionMixPreview-<sha8>`), never the
   family's (Reserved) name; the source copyright and licence name records are
   kept.
-- A variable-only family whose derivatives must drop the name (`rfn`) is not
-  added: no unmodified static file exists for it, and the engine renders only
-  a variable font's default instance today. It waits for engine variable-font
-  support. (`r2/excluded.json` lists every refused family with the reason.)
+- `rfn` families are served as unmodified files. The 12 variable-only ones
+  R1 already shipped (Raleway, Playfair Display, Lora, Merriweather, …) stay
+  on their Fonts-API statics for now, and 21 more are not added (IBM Plex
+  Sans, Source Sans 3, Lexend, …): no unmodified static exists, and the
+  engine renders only a variable font's default instance today. Once it
+  renders named instances, all 33 switch to their unmodified variable files —
+  `r2/variable_pending.json` lists them (upstream paths, axes, named
+  instances, target styles). `r2/excluded.json` lists every refused family.
 
 Rules and the decision record: ADR 125 Amendment 2
 (`planning/motionmix_master/decisions/125_font_system_standard.md` in the

@@ -33,16 +33,20 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/abrilfatface/AbrilFatface-Regular.ttf",
-     "bytes": 56308,
-     "sha256": "c426e1328c73a1d1c1c36809ead3353b487ae71d3b387ac8daca2d4b6d9124c0"
+     "file": "fonts/abrilfatface/upstream/AbrilFatface-Regular.ttf",
+     "bytes": 67364,
+     "sha256": "5971d4a3758a922a9fedc7f6fb825a96341a2e718c45a4b2c9a6b417c8c4dbe9",
+     "replaces": [
+      "c426e1328c73a1d1c1c36809ead3353b487ae71d3b387ac8daca2d4b6d9124c0"
+     ]
     }
    ],
    "reservedFontNames": [
     "Abril",
     "Abril Fatface"
    ],
-   "preview": "fonts/abrilfatface/preview.ttf"
+   "preview": "fonts/abrilfatface/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Alfa Slab One",
@@ -61,15 +65,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/alfaslabone/AlfaSlabOne-Regular.ttf",
-     "bytes": 91272,
-     "sha256": "0e834ddadca6dc95b5502c01f8911b7a77f50a350ac7400a6e2d9a3bfb1cd02f"
+     "file": "fonts/alfaslabone/upstream/AlfaSlabOne-Regular.ttf",
+     "bytes": 97376,
+     "sha256": "28664afa698a3393bd5a29eec750230a0645c5301d62200e5f2d3a027fb2299d",
+     "replaces": [
+      "0e834ddadca6dc95b5502c01f8911b7a77f50a350ac7400a6e2d9a3bfb1cd02f"
+     ]
     }
    ],
    "reservedFontNames": [
     "Alfa Slab"
    ],
-   "preview": "fonts/alfaslabone/preview.ttf"
+   "preview": "fonts/alfaslabone/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Almarai",
@@ -294,31 +302,41 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/arvo/Arvo-Regular.ttf",
-     "bytes": 38620,
-     "sha256": "47c25cfa05c6f0e25b8bf235a41747a6006e34a0442285797425da35c2995564"
+     "file": "fonts/arvo/upstream/Arvo-Regular.ttf",
+     "bytes": 38780,
+     "sha256": "f41bd41471ec2db7140351bdde614da5341524503598ff7fe79f3c89c13b605e",
+     "replaces": [
+      "47c25cfa05c6f0e25b8bf235a41747a6006e34a0442285797425da35c2995564"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/arvo/Arvo-Bold.ttf",
-     "bytes": 37504,
-     "sha256": "687a59c5cfcdca79877524d3c2c3ffb6718211ca69a18410124e3a5cd04aaa9f"
+     "file": "fonts/arvo/upstream/Arvo-Bold.ttf",
+     "bytes": 37652,
+     "sha256": "6239b2edee762db0ab99343137c9ba15ae81fc843da2e76a0a395781748cc21f",
+     "replaces": [
+      "687a59c5cfcdca79877524d3c2c3ffb6718211ca69a18410124e3a5cd04aaa9f"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/arvo/Arvo-Italic.ttf",
-     "bytes": 34996,
-     "sha256": "916d103f771685f12c2a6977d0d8f7185ddef97b7d13748522a3ed2422fe4eb4"
+     "file": "fonts/arvo/upstream/Arvo-Italic.ttf",
+     "bytes": 35156,
+     "sha256": "a2eb63a0771b8d13d8e54bf650a02aef813eeaa2e10f6298358e6b15d26c6686",
+     "replaces": [
+      "916d103f771685f12c2a6977d0d8f7185ddef97b7d13748522a3ed2422fe4eb4"
+     ]
     }
    ],
    "reservedFontNames": [
     "Arvo"
    ],
-   "preview": "fonts/arvo/preview.ttf"
+   "preview": "fonts/arvo/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Assistant",
@@ -379,15 +397,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/audiowide/Audiowide-Regular.ttf",
-     "bytes": 46972,
-     "sha256": "c42a74135f7f527e69a16826220cece45ec376776cfacdfd6cfd750053215146"
+     "file": "fonts/audiowide/upstream/Audiowide-Regular.ttf",
+     "bytes": 69916,
+     "sha256": "c7c0f2b0f6fad8c623e31772ce79f94a4edb9321ffce9fce978ea892d20ae730",
+     "replaces": [
+      "c42a74135f7f527e69a16826220cece45ec376776cfacdfd6cfd750053215146"
+     ]
     }
    ],
    "reservedFontNames": [
     "Audiowide"
    ],
-   "preview": "fonts/audiowide/preview.ttf"
+   "preview": "fonts/audiowide/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Baloo 2",
@@ -1195,15 +1217,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/courgette/Courgette-Regular.ttf",
-     "bytes": 117596,
-     "sha256": "9950490ccc48d4acbf950a28709e8799bf06996a2e4feafc8ed29e248525acba"
+     "file": "fonts/courgette/upstream/Courgette-Regular.ttf",
+     "bytes": 122072,
+     "sha256": "099739d22e66ee2b80656bba63847f9ed419ad7e3969ba2c1d3c437c0d08f3e3",
+     "replaces": [
+      "9950490ccc48d4acbf950a28709e8799bf06996a2e4feafc8ed29e248525acba"
+     ]
     }
    ],
    "reservedFontNames": [
     "Courgette"
    ],
-   "preview": "fonts/courgette/preview.ttf"
+   "preview": "fonts/courgette/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Crimson Text",
@@ -2112,39 +2138,52 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
-     "bytes": 128812,
-     "sha256": "a7fdc993f9f0387caedba4e42521136fa97e4c0837ae6239bf0413ccf8af00c2"
+     "file": "fonts/ibmplexmono/upstream/IBMPlexMono-Regular.ttf",
+     "bytes": 135580,
+     "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+     "replaces": [
+      "a7fdc993f9f0387caedba4e42521136fa97e4c0837ae6239bf0413ccf8af00c2"
+     ]
     },
     {
      "name": "Medium",
      "weight": 500,
      "italic": false,
-     "file": "fonts/ibmplexmono/IBMPlexMono-Medium.ttf",
-     "bytes": 129916,
-     "sha256": "4fc14a73ca53ba9d32fd759ae1ca1a3133326035d0dd337862b3ee1633cc156e"
+     "file": "fonts/ibmplexmono/upstream/IBMPlexMono-Medium.ttf",
+     "bytes": 136704,
+     "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+     "replaces": [
+      "4fc14a73ca53ba9d32fd759ae1ca1a3133326035d0dd337862b3ee1633cc156e"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/ibmplexmono/IBMPlexMono-Bold.ttf",
-     "bytes": 131040,
-     "sha256": "5b2232ff598dd39860f606526399f64be06f0c286a638bad8a83e98c44c41ff6"
+     "file": "fonts/ibmplexmono/upstream/IBMPlexMono-Bold.ttf",
+     "bytes": 137784,
+     "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be",
+     "replaces": [
+      "5b2232ff598dd39860f606526399f64be06f0c286a638bad8a83e98c44c41ff6"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/ibmplexmono/IBMPlexMono-Italic.ttf",
-     "bytes": 136412,
-     "sha256": "b8282cd74fb0321912a5f74aae7c0a50ef94af598fae65e6e8c4ad941d9a1fa9"
+     "file": "fonts/ibmplexmono/upstream/IBMPlexMono-Italic.ttf",
+     "bytes": 143920,
+     "sha256": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34",
+     "replaces": [
+      "b8282cd74fb0321912a5f74aae7c0a50ef94af598fae65e6e8c4ad941d9a1fa9"
+     ]
     }
    ],
    "reservedFontNames": [
     "Plex"
    ],
-   "preview": "fonts/ibmplexmono/preview.ttf"
+   "preview": "fonts/ibmplexmono/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Inconsolata",
@@ -2552,15 +2591,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/kaushanscript/KaushanScript-Regular.ttf",
-     "bytes": 179848,
-     "sha256": "423a2aa7c70d3e00312dfe35d3f6ba44ab6bf062ad4480437fc65dcc5d596c6e"
+     "file": "fonts/kaushanscript/upstream/KaushanScript-Regular.ttf",
+     "bytes": 210672,
+     "sha256": "6d8d379d9bba98178bee476d68114c8f83812c18005ecccf679e70f60e03d8f6",
+     "replaces": [
+      "423a2aa7c70d3e00312dfe35d3f6ba44ab6bf062ad4480437fc65dcc5d596c6e"
+     ]
     }
    ],
    "reservedFontNames": [
     "Kaushan Script"
    ],
-   "preview": "fonts/kaushanscript/preview.ttf"
+   "preview": "fonts/kaushanscript/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Khand",
@@ -2618,39 +2661,52 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/lato/Lato-Regular.ttf",
-     "bytes": 72312,
-     "sha256": "f43f1c7780d69792278f04b136c934a0298fc66f2e974bac13dd2e53adc52bde"
+     "file": "fonts/lato/upstream/Lato-Regular.ttf",
+     "bytes": 656568,
+     "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251",
+     "replaces": [
+      "f43f1c7780d69792278f04b136c934a0298fc66f2e974bac13dd2e53adc52bde"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/lato/Lato-Bold.ttf",
-     "bytes": 70576,
-     "sha256": "02e8f4be57ddc47cb7882c41b60216b6085b1ceaf717514be2b88fa15396238d"
+     "file": "fonts/lato/upstream/Lato-Bold.ttf",
+     "bytes": 656544,
+     "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1",
+     "replaces": [
+      "02e8f4be57ddc47cb7882c41b60216b6085b1ceaf717514be2b88fa15396238d"
+     ]
     },
     {
      "name": "Black",
      "weight": 900,
      "italic": false,
-     "file": "fonts/lato/Lato-Black.ttf",
-     "bytes": 66608,
-     "sha256": "7a41ff951f1a5b19346850801deb745ab4c4921d7a320dc05da80845086a78a5"
+     "file": "fonts/lato/upstream/Lato-Black.ttf",
+     "bytes": 664748,
+     "sha256": "808c62839c62dbce7de689af7603666fc7f8b81e0df537d8a5212c87580d4337",
+     "replaces": [
+      "7a41ff951f1a5b19346850801deb745ab4c4921d7a320dc05da80845086a78a5"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/lato/Lato-Italic.ttf",
-     "bytes": 72936,
-     "sha256": "ae2f4abf0bf802b3710c474f05d1a34f086ef57001f5751d03e428e113f5a684"
+     "file": "fonts/lato/upstream/Lato-Italic.ttf",
+     "bytes": 722900,
+     "sha256": "e399c44efe1387100531d26c7e4800c5d12251b890d6654a3098c7c679cb1786",
+     "replaces": [
+      "ae2f4abf0bf802b3710c474f05d1a34f086ef57001f5751d03e428e113f5a684"
+     ]
     }
    ],
    "reservedFontNames": [
     "Lato"
    ],
-   "preview": "fonts/lato/preview.ttf"
+   "preview": "fonts/lato/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Libre Baskerville",
@@ -2721,15 +2777,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/lobster/Lobster-Regular.ttf",
-     "bytes": 392208,
-     "sha256": "dfdc22543e8a5188aa6d774aa2e9a1f3c9cb363dc814ba1e919ac9e379daec03"
+     "file": "fonts/lobster/upstream/Lobster-Regular.ttf",
+     "bytes": 406076,
+     "sha256": "d6568e697fd50cedc0be04d8aae4127fe95add607e7bff954ca88604be80c205",
+     "replaces": [
+      "dfdc22543e8a5188aa6d774aa2e9a1f3c9cb363dc814ba1e919ac9e379daec03"
+     ]
     }
    ],
    "reservedFontNames": [
     "Lobster"
    ],
-   "preview": "fonts/lobster/preview.ttf"
+   "preview": "fonts/lobster/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Lora",
@@ -2900,15 +2960,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/marcellus/Marcellus-Regular.ttf",
-     "bytes": 43288,
-     "sha256": "2f6fa616f76102d81c4a935c3a8cd547a8db9de679ad9fda9cfd42f16e7f0743"
+     "file": "fonts/marcellus/upstream/Marcellus-Regular.ttf",
+     "bytes": 46004,
+     "sha256": "1cf0cd10b17d35e852729962cc1ffaffed94514895972458345e2df34abb2f81",
+     "replaces": [
+      "2f6fa616f76102d81c4a935c3a8cd547a8db9de679ad9fda9cfd42f16e7f0743"
+     ]
     }
    ],
    "reservedFontNames": [
     "Marcellus"
    ],
-   "preview": "fonts/marcellus/preview.ttf"
+   "preview": "fonts/marcellus/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Martel",
@@ -3071,15 +3135,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/monoton/Monoton-Regular.ttf",
-     "bytes": 49768,
-     "sha256": "c7ace162e95aa75817aad0963d23009190cd0a3a7cf80bf376d4de8f5200b376"
+     "file": "fonts/monoton/upstream/Monoton-Regular.ttf",
+     "bytes": 51604,
+     "sha256": "951c4cea65ffede784a7c9672feec5d329a7e1e12216c42d53ecf36c90d04dea",
+     "replaces": [
+      "c7ace162e95aa75817aad0963d23009190cd0a3a7cf80bf376d4de8f5200b376"
+     ]
     }
    ],
    "reservedFontNames": [
     "Monoton"
    ],
-   "preview": "fonts/monoton/preview.ttf"
+   "preview": "fonts/monoton/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Montserrat",
@@ -4428,32 +4496,42 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/ptsans/PTSans-Regular.ttf",
-     "bytes": 265676,
-     "sha256": "fd416bbea21b05983676b0336d56efd9c782e5ff715ce1d1d542cee20cfbca11"
+     "file": "fonts/ptsans/upstream/PT_Sans-Web-Regular.ttf",
+     "bytes": 442960,
+     "sha256": "9cc831490532009bae2b3ce0d39c62adfc889060beb421593bfd9d2396d0f10a",
+     "replaces": [
+      "fd416bbea21b05983676b0336d56efd9c782e5ff715ce1d1d542cee20cfbca11"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/ptsans/PTSans-Bold.ttf",
-     "bytes": 275408,
-     "sha256": "cfe988a60051e5004fcf0ce0edcd32658482d9ddf332c6a25c86603027189876"
+     "file": "fonts/ptsans/upstream/PT_Sans-Web-Bold.ttf",
+     "bytes": 470240,
+     "sha256": "3128bd5ecf01816e59a23d54c57a7a6b14615b07db53ff277c77376010265b05",
+     "replaces": [
+      "cfe988a60051e5004fcf0ce0edcd32658482d9ddf332c6a25c86603027189876"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/ptsans/PTSans-Italic.ttf",
-     "bytes": 257988,
-     "sha256": "e74cb297fba7325d8622fc1b933a8b7bf170479e16a28b65782bb4fdbec5d019"
+     "file": "fonts/ptsans/upstream/PT_Sans-Web-Italic.ttf",
+     "bytes": 436452,
+     "sha256": "5a90fe2d0cd798700935240580bdcc12c0ffc9102c0c7163b3418e13bc21debd",
+     "replaces": [
+      "e74cb297fba7325d8622fc1b933a8b7bf170479e16a28b65782bb4fdbec5d019"
+     ]
     }
    ],
    "reservedFontNames": [
     "PT Sans",
     "ParaType"
    ],
-   "preview": "fonts/ptsans/preview.ttf"
+   "preview": "fonts/ptsans/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "PT Serif",
@@ -4473,25 +4551,34 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/ptserif/PTSerif-Regular.ttf",
-     "bytes": 202596,
-     "sha256": "6902e32186c45fd344901f936d563fe61dfd8d29133e3d97f7163c86b08ede9c"
+     "file": "fonts/ptserif/upstream/PT_Serif-Web-Regular.ttf",
+     "bytes": 359048,
+     "sha256": "a4951fade06ff8f09b7673aa81ffb65a8cd409e24d3289a6dc670bc4dda2557a",
+     "replaces": [
+      "6902e32186c45fd344901f936d563fe61dfd8d29133e3d97f7163c86b08ede9c"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/ptserif/PTSerif-Bold.ttf",
-     "bytes": 183172,
-     "sha256": "86fe68d3c03f693cfeb3bfa2410273d3f688c712581d738201bf69fb832545fc"
+     "file": "fonts/ptserif/upstream/PT_Serif-Web-Bold.ttf",
+     "bytes": 339996,
+     "sha256": "038ba7336bd7ea14f12ad155bed51a4345cac5153275d521dec3ba04021c526e",
+     "replaces": [
+      "86fe68d3c03f693cfeb3bfa2410273d3f688c712581d738201bf69fb832545fc"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/ptserif/PTSerif-Italic.ttf",
-     "bytes": 219344,
-     "sha256": "009698a23dcc4267ecabc3e0e72f30b61174fe78db20ac6172ef98d15c5f0927"
+     "file": "fonts/ptserif/upstream/PT_Serif-Web-Italic.ttf",
+     "bytes": 375356,
+     "sha256": "f57e95ff9dc85691a3b2e193f2028db36f6663939a46c0fc4f286d618b80b7ce",
+     "replaces": [
+      "009698a23dcc4267ecabc3e0e72f30b61174fe78db20ac6172ef98d15c5f0927"
+     ]
     }
    ],
    "reservedFontNames": [
@@ -4499,7 +4586,8 @@
     "PT Serif",
     "ParaType"
    ],
-   "preview": "fonts/ptserif/preview.ttf"
+   "preview": "fonts/ptserif/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Pacifico",
@@ -4543,31 +4631,41 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/passionone/PassionOne-Regular.ttf",
-     "bytes": 22556,
-     "sha256": "ad041d576a4aade257cd9c1224e9712a8aac31915a88129b1e04323a17955a47"
+     "file": "fonts/passionone/upstream/PassionOne-Regular.ttf",
+     "bytes": 24940,
+     "sha256": "86fea5001e5d751cf5696f0ecd4754db80918adbb12658add959f5bcdc92b09b",
+     "replaces": [
+      "ad041d576a4aade257cd9c1224e9712a8aac31915a88129b1e04323a17955a47"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/passionone/PassionOne-Bold.ttf",
-     "bytes": 22356,
-     "sha256": "3ac404c03fa32acc1dd278ba05a5b2a91e3d4e3ebf28d1e557917460e7c98625"
+     "file": "fonts/passionone/upstream/PassionOne-Bold.ttf",
+     "bytes": 24716,
+     "sha256": "3a7249909b2e56e831f8a357a4ee549e9c5945cd003f0e5e3bd8791a76d98b7e",
+     "replaces": [
+      "3ac404c03fa32acc1dd278ba05a5b2a91e3d4e3ebf28d1e557917460e7c98625"
+     ]
     },
     {
      "name": "Black",
      "weight": 900,
      "italic": false,
-     "file": "fonts/passionone/PassionOne-Black.ttf",
-     "bytes": 21856,
-     "sha256": "d47d329aea956cdec4826ca8fbe8e1ab65ab6da6ecb225a3f31cf4f5d368f21d"
+     "file": "fonts/passionone/upstream/PassionOne-Black.ttf",
+     "bytes": 24288,
+     "sha256": "c954dbac8835bf16f938f8d97fe1627d47aa122d60246169ff55cec772949e96",
+     "replaces": [
+      "d47d329aea956cdec4826ca8fbe8e1ab65ab6da6ecb225a3f31cf4f5d368f21d"
+     ]
     }
    ],
    "reservedFontNames": [
     "Passion"
    ],
-   "preview": "fonts/passionone/preview.ttf"
+   "preview": "fonts/passionone/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Permanent Marker",
@@ -4800,15 +4898,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/pressstart2p/PressStart2P-Regular.ttf",
-     "bytes": 115280,
-     "sha256": "7b939b816f8ce185dd8c2c59e85fb05d3dcd5cde0c0b0de4a1651cb5af9c2c2b"
+     "file": "fonts/pressstart2p/upstream/PressStart2P-Regular.ttf",
+     "bytes": 118204,
+     "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d",
+     "replaces": [
+      "7b939b816f8ce185dd8c2c59e85fb05d3dcd5cde0c0b0de4a1651cb5af9c2c2b"
+     ]
     }
    ],
    "reservedFontNames": [
     "Press Start 2P"
    ],
-   "preview": "fonts/pressstart2p/preview.ttf"
+   "preview": "fonts/pressstart2p/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Prompt",
@@ -5071,15 +5173,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/righteous/Righteous-Regular.ttf",
-     "bytes": 40364,
-     "sha256": "82e2ac84900128219615a1e3a986a1821409e727e2bdb67714b2dcfe4447b946"
+     "file": "fonts/righteous/upstream/Righteous-Regular.ttf",
+     "bytes": 43104,
+     "sha256": "2ffb3fe5c27d7e6571210b800448c4e234e651b46c6b4426c1bb567e5341348a",
+     "replaces": [
+      "82e2ac84900128219615a1e3a986a1821409e727e2bdb67714b2dcfe4447b946"
+     ]
     }
    ],
    "reservedFontNames": [
     "Righteous"
    ],
-   "preview": "fonts/righteous/preview.ttf"
+   "preview": "fonts/righteous/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Roboto",
@@ -5368,15 +5474,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/russoone/RussoOne-Regular.ttf",
-     "bytes": 36816,
-     "sha256": "7a022de179a466ad9711d5f2848123c5cba6eedf22e51a8dc04ed6e5d64b205d"
+     "file": "fonts/russoone/upstream/RussoOne-Regular.ttf",
+     "bytes": 39124,
+     "sha256": "bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df",
+     "replaces": [
+      "7a022de179a466ad9711d5f2848123c5cba6eedf22e51a8dc04ed6e5d64b205d"
+     ]
     }
    ],
    "reservedFontNames": [
     "Russo"
    ],
-   "preview": "fonts/russoone/preview.ttf"
+   "preview": "fonts/russoone/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Sacramento",
@@ -5394,15 +5504,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/sacramento/Sacramento-Regular.ttf",
-     "bytes": 64108,
-     "sha256": "15597dce1d707e88a188f804fb927e526b2ad959d03e9df9c812492ceed0a4ab"
+     "file": "fonts/sacramento/upstream/Sacramento-Regular.ttf",
+     "bytes": 79696,
+     "sha256": "9341fda10adbfeb7efc94302b34507a3e227d7e7f5c432df3f5ac8753ff73d24",
+     "replaces": [
+      "15597dce1d707e88a188f804fb927e526b2ad959d03e9df9c812492ceed0a4ab"
+     ]
     }
    ],
    "reservedFontNames": [
     "Sacramento"
    ],
-   "preview": "fonts/sacramento/preview.ttf"
+   "preview": "fonts/sacramento/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Sarabun",
@@ -5962,15 +6076,19 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/titanone/TitanOne-Regular.ttf",
-     "bytes": 52188,
-     "sha256": "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd"
+     "file": "fonts/titanone/upstream/TitanOne-Regular.ttf",
+     "bytes": 55712,
+     "sha256": "563ff6de179bbd44bcd7d2a6c448d6dc3bf935834237cf1250e506e65cd86ff1",
+     "replaces": [
+      "c14c958677babb78649790ac2e998cea5cb940710aeb044e308cd79ee74a95bd"
+     ]
     }
    ],
    "reservedFontNames": [
     "Titan"
    ],
-   "preview": "fonts/titanone/preview.ttf"
+   "preview": "fonts/titanone/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Ubuntu",
@@ -5992,36 +6110,49 @@
      "name": "Regular",
      "weight": 400,
      "italic": false,
-     "file": "fonts/ubuntu/Ubuntu-Regular.ttf",
-     "bytes": 280328,
-     "sha256": "bfd3c550f0552ddfc6070f6c4955a19dd560527647accd41506b9622d7f1358f"
+     "file": "fonts/ubuntu/upstream/Ubuntu-Regular.ttf",
+     "bytes": 351884,
+     "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64",
+     "replaces": [
+      "bfd3c550f0552ddfc6070f6c4955a19dd560527647accd41506b9622d7f1358f"
+     ]
     },
     {
      "name": "Medium",
      "weight": 500,
      "italic": false,
-     "file": "fonts/ubuntu/Ubuntu-Medium.ttf",
-     "bytes": 264644,
-     "sha256": "979b221134889d432821a4d497a4f153a243127730cf15a767753e4739437072"
+     "file": "fonts/ubuntu/upstream/Ubuntu-Medium.ttf",
+     "bytes": 339360,
+     "sha256": "3cd952b8b52581e48a8fa95b31c8829c2baa41b635042a69587d57f98092961e",
+     "replaces": [
+      "979b221134889d432821a4d497a4f153a243127730cf15a767753e4739437072"
+     ]
     },
     {
      "name": "Bold",
      "weight": 700,
      "italic": false,
-     "file": "fonts/ubuntu/Ubuntu-Bold.ttf",
-     "bytes": 250284,
-     "sha256": "40e7af68ff35546d3985ed7c384681bfa4154fba998760e25c1b8c4eb06729df"
+     "file": "fonts/ubuntu/upstream/Ubuntu-Bold.ttf",
+     "bytes": 331612,
+     "sha256": "679b5c1e09cab3156bb8ef529735f9382bf31ca7ac737382ab959297f8d82ad4",
+     "replaces": [
+      "40e7af68ff35546d3985ed7c384681bfa4154fba998760e25c1b8c4eb06729df"
+     ]
     },
     {
      "name": "Italic",
      "weight": 400,
      "italic": true,
-     "file": "fonts/ubuntu/Ubuntu-Italic.ttf",
-     "bytes": 306860,
-     "sha256": "eebe8c02b43a93a77cc6fdcbf0483adca8b44a7fc0901bb40b4d4de6851b30aa"
+     "file": "fonts/ubuntu/upstream/Ubuntu-Italic.ttf",
+     "bytes": 384408,
+     "sha256": "4ab857e72f781a8967a6e4a9ac8858fbd6b3a9f9782db349d4b62b78ed02860b",
+     "replaces": [
+      "eebe8c02b43a93a77cc6fdcbf0483adca8b44a7fc0901bb40b4d4de6851b30aa"
+     ]
     }
    ],
-   "preview": "fonts/ubuntu/preview.ttf"
+   "preview": "fonts/ubuntu/preview.ttf",
+   "origin": "gf-repo"
   },
   {
    "name": "Unbounded",
