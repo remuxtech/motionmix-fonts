@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "about": "rfn families with no unmodified static TTF (ADR 125 Am. 2). Plan: once the engine renders a variable font's named instances (SkFontArguments), each family ships its UNMODIFIED variable file(s) and every targetStyle maps to the named instance given here; 'shipping-gf-api' families then retire their Fonts-API statics (shippedSha256 → heal map), 'excluded' families join the catalog.",
+ "about": "SWITCHED in catalog 2026.10.08.3 (ADR 125 Am. 3): the record of the rfn families with no unmodified static TTF (ADR 125 Am. 2) and the named instance each catalog style maps to. All 33 now ship their UNMODIFIED variable files as `variable` styles (family minEngine 2); 'shipping-gf-api' families retired their Fonts-API statics on R2 (shippedSha256 -> the style's `replaces`; R1/jsDelivr still serves them), 'excluded' families joined. tools/build_catalog.py derives these styles itself (kind gf-variable, tools/varfont.py); this file is not regenerated. One deviation: Encode Sans and Encode Sans SC map to the instances the font itself names Regular/Medium/Bold/Black (wdth 100), not the 'Condensed …' ones at the fvar default (wdth 75) listed below.",
  "googleFontsCommit": "2eb0b48d5f760f62e286216f0859a8c540dbc1bd",
  "families": [
   {

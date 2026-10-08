@@ -3,13 +3,16 @@
 `https://library.motionmix.app/fonts/index.json` (short cache), or the
 immutable copy the manifest names in `index.file` (`index/<sha256>.json`).
 Built by `tools/build_index.py` from the R2 catalog (ADR 125 Am. 2). One
-record per catalog family, one face record per shipped style. ~1.5 MB raw,
-~220 KB gzipped (Cloudflare serves it gzipped).
+record per catalog family, one face record per shipped style (for a variable
+family, per named-instance style). ~1.6 MB raw, ~220 KB gzipped (Cloudflare
+serves it gzipped).
 
 **Join with the manifest** by `slug` (family) and `style` (face = the
 manifest style `name`). The manifest owns files, hashes and licences; the
 index owns facts, tags, metrics and fitness. `catalogVersion` must match the
-manifest's — a mismatch means a stale pair; re-fetch both.
+manifest's — a mismatch means a stale pair; re-fetch both. Score only the
+families the app's manifest parse offered: a family with `minEngine` above
+the app's font-engine level is in the index but not in the app's catalog.
 
 Compatibility: fields may be ADDED within schemaVersion 1; a reader ignores
 unknown fields. Renames/removals bump `schemaVersion`. Any value below may be
@@ -26,6 +29,7 @@ unknown fields. Renames/removals bump `schemaVersion`. Any value below may be
 | `measureVersion` | the metric definitions below (`1`) |
 | `moods` | the 20 Google "Expressive" tag names, in the order of every face's `moods` array |
 | `tagNames` | dictionary for family `tags` (full GF tag paths, e.g. `/Serif/Didone`) |
+| `pairs` | the hand-checked seed pairs (below), in file order |
 | `families` | records below |
 
 ## Family
@@ -44,11 +48,12 @@ unknown fields. Renames/removals bump `schemaVersion`. Any value below may be
 | `dateAdded` | ISO date the family joined Google Fonts (era proxy) |
 | `subsets` | Google subsets the family supports |
 | `primaryScript` | ISO 15924 code for non-Latin-first families (`Deva`, `Arab`…), else `null` |
-| `axes` | the UPSTREAM variable axes `[tag, min, max]` — informational; shipped files are static |
+| `axes` | the UPSTREAM variable axes `[tag, min, max]` — informational (a `minEngine: 2` family ships that variable file; its faces are named instances) |
 | `weights` | shipped upright weights |
 | `quality` | mean of Google's four `/Quality/*` tags (0–100); the catalog gate is ≥ 67.5 |
 | `tags` | `[[tagNames index, score 0–100], …]` — family-level classification, theme, seasonal, purpose, quality tags |
 | `cov` | measured coverage per subset, 0–1: the share of a representative assigned-code-point set present in the cmap (Regular-most face). Fractions below 1 for `*-ext` subsets are normal |
+| `minEngine` | present (= 2) only on a family the manifest serves as a variable file at named instances (ADR 125 Am. 3); absent = 1 |
 | `faces` | below |
 
 ## Face
@@ -56,7 +61,7 @@ unknown fields. Renames/removals bump `schemaVersion`. Any value below may be
 | Field | Meaning |
 |---|---|
 | `style`, `weight`, `italic` | as in the manifest |
-| `bytes` | file size (uncompressed) — lets the scorer avoid multi-MB CJK faces when prefetching |
+| `bytes` | size of the file the face downloads (uncompressed; for a variable face the whole variable file, shared by the family's faces of that italic-ness) — lets the scorer avoid multi-MB CJK faces when prefetching |
 | `moods` | 20 ints, 0–100, aligned with top-level `moods`. Google scores some moods per weight (`wght@100/400/900`…): the value is interpolated linearly at this face's weight and clamped to the end points outside the assessed range; width-axis rows use the width closest to 100. A mood with no per-weight rows uses the family-level score; absent in Google's data = 0 |
 | `m` | measured metrics (below) |
 | `fit` | `{display, support, caption}`, 0–1 |
@@ -64,7 +69,8 @@ unknown fields. Renames/removals bump `schemaVersion`. Any value below may be
 ### Metrics (`m`) — from outlines, never from OS/2 fields
 
 Lengths are in em (font units / unitsPerEm). Fill rule non-zero, so
-overlapping contours measure as one shape.
+overlapping contours measure as one shape. A variable face is measured at its
+instance's `coordinates` (in memory; advances from the varied glyphs).
 
 | Key | Definition |
 |---|---|
@@ -113,6 +119,23 @@ Reference points (rules-1): Inter Regular d .45 / s .94 / c .95 · Playfair
 Display Regular d .73 / s .62 / c .56 · Bebas Neue d .63 / s .14 / c .07 ·
 Lobster d .86 / s .33 / c .21 · Atkinson Hyperlegible Regular c .95.
 
+## Pairs (ADR 278 §8)
+
+`pairs` carries `pairing/seed_pairs.json` verbatim — the hand-checked pairs
+the scorer treats as a quality floor and boost, matched by (display slug,
+support slug):
+
+```json
+{"display": {"slug": "anton", "name": "Anton", "style": "Regular"},
+ "support": {"slug": "archivo", "name": "Archivo", "style": "Bold"},
+ "moods": ["bold", "cinematic"], "why": "…"}
+```
+
+`style` is the reviewed face (slots still map by their own intents); `moods`
+are creator moods (`CREATOR_MOODS` in `tools/pairing/pair_scorer.py`). The
+build fails if a pair names a face the index lacks. Learned per-mood boosts
+(ADR 278 §9) will be added to these records as new fields.
+
 ## Example (abridged)
 
 ```json
@@ -138,5 +161,5 @@ Lobster d .86 / s .33 / c .21 · Atkinson Hyperlegible Regular c .95.
   (public, unofficial). No CC BY-NC data (the O'Donovan 2014 attribute set and
   models trained on it) is used.
 - Not yet in v1: engine-rendered specimen embeddings (`balance`, research
-  P3), the Font Matrix "flesh" axis, curated pairs. They will be added as new
-  fields.
+  P3), the Font Matrix "flesh" axis, learned pair boosts. They will be added
+  as new fields.
