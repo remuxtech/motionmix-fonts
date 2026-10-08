@@ -24,9 +24,14 @@ Families:
       - "gf-repo": the static TTFs in github.com/google/fonts, byte-identical
         (unmodified upstream) — every family that has them;
       - "gf-api": Google's own static instances from the Fonts API (css2),
-        for variable-only families. A family whose modified derivatives
-        must drop the name (binding RFN / UFL) is NOT taken this way — it
-        waits for engine variable-font support (excluded, reason logged).
+        for variable-only families whose modified derivatives may keep the
+        name;
+      - variable-only families whose modified derivatives must drop the name
+        (binding RFN / UFL) ship their UNMODIFIED upstream variable files
+        (origin "gf-repo", ADR 125 Am. 3): each catalog style is one of the
+        file's named instances (`variable` style, family `minEngine: 2`,
+        tools/varfont.py). That includes the R1 families R1 still serves as
+        Fonts-API statics (their old sha256s become `replaces`).
 
 Usage:
     tools/build_catalog.py --gf-repo <google/fonts sparse checkout> \
@@ -52,6 +57,7 @@ import urllib.request
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import gfmeta  # noqa: E402
 import preview as ft_preview  # noqa: E402
+import varfont  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 V1_MANIFEST = ROOT / "manifest.json"
@@ -181,14 +187,26 @@ def repo_static_files(rec):
     return out
 
 
-def select(repo, site, tags, frozen_names, frozen_only):
-    """→ (plans, excluded). A plan = one family to build."""
+def frozen_goes_variable(v1_entry, rec):
+    """An R1 family R1 serves as Fonts-API statics although modified derivatives
+    must drop its name (rfn, no upstream static): on R2 it ships the unmodified
+    variable files instead (ADR 125 Am. 3)."""
+    return (v1_entry.get("rfn") and v1_entry.get("origin", "gf-api") == "gf-api" and rec is not None
+            and not repo_static_files(rec) and bool(varfont.variable_paths(rec)))
+
+
+def select(repo, site, tags, frozen, frozen_only):
+    """→ (plans, excluded). A plan = one family to build. `frozen` = {name: R1 entry}."""
     plans, excluded = [], {}
-    for name in sorted(set(site) | set(frozen_names)):
+    for name in sorted(set(site) | set(frozen)):
         entry = site.get(name, {})
         rec = repo.get(name)
-        if name in frozen_names:
-            plans.append({"name": name, "kind": "frozen", "site": entry, "rec": rec})
+        if name in frozen:
+            if frozen_goes_variable(frozen[name], rec):
+                plans.append({"name": name, "kind": "gf-variable", "site": entry, "rec": rec,
+                              "frozen": frozen[name]})
+            else:
+                plans.append({"name": name, "kind": "frozen", "site": entry, "rec": rec})
             continue
         if frozen_only:
             continue
@@ -227,8 +245,11 @@ def select(repo, site, tags, frozen_names, frozen_only):
                           "variants": [(w, i, statics[(w, i)]) for w, i in variants]})
             continue
         if gfmeta.must_rename_if_modified(name, rec["license"], rec["rfn"]):
-            excluded[name] = ("variable-only + binding RFN/UFL: no unmodified static exists "
-                              "(waits for engine variable-font support)")
+            # no unmodified static: the unmodified variable files at their named instances
+            if not varfont.variable_paths(rec):
+                excluded[name] = "binding RFN/UFL and neither a static nor a variable TTF upstream"
+                continue
+            plans.append({"name": name, "kind": "gf-variable", "site": entry, "rec": rec})
             continue
         fonts = entry.get("fonts", {})
         ups = {int(k) for k in fonts if k.isdigit()}
@@ -251,6 +272,41 @@ def put(build, sub, data, ext):
     return digest, path
 
 
+def build_variable_family(plan, args):
+    """A gf-variable plan → (styles, category, subsets).
+    R1 families keep their R1 styles (weights, names) and record the retired
+    Fonts-API sha256s as `replaces`; new families take the weight policy over
+    the named instances the files have."""
+    build = pathlib.Path(args.build)
+    rec, site, v1 = plan["rec"], plan["site"], plan.get("frozen")
+    records = []
+    for rel, italic in sorted(varfont.variable_paths(rec).items()):
+        src = pathlib.Path(args.gf_repo) / rel
+        records.append(varfont.vf_record(src, rel, italic))
+        digest, _ = put(build, "files", src.read_bytes(), "ttf")
+        if digest != records[-1]["sha256"]:
+            raise RuntimeError(f"{plan['name']}: {rel} changed while building")
+    if v1:
+        wanted = [(s["weight"], s["italic"]) for s in v1["styles"]]
+        replaces = {(s["weight"], s["italic"]): [s["sha256"]] + s.get("replaces", []) for s in v1["styles"]}
+        category, subsets = v1["category"], v1["subsets"]
+    else:
+        ups, its = varfont.available_weights(records, style_name)
+        category = category_of(site)
+        wanted = pick_styles(ups, its, category)
+        replaces = {}
+        subsets = sorted(s for s in site.get("subsets", []) if s != "menu")
+    styles = []
+    for w, i in sorted(wanted, key=lambda v: (v[1], v[0])):
+        hit = varfont.instance_for(records, w, i, style_name(w, i))
+        if not hit:
+            raise RuntimeError(f"{plan['name']}: no named instance for {style_name(w, i)}")
+        styles.append(varfont.variable_style(style_name(w, i), w, i, *hit))
+        if replaces.get((w, i)):
+            styles[-1]["replaces"] = replaces[(w, i)]   # the retired Fonts-API statics (heal map)
+    return styles, category, subsets
+
+
 def build_family(plan, args, frozen):
     build = pathlib.Path(args.build)
     name = plan["name"]
@@ -258,7 +314,12 @@ def build_family(plan, args, frozen):
     rec = plan["rec"]
     slug = slug_of(name)
 
-    if plan["kind"] == "frozen":
+    if plan["kind"] == "gf-variable":
+        lic_bytes = pathlib.Path(rec["licensePath"]).read_bytes()
+        styles, category, subsets = build_variable_family(plan, args)
+        origin = "gf-repo"           # byte-identical upstream files (variable ones)
+        files = None
+    elif plan["kind"] == "frozen":
         v1 = frozen[name]
         lic_bytes = (ROOT / v1["licenseFile"]).read_bytes()
         files = []
@@ -303,7 +364,7 @@ def build_family(plan, args, frozen):
                 bold = min(bold, key=lambda f: abs(f[0] - 700)) if bold else None
                 files = [regular] + ([bold] if bold else [])
 
-    if not files:
+    if files is not None and not files:
         raise RuntimeError(f"{name}: no files")
 
     lic_kind = gfmeta.licence_kind_from_text(lic_bytes.decode("utf-8", "replace"))
@@ -312,20 +373,23 @@ def build_family(plan, args, frozen):
     reserved = gfmeta.reserved_font_names(lic_bytes.decode("utf-8", "replace")) if lic_kind == "OFL" else []
     lic_sha, _ = put(build, "licenses", lic_bytes, "txt")
 
-    styles = []
-    for w, i, data in sorted(files, key=lambda f: (f[1], f[0])):
-        digest, _ = put(build, "files", data, "ttf")
-        styles.append({"name": style_name(w, i), "weight": w, "italic": i,
-                       "file": f"files/{digest}.ttf", "bytes": len(data), "sha256": digest})
-        if replaces.get((w, i)):
-            styles[-1]["replaces"] = replaces[(w, i)]   # earlier sha256s of this style (heal map)
+    if files is not None:
+        styles = []
+        for w, i, data in sorted(files, key=lambda f: (f[1], f[0])):
+            digest, _ = put(build, "files", data, "ttf")
+            styles.append({"name": style_name(w, i), "weight": w, "italic": i,
+                           "file": f"files/{digest}.ttf", "bytes": len(data), "sha256": digest})
+            if replaces.get((w, i)):
+                styles[-1]["replaces"] = replaces[(w, i)]   # earlier sha256s of this style (heal map)
 
     src_style = min(styles, key=lambda s: abs(s["weight"] - 400) + (1 if s["italic"] else 0))
+    src_file, _, _, src_coords = varfont.style_source(src_style)
     tmp_prev = build / "tmp" / f"{slug}.preview.ttf"
     tmp_prev.parent.mkdir(parents=True, exist_ok=True)
     preview_rel = None
     try:
-        prev_bytes = ft_preview.make_preview(str(build / src_style["file"]), name, str(tmp_prev))
+        # a variable source is instanced IN MEMORY at the style's coordinates, then subset + renamed
+        prev_bytes = ft_preview.make_preview(str(build / src_file), name, str(tmp_prev), location=src_coords)
         prev_sha, _ = put(build, "previews", prev_bytes, "ttf")
         preview_rel = f"previews/{prev_sha}.ttf"
     except Exception as e:  # noqa: BLE001 — a preview is a nicety
@@ -344,6 +408,8 @@ def build_family(plan, args, frozen):
         "origin": origin,
         "styles": styles,
     }
+    if any("variable" in s for s in styles):
+        entry["minEngine"] = varfont.ENGINE_LEVEL_VARIABLE   # ADR 125 Am. 3
     if reserved:
         entry["reservedFontNames"] = reserved
     designer = gfmeta.first(rec["meta"], "designer") if rec else None
@@ -355,8 +421,10 @@ def build_family(plan, args, frozen):
 
 
 def fetch_repo_blobs(gf_repo, plans):
-    """Add the chosen static TTFs to the sparse checkout (one batched fetch)."""
-    paths = sorted({rel for p in plans if p["kind"] == "gf-repo" for _, _, rel in p["variants"]})
+    """Add the chosen static TTFs and the variable files to the sparse checkout (one batched fetch)."""
+    paths = {rel for p in plans if p["kind"] == "gf-repo" for _, _, rel in p["variants"]}
+    paths |= {rel for p in plans if p["kind"] == "gf-variable" for rel in varfont.variable_paths(p["rec"])}
+    paths = sorted(paths)
     missing = [p for p in paths if not (pathlib.Path(gf_repo) / p).exists()]
     if not missing:
         return
@@ -390,7 +458,7 @@ def main():
     v1 = json.loads(V1_MANIFEST.read_text())
     frozen = {f["name"]: f for f in v1["families"]}
 
-    plans, excluded = select(fams, site, tags, set(frozen), args.frozen_only)
+    plans, excluded = select(fams, site, tags, frozen, args.frozen_only)
     if args.only:
         keep = {x.strip().lower() for x in args.only.split(",")}
         plans = [p for p in plans if p["name"].lower() in keep]
@@ -428,7 +496,11 @@ def main():
     if args.only and (out / "manifest.json").exists():   # merge mode
         rebuilt = {e["name"] for e in entries}
         previous = json.loads((out / "manifest.json").read_text())
-        entries += [e for e in previous["families"] if e["name"] not in rebuilt]
+        entries += [e for e in previous["families"] if e["name"] not in rebuilt and e["name"] not in failed]
+        # excluded.json: the rebuilt families leave it, the failed ones join; the rest is kept
+        old_excluded = json.loads((out / "excluded.json").read_text()) if (out / "excluded.json").exists() else {}
+        excluded = {n: why for n, why in old_excluded.items() if n not in rebuilt}
+        excluded.update({n: f"build failed: {why}" for n, why in failed.items()})
     names = {e["name"] for e in entries}
     manifest = {
         "schemaVersion": 1,
@@ -442,13 +514,18 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     text = json.dumps(manifest, separators=(",", ":"), ensure_ascii=False) + "\n"
     (out / "manifest.json").write_text(text)
-    if not args.only:
-        (out / "excluded.json").write_text(json.dumps(dict(sorted(excluded.items())), indent=0, ensure_ascii=False) + "\n")
+    (out / "excluded.json").write_text(json.dumps(dict(sorted(excluded.items())), indent=0, ensure_ascii=False) + "\n")
     shutil.rmtree(pathlib.Path(args.build) / "tmp", ignore_errors=True)
 
-    files = [s for e in entries for s in e["styles"]]
-    print(f"\nmanifest: {len(entries)} families, {len(files)} files, "
-          f"{sum(s['bytes'] for s in files) / 1e6:.1f} MB, manifest {len(text) / 1e3:.0f} KB → {out / 'manifest.json'}")
+    files = {}
+    for e in entries:
+        for s in e["styles"]:
+            f, _, size, _ = varfont.style_source(s)
+            files[f] = size
+    variable = sum(1 for e in entries if e.get("minEngine", 1) > 1)
+    print(f"\nmanifest: {len(entries)} families ({variable} variable), {sum(len(e['styles']) for e in entries)} styles, "
+          f"{len(files)} files, {sum(files.values()) / 1e6:.1f} MB, manifest {len(text) / 1e3:.0f} KB "
+          f"→ {out / 'manifest.json'}")
     if failed:
         print(f"failed: {len(failed)} (see excluded.json)")
 

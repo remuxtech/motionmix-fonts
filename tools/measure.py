@@ -6,6 +6,10 @@ families had a missing or >0.08-off sxHeight / sCapHeight).
 All lengths are in em (font units / unitsPerEm) unless noted. The fill rule
 is non-zero winding, so overlapping contours (common in static instances of
 variable fonts) measure as one shape — and are counted (`overlap`).
+
+A variable font is measured at a design location (a named instance's
+coordinates, ADR 125 Am. 3) through fontTools' location-aware glyph set — in
+memory only; advances come from the varied glyphs (phantom points).
 """
 
 import unicodedata
@@ -164,13 +168,22 @@ class Glyph:
 
 
 class Face:
-    def __init__(self, path):
+    def __init__(self, path, location=None):
         self.font = TTFont(path, lazy=True)
         self.upm = self.font["head"].unitsPerEm
         self.cmap = self.font.getBestCmap() or {}
-        self.glyph_set = self.font.getGlyphSet()
+        self.location = None
+        if location and "fvar" in self.font:
+            self.location = {a.axisTag: a.defaultValue for a in self.font["fvar"].axes}
+            self.location.update({k: float(v) for k, v in location.items()})
+        self.glyph_set = self.font.getGlyphSet(location=self.location)
         self.hmtx = self.font["hmtx"]
         self._cache = {}
+
+    def advance(self, name):
+        if self.location is None:
+            return self.hmtx[name][0]
+        return self.glyph_set[name].width
 
     def glyph(self, ch):
         name = self.cmap.get(ord(ch))
@@ -182,7 +195,7 @@ class Face:
                 self.glyph_set[name].draw(pen)
             except Exception:  # noqa: BLE001 — a broken glyph measures as absent
                 return None
-            self._cache[name] = Glyph(pen.contours, self.hmtx[name][0])
+            self._cache[name] = Glyph(pen.contours, self.advance(name))
         return self._cache[name]
 
     def first(self, chars):
@@ -200,9 +213,10 @@ def _r(x, nd=3):
     return None if x is None else round(float(x), nd)
 
 
-def measure(path, subsets=()):
-    """→ dict of index metrics for one font file (see INDEX.md)."""
-    f = Face(path)
+def measure(path, subsets=(), location=None):
+    """→ dict of index metrics for one font file (see INDEX.md), at `location`
+    ({axis: value}) for a variable font."""
+    f = Face(path, location)
     upm = float(f.upm)
     out = {"upm": f.upm, "glyphs": f.font["maxp"].numGlyphs}
 

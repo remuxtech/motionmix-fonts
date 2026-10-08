@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Font pair scorer — the reference implementation (ADR 278, scorer version "pair-1").
 
-Given the font index (INDEX.md, schema v1), the hand-checked seed pairs (pairing/seed_pairs.json) and a template
-context, rank (display, support) font pairs and deal a Shuffle deck. Pure stdlib. Written to port 1:1 to Kotlin:
+Given the font index (INDEX.md, schema v1), the hand-checked seed pairs (the index's `pairs`, built from
+pairing/seed_pairs.json; or that file directly) and a template context, rank (display, support) font pairs and deal a
+Shuffle deck. Pure stdlib. Written to port 1:1 to Kotlin:
 
   * Every number is an IEEE double; every constant is an explicit literal below. No transcendental functions
     (no log/exp/pow/sqrt), only + - * / min max abs, so Python and the JVM produce bit-identical doubles as long as
@@ -367,6 +368,7 @@ class SplitMix64:
 # ---------------------------------------------------------------------------------------------------------------
 class Index:
     def __init__(self, data, seeds=None):
+        """`seeds`: a seed_pairs.json document; None = the index's own `pairs` (ADR 278 §8)."""
         self.data = data
         self.families = data["families"]
         self.by_slug = {f["slug"]: f for f in self.families}
@@ -377,7 +379,7 @@ class Index:
             self.mood_w[cm] = [MOOD_GF[cm].get(n, 0.0) for n in self.mood_names]
         self.awkward_idx = self.mood_names.index("Awkward")
         self.seeds = {}   # (display slug, support slug) -> seed record
-        self.seed_list = list((seeds or {}).get("pairs", []))   # file order
+        self.seed_list = list((seeds if seeds is not None else data).get("pairs", []))   # file order
         for p in self.seed_list:
             self.seeds[(p["display"]["slug"], p["support"]["slug"])] = p
 
@@ -1140,12 +1142,12 @@ def fmt(rec):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--index", default=str(ROOT / "r2" / "index.json"))
-    ap.add_argument("--seeds", default=str(ROOT / "pairing" / "seed_pairs.json"))
+    ap.add_argument("--seeds", default="", help="a seed_pairs.json to use instead of the index's `pairs`")
     ap.add_argument("--context", required=True, help="a name in contexts.json, or a context JSON file")
     ap.add_argument("--top", type=int, default=20)
     ap.add_argument("--deck", type=int, default=0)
     args = ap.parse_args()
-    ix = load(args.index, args.seeds if pathlib.Path(args.seeds).exists() else None)
+    ix = load(args.index, args.seeds or None)
     ctx = parse_context(context_by_name(args.context))
     ranked, rejects = rank(ix, ctx, with_rejects=True)
     print(f"{len(ranked)} pairs; rejects {rejects}")

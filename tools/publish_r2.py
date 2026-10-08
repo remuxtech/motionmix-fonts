@@ -12,7 +12,13 @@ under `fonts/`, served at https://library.motionmix.app/fonts/.
 
 Only objects not already listed by the previously published manifest
 (r2/manifest.json at git HEAD, or --previous) are uploaded, unless --all.
-Content-addressed keys never change meaning, so a re-upload is harmless.
+Content-addressed keys never change meaning, so a re-upload is harmless, and
+nothing is ever deleted: a retired file (e.g. a Fonts-API static a variable
+style `replaces`) stays fetchable for documents and old manifests that pin it.
+A variable style's file is `variable.file` (ADR 125 Am. 3).
+
+After the upload every object this run uploaded is fetched back from the CDN
+(status + content sha256 = its name), plus --verify sampled families.
 
 Runs wrangler (OAuth login on this Mac; never pass tokens):
     NODE_OPTIONS=--dns-result-order=ipv4first npx -y wrangler@4 r2 bulk put …
@@ -33,6 +39,9 @@ import sys
 import tempfile
 import time
 import urllib.request
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import varfont  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BUCKET = "motionmix-library"
@@ -56,7 +65,7 @@ def objects_of(manifest):
     out = set()
     for fam in manifest.get("families", []):
         for s in fam.get("styles", []):
-            out.add(s["file"])
+            out.add(varfont.style_source(s)[0])
         if fam.get("preview"):
             out.add(fam["preview"])
         if fam.get("licenseFile"):
@@ -116,15 +125,33 @@ def get(url):
         return r.status, r.read(), dict(r.headers)
 
 
+def verify_objects(rels):
+    """Every content-addressed object: HTTP 200 and sha256(body) = the name's hash."""
+    bad = 0
+    for rel in sorted(rels):
+        try:
+            status, body, headers = get(f"{CDN}/{PREFIX}/{rel}")
+            ok = status == 200 and rel.rsplit("/", 1)[-1].split(".")[0] == hashlib.sha256(body).hexdigest() \
+                and "immutable" in (headers.get("Cache-Control") or "")
+        except Exception as e:  # noqa: BLE001
+            ok, status = False, str(e)
+        if not ok:
+            bad += 1
+            print(f"  ✗ {rel}: {status}")
+    print(f"verify: {len(rels)} uploaded objects, {bad} bad")
+    return bad == 0
+
+
 def verify(manifest, sample):
     fams = manifest["families"]
     picks = random.sample(fams, min(sample, len(fams)))
     bad = 0
     for fam in picks:
         for s in fam["styles"][:2]:
+            file, sha, _, _ = varfont.style_source(s)
             try:
-                status, body, _ = get(f"{CDN}/{PREFIX}/{s['file']}")
-                ok = status == 200 and hashlib.sha256(body).hexdigest() == s["sha256"]
+                status, body, _ = get(f"{CDN}/{PREFIX}/{file}")
+                ok = status == 200 and hashlib.sha256(body).hexdigest() == sha
             except Exception as e:  # noqa: BLE001
                 ok, status = False, str(e)
             if not ok:
@@ -189,9 +216,12 @@ def main():
         put_one(f"{PREFIX}/index.json", idx_local, TYPES["json"], SHORT, args.dry_run)
     put_one(f"{PREFIX}/manifest.json", manifest_path, TYPES["json"], SHORT, args.dry_run)
 
-    if args.verify and not args.dry_run:
+    if not args.dry_run:
         time.sleep(2)
-        if not verify(manifest, args.verify):
+        ok = verify_objects(todo)
+        if args.verify:
+            ok = verify(manifest, args.verify) and ok
+        if not ok:
             sys.exit(1)
 
 

@@ -2,7 +2,7 @@
 """
 Font INDEX builder (ADR 125 Am. 2) — the data the on-device pair scorer
 reads. Schema: INDEX.md (the contract). One record per catalog family, one
-face record per shipped style, joined to the manifest by slug + sha256.
+face record per shipped style, joined to the manifest by slug + style.
 
     facts      category · classifications · stroke · skeleton · designers ·
                licence · rfn · popularity / trending ranks · date added ·
@@ -14,12 +14,22 @@ face record per shipped style, joined to the manifest by slug + sha256.
     metrics    measured from outlines (tools/measure.py)
     fit        display / support / caption suitability, 0–1, rule-based
                (FIT_VERSION below; tune against a review board, then usage)
+    pairs      the hand-checked seed pairs (pairing/seed_pairs.json, ADR 278
+               §8), verbatim, after checking every slug + style is in the index
+
+A variable style (ADR 125 Am. 3) is measured at its named instance's
+coordinates, in memory (tools/measure.py) — never written out instanced.
+
+Metrics are cached by face (file sha256, `@coordinates` for a variable
+instance) in <build>/metrics-cache.json, seeded from the published index
+(git HEAD r2/index.json + r2/manifest.json, same measureVersion) unless
+--no-reuse: a re-run only needs the files of NEW faces in <build>/files/.
 
 Writes r2/index.json (compact) + <build>/index/<sha256>.json and records
 {file, sha256, bytes} as `index` in r2/manifest.json.
 
 Usage:
-    tools/build_index.py --gf-repo <checkout> --site-metadata <json> --build <dir>
+    tools/build_index.py --gf-repo <checkout> --site-metadata <json> --build <dir> [--no-reuse]
 """
 
 import argparse
@@ -28,11 +38,13 @@ import datetime
 import hashlib
 import json
 import pathlib
+import subprocess
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import gfmeta  # noqa: E402
 import measure  # noqa: E402
+import varfont  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MEASURE_VERSION = 1          # bump when tools/measure.py changes what it reports
@@ -201,24 +213,69 @@ def fit_scores(fam, face, m, moods, breadth):
 
 
 # ── measuring ───────────────────────────────────────────────────────────────
+def ref_style(fam):
+    """The Regular-most style: script coverage is measured on it."""
+    return min(fam["styles"], key=lambda st: (st["italic"], abs(st["weight"] - 400)))
+
+
 def _measure_job(args):
-    path, subsets = args
+    path, subsets, coords = args
     try:
-        return measure.measure(path, subsets)
+        return measure.measure(path, subsets, coords)
     except Exception as e:  # noqa: BLE001
         return {"error": str(e)[:200]}
 
 
-def measure_all(build, manifest, jobs):
+def _git_show(rel):
+    shown = subprocess.run(["git", "-C", str(ROOT), "show", f"HEAD:{rel}"], capture_output=True, text=True)
+    return json.loads(shown.stdout) if shown.returncode == 0 else None
+
+
+def published_metrics():
+    """{face key: metrics} recovered from the published (git HEAD) index + manifest:
+    a face's `m`, plus the family `cov` on its reference face. Empty when the two
+    disagree on catalogVersion or the index used another measureVersion."""
+    index, manifest = _git_show("r2/index.json"), _git_show("r2/manifest.json")
+    if not index or not manifest or index.get("catalogVersion") != manifest.get("catalogVersion") \
+            or index.get("measureVersion") != MEASURE_VERSION:
+        print("reuse: no matching published index at git HEAD — measuring every face")
+        return {}
+    faces = {(f["slug"], face["style"]): (f, face) for f in index["families"] for face in f["faces"]}
+    out = {}
+    for fam in manifest["families"]:
+        ref = ref_style(fam)
+        for st in fam["styles"]:
+            hit = faces.get((fam["slug"], st["name"]))
+            if not hit or not hit[1].get("m"):
+                continue
+            m = dict(hit[1]["m"])
+            if st is ref:
+                m["cov"] = hit[0].get("cov", {})
+            out[varfont.face_key(st)] = m
+    print(f"reuse: {len(out)} faces' metrics from the published index ({index.get('catalogVersion')})")
+    return out
+
+
+def measure_all(build, manifest, jobs, reuse):
     cache_path = build / "metrics-cache.json"
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     if cache.get("_version") != MEASURE_VERSION:
         cache = {"_version": MEASURE_VERSION}
+    if reuse:
+        for key, m in published_metrics().items():
+            cache.setdefault(key, m)
     todo = {}
     for fam in manifest["families"]:
+        ref = ref_style(fam)
         for s in fam["styles"]:
-            if s["sha256"] not in cache:
-                todo[s["sha256"]] = (str(build / s["file"]), tuple(fam["subsets"]))
+            key = varfont.face_key(s)
+            entry = cache.get(key)
+            if entry is None or (s is ref and "cov" not in entry and "error" not in entry):
+                file, _, _, coords = varfont.style_source(s)
+                todo[key] = (str(build / file), tuple(fam["subsets"]), coords)
+    missing = sorted({args[0] for args in todo.values() if not pathlib.Path(args[0]).exists()})
+    if missing:
+        raise SystemExit(f"{len(missing)} font files to measure are not in the build dir, e.g. {missing[:3]}")
     print(f"measuring {len(todo)} faces ({len(cache) - 1} cached)")
     with futures.ProcessPoolExecutor(max_workers=jobs) as pool:
         for sha, result in zip(todo, pool.map(_measure_job, todo.values(), chunksize=8)):
@@ -234,6 +291,9 @@ def main():
     ap.add_argument("--build", required=True)
     ap.add_argument("--manifest", default=str(ROOT / "r2/manifest.json"))
     ap.add_argument("--out", default=str(ROOT / "r2/index.json"))
+    ap.add_argument("--seeds", default=str(ROOT / "pairing/seed_pairs.json"),
+                    help="hand-checked pairs folded in as `pairs` ('' = none)")
+    ap.add_argument("--no-reuse", action="store_true", help="measure every face (ignore the published index)")
     ap.add_argument("--jobs", type=int, default=8)
     args = ap.parse_args()
 
@@ -243,7 +303,7 @@ def main():
     repo = gfmeta.GoogleFontsRepo(args.gf_repo).families()
     site = gfmeta.load_site_metadata(args.site_metadata)
     tags = gfmeta.load_tags(pathlib.Path(args.gf_repo) / "tags/all/families.csv")
-    metrics = measure_all(build, manifest, args.jobs)
+    metrics = measure_all(build, manifest, args.jobs, reuse=not args.no_reuse)
 
     tag_names = sorted({t for fam in manifest["families"]
                         for t in family_level_tags(tags.get(fam["name"], {}))})
@@ -266,7 +326,7 @@ def main():
             "slug": fam["slug"],
             "name": name,
             "category": fam["category"],
-            "classifications": [c.lower() for c in s.get("classifications", [])],
+            "classifications": sorted(c.lower() for c in s.get("classifications", [])),
             "stroke": (s.get("stroke") or "").lower().replace(" ", "-") or None,
             "skeleton": skeleton_of(level),
             "designers": s.get("designers") or ([fam["designer"]] if fam.get("designer") else []),
@@ -283,22 +343,33 @@ def main():
             "tags": [[tag_ix[t], int(round(v))] for t, v in sorted(level.items())],
             "faces": [],
         }
+        if fam.get("minEngine", 1) > 1:
+            out["minEngine"] = fam["minEngine"]     # ADR 125 Am. 3: variable-instance faces
         scoring = dict(out, _level=level)
         for st in fam["styles"]:
-            m = metrics.get(st["sha256"], {})
+            m = metrics.get(varfont.face_key(st), {})
             if "error" in m:
                 errors.append((name, st["name"], m["error"]))
                 m = {}
             moods = face_moods(ftags, st["weight"])
             face = {"style": st["name"], "weight": st["weight"], "italic": st["italic"],
-                    "bytes": st["bytes"], "moods": moods,
+                    "bytes": varfont.style_source(st)[2], "moods": moods,
                     "m": {k: v for k, v in m.items() if k != "cov"}}
             face["fit"] = fit_scores(scoring, face, m, moods, len(uprights))
             out["faces"].append(face)
         # script coverage is a family property: measured on the Regular-most face
-        ref = min(fam["styles"], key=lambda st: (st["italic"], abs(st["weight"] - 400)))
-        out["cov"] = metrics.get(ref["sha256"], {}).get("cov", {})
+        out["cov"] = metrics.get(varfont.face_key(ref_style(fam)), {}).get("cov", {})
         families.append(out)
+
+    pairs = []
+    if args.seeds:
+        seeds = json.loads(pathlib.Path(args.seeds).read_text())
+        faces = {(f["slug"], face["style"]) for f in families for face in f["faces"]}
+        bad = [(side[k]["slug"], side[k]["style"]) for side in seeds["pairs"] for k in ("display", "support")
+               if (side[k]["slug"], side[k]["style"]) not in faces]
+        if bad:
+            raise SystemExit(f"seed pairs name faces the catalog does not have: {bad}")
+        pairs = seeds["pairs"]
 
     index = {
         "schemaVersion": 1,
@@ -308,6 +379,7 @@ def main():
         "measureVersion": MEASURE_VERSION,
         "moods": MOODS,
         "tagNames": tag_names,
+        "pairs": pairs,
         "families": families,
     }
     text = json.dumps(index, separators=(",", ":"), ensure_ascii=False) + "\n"
@@ -318,7 +390,7 @@ def main():
     (build / "index" / f"{digest}.json").write_bytes(data)
     manifest["index"] = {"file": f"index/{digest}.json", "sha256": digest, "bytes": len(data)}
     manifest_path.write_text(json.dumps(manifest, separators=(",", ":"), ensure_ascii=False) + "\n")
-    print(f"index: {len(families)} families, {sum(len(f['faces']) for f in families)} faces, "
+    print(f"index: {len(families)} families, {sum(len(f['faces']) for f in families)} faces, {len(pairs)} pairs, "
           f"{len(data) / 1e3:.0f} KB → {args.out} (index/{digest[:12]}….json)")
     for e in errors[:20]:
         print("  ! measure failed:", *e)

@@ -12,12 +12,18 @@ neutral name table — family "MotionMix Preview", PostScript
 Font Name. The source's copyright notice (name ID 0) and licence description
 / URL (IDs 13 / 14) are kept, so each file still carries its notice; the
 family's full licence text ships beside it (manifest `licenseFile`).
+
+A variable source (ADR 125 Am. 3) is instanced in memory at the style's
+named-instance coordinates first, so the preview shows that style rather than
+the file's default instance (often Thin); the catalog's font file itself is
+never instanced.
 """
 
 import hashlib
 
 from fontTools import subset as ft_subset
 from fontTools.ttLib import TTFont
+from fontTools.varLib import instancer
 
 PREVIEW_FAMILY = "MotionMix Preview"
 _KEEP_FROM_SOURCE = (0, 13, 14)       # copyright, licence description, licence URL
@@ -34,9 +40,11 @@ def _source_names(src_font):
     return names
 
 
-def make_preview(src_path, text, out_path):
+def make_preview(src_path, text, out_path, location=None):
     """Subset `src_path` to the glyphs of `text`, write a neutrally named
-    preview to `out_path`. Returns the written bytes."""
+    preview to `out_path`. Returns the written bytes. `location` ({axis:
+    value}) instances a variable source there first (unnamed axes at their
+    defaults)."""
     src_bytes = open(src_path, "rb").read()
     tag = hashlib.sha256(src_bytes).hexdigest()[:8]
     src_font = TTFont(src_path, lazy=True)
@@ -50,6 +58,10 @@ def make_preview(src_path, text, out_path):
     options.notdef_outline = False
     options.drop_tables += ["STAT", "fvar", "avar", "gvar", "HVAR", "MVAR", "DSIG", "meta"]
     font = ft_subset.load_font(src_path, options)
+    if location and "fvar" in font:
+        loc = {a.axisTag: a.defaultValue for a in font["fvar"].axes}
+        loc.update({k: float(v) for k, v in location.items()})
+        instancer.instantiateVariableFont(font, loc, inplace=True)
     subsetter = ft_subset.Subsetter(options=options)
     subsetter.populate(text=text)
     subsetter.subset(font)
