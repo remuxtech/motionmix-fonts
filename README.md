@@ -1,42 +1,98 @@
 # motionmix-fonts
 
-The MotionMix hosted font catalog (ADR 125, hosting rung R1): a curated,
-version-pinned mirror of ~100 Google Fonts families as static TTFs, served as
-plain static files via jsDelivr:
+The MotionMix hosted font catalog (ADR 125). Two rungs are live:
+
+| Rung | Base URL | Catalog | Status |
+|---|---|---|---|
+| **R2 — own bucket** | `https://library.motionmix.app/fonts` | `r2/manifest.json` (the grown catalog) + `r2/index.json` (pair-scorer index) | current |
+| R1 — jsDelivr | `https://cdn.jsdelivr.net/gh/remuxtech/motionmix-fonts@<ref>` | `manifest.json` at the repo root, 150 families | frozen; shipped apps still read `@main` |
+
+Both manifests use the same `schemaVersion: 1` shape (every newer field is
+additive), and every path in them is relative to the base URL — so moving an
+app from R1 to R2 is a base-URL change only (desktop honours
+`-Dmotionmix.fonts.url`; point it at `file:///…` for local mirrors).
+
+## R2 layout (bucket `motionmix-library`, prefix `fonts/`)
 
 ```
-https://cdn.jsdelivr.net/gh/remuxtech/motionmix-fonts@<ref>/manifest.json
-https://cdn.jsdelivr.net/gh/remuxtech/motionmix-fonts@<ref>/fonts/<slug>/<file>
+fonts/manifest.json            catalog manifest          public, max-age=300
+fonts/index.json               pair-scorer index         public, max-age=300
+fonts/index/<sha256>.json      the same index, immutable public, max-age=31536000, immutable
+fonts/files/<sha256>.ttf       font files                (immutable)
+fonts/previews/<sha256>.ttf    name-subset preview faces (immutable)
+fonts/licenses/<sha256>.txt    licence texts             (immutable)
 ```
 
-The app reads ONE base URL (config; desktop honors `-Dmotionmix.fonts.url`
-for local mirrors — point it at `file:///…/motionmix-fonts` in dev). All
-manifest paths are repo-relative, so moving hosts (rung R2: own bucket/CDN)
-is a base-URL change only. `schemaVersion` gates parsing — bump it when the
-shape changes and keep serving v1 until shipped apps migrate.
+Everything except the two entry files is content-addressed and never
+changes. Cloudflare gzips `font/ttf` on the wire (Inter Regular 325 → 153 KB)
+when the client sends `Accept-Encoding: gzip`. Fetch with a non-library
+User-Agent (the zone's Browser Integrity Check refuses e.g. Python's default).
 
-## Contents
+### Manifest (`schemaVersion: 1`)
 
-- `manifest.json` — schemaVersion 1: per family `name / slug / category /
-  license / licenseFile / styles[{name, weight, italic, file, bytes, sha256}]`.
-- `fonts/<slug>/` — the family's TTFs + its license text (`LICENSE.txt`).
-- `tools/build_mirror.py` — the builder: curated list → Google css2 (static
-  per-weight TTFs, works for variable-only families too) + license from
-  google/fonts → manifest. Idempotent; `--only`, `--limit`, `--force`.
+Top level: `catalog` (`"r2"`), `catalogVersion`, `generated`, `sources`
+(the google/fonts commit), `index` (`{file, sha256, bytes}` of the immutable
+index), `featured` (ordered names), `families`.
+
+Per family: `name · slug · category · subsets · license` (SPDX:
+`OFL-1.1` / `Apache-2.0` / `UFL-1.0`, derived from the licence text) `·
+licenseFile · rfn · reservedFontNames? · origin · designer? · preview? ·
+styles[{name, weight, italic, file, bytes, sha256}]`.
+
+- `rfn: true` — a *modified* derivative of this family may not use its name
+  (an OFL Reserved Font Name that reaches the family name, or any UFL
+  family). Its files are served unmodified; its preview is renamed (below).
+- `origin` — `gf-repo`: the static TTF from github.com/google/fonts,
+  byte-identical; `gf-api`: Google's own static instance from the Fonts API
+  (variable-only families, and the frozen R1 families).
+
+The index schema (the contract for the studio pair scorer) is in
+[`INDEX.md`](INDEX.md).
 
 ## Licensing
 
-Every family is OFL / Apache-2.0 / UFL (self-hosting, app-embedding, and
-redistribution WITH the license text are permitted; selling font files
-standalone is not). Each family directory carries its license; keep it when
-adding families — the builder fails a family whose license can't be fetched.
+Only OFL-1.1, Apache-2.0 and UFL-1.0 families are hosted. Every family's
+licence text is published (`licenseFile`) and must travel with its files
+(also inside exported `.mmproject` / `.mmtemplate` bundles).
 
-## Updating
+- Font files are never modified by us.
+- **Previews** (`previews/`, and `fonts/<slug>/preview.ttf` on R1) are
+  subsets, i.e. OFL/UFL Modified Versions: every preview carries the neutral
+  name `MotionMix Preview` (PostScript `MotionMixPreview-<sha8>`), never the
+  family's (Reserved) name; the source copyright and licence name records are
+  kept.
+- A variable-only family whose derivatives must drop the name (`rfn`) is not
+  added: no unmodified static file exists for it, and the engine renders only
+  a variable font's default instance today. It waits for engine variable-font
+  support. (`r2/excluded.json` lists every refused family with the reason.)
+
+Rules and the decision record: ADR 125 Amendment 2
+(`planning/motionmix_master/decisions/125_font_system_standard.md` in the
+workspace).
+
+## Building and publishing
+
+Needs a sparse checkout of google/fonts (metadata, licences, tags; the
+builder adds the font files it needs) and the site metadata JSON:
 
 ```
-python3 tools/build_mirror.py          # refresh / add curated families
-git add -A && git commit && git tag vN # pin a release; apps reference @tag
+git clone --filter=blob:none --no-checkout --depth 1 --sparse https://github.com/google/fonts.git gf
+git -C gf sparse-checkout set --no-cone '/ofl/*/METADATA.pb' '/apache/*/METADATA.pb' '/ufl/*/METADATA.pb' \
+    '/ofl/*/OFL.txt' '/apache/*/LICENSE.txt' '/ufl/*/UFL.txt' '/tags/all/*'
+git -C gf checkout main
+curl -A curl/7.64 -o gf_metadata.json https://fonts.google.com/metadata/fonts
+
+.venv/bin/python tools/build_catalog.py --gf-repo gf --site-metadata gf_metadata.json --build <dir>
+.venv/bin/python tools/build_index.py   --gf-repo gf --site-metadata gf_metadata.json --build <dir>
+.venv/bin/python tools/publish_r2.py    --build <dir>      # outside the agent sandbox
+git add r2 && git commit                                   # r2/manifest.json = what is published
 ```
 
-Weight policy: available ∩ {400, 500, 700, 900} upright (≤4), + 400-italic
-for body categories — bounded so the repo stays CDN-friendly (~45 MB).
+`publish_r2.py` uploads only objects the committed `r2/manifest.json` does
+not already reference, uploads `manifest.json` last, and spot-checks the CDN
+(sha256 of sampled files). It runs wrangler with the account's OAuth login
+(`NODE_OPTIONS=--dns-result-order=ipv4first npx -y wrangler@4 r2 bulk put …`).
+
+The frozen R1 catalog is still rebuilt by `tools/build_mirror.py` (Google
+Fonts API statics; weight policy ≤4 uprights from 400/500/700/900 + 400
+italic for text categories).
