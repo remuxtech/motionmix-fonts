@@ -4,7 +4,7 @@ The MotionMix hosted font catalog (ADR 125). Two rungs are live:
 
 | Rung | Base URL | Catalog | Status |
 |---|---|---|---|
-| **R2 — own bucket** | `https://library.motionmix.app/fonts` | `r2/manifest.json` (the grown catalog) + `r2/index.json` (pair-scorer index) | current |
+| **R2 — own bucket** | `https://library.motionmix.app/fonts` | `r2/manifest.json`: 1,112 families, 2,622 static TTFs, 1.10 GB + `r2/index.json` (pair-scorer index) | current |
 | R1 — jsDelivr | `https://cdn.jsdelivr.net/gh/remuxtech/motionmix-fonts@<ref>` | `manifest.json` at the repo root, 150 families | frozen; shipped apps still read `@main` |
 
 Both manifests use the same `schemaVersion: 1` shape (every newer field is
@@ -48,6 +48,18 @@ styles[{name, weight, italic, file, bytes, sha256}]`.
 
 The index schema (the contract for the studio pair scorer) is in
 [`INDEX.md`](INDEX.md).
+
+### What is in the R2 catalog
+
+Google Fonts families with an allowed licence, minus Symbols / Special use /
+Learn-to-Write / colour fonts, minus Noto except the shipped per-script shelf,
+minus the bottom quartile on Google's quality tags; the 150 R1 families always
+stay (same bytes). Static files only — the engine renders a variable font's
+default instance only (`SkFontMgr::makeFromData`, no `SkFontArguments`).
+Weight policy: ≤4 uprights (400/700/500/900, or the nearest weight within
+±100) + one italic near 400 for sans / serif / mono; a family whose Regular is
+over 4 MB (CJK) ships Regular + Bold. Every refused family is in
+`r2/excluded.json` with its reason.
 
 ## Licensing
 

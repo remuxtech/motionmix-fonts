@@ -45,6 +45,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 import time
 import urllib.request
 
@@ -89,6 +90,27 @@ def fetch(url, retries=4):
             time.sleep(2 * (attempt + 1))
 
 
+_CACHE_LOCK = threading.Lock()
+
+
+def fetch_cached(build, url):
+    """A Fonts API file by its (versioned) gstatic URL, cached in the build
+    dir: <build>/css2-cache.json maps URL → sha256 of files/<sha256>.ttf."""
+    index = build / "css2-cache.json"
+    with _CACHE_LOCK:
+        cache = json.loads(index.read_text()) if index.exists() else {}
+    digest = cache.get(url)
+    if digest and (build / "files" / f"{digest}.ttf").exists():
+        return (build / "files" / f"{digest}.ttf").read_bytes()
+    data = fetch(url)
+    digest, _ = put(build, "files", data, "ttf")
+    with _CACHE_LOCK:
+        cache = json.loads(index.read_text()) if index.exists() else {}
+        cache[url] = digest
+        index.write_text(json.dumps(cache, indent=0, sort_keys=True))
+    return data
+
+
 def slug_of(family):
     return family.lower().replace(" ", "")
 
@@ -121,6 +143,8 @@ def pick_styles(uprights, italics, category):
     if not chosen and uprights:
         chosen.append(min(uprights, key=lambda w: (abs(w - 400), w)))
     out = [(w, False) for w in sorted(chosen)]
+    if not out and italics:   # italic-only families (e.g. Molle)
+        return [(min(italics, key=lambda w: (abs(w - 400), w)), True)]
     if category in ITALIC_CATEGORIES and italics:
         near = sorted((w for w in italics if abs(w - 400) <= 100), key=lambda w: (abs(w - 400), w))
         if near:
@@ -266,7 +290,7 @@ def build_family(plan, args, frozen):
                         continue
                 url = served.get((w, i))
                 if url:
-                    files.append((w, i, fetch(url)))
+                    files.append((w, i, fetch_cached(build, url)))
         # Heavy (CJK-size) families: Regular + the boldest-near-700 only.
         if files:
             regular = min(files, key=lambda f: (f[1], abs(f[0] - 400)))
